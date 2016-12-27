@@ -1,0 +1,24 @@
+{
+  "name": "joebateson.com",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "webpack -p && rm -rf dist/inlined-*",
+    "clean": "rm -rf dist && rm -rf node_modules"
+  },
+  "author": "Joe Bateson",
+  "devDependencies": {
+    "css-loader": "^0.26.1",
+    "extract-text-webpack-plugin": "^2.0.0-beta.4",
+    "file-loader": "^0.9.0",
+    "html-loader": "^0.4.4",
+    "html-webpack-inline-source-plugin": "0.0.6",
+    "html-webpack-plugin": "^2.24.1",
+    "html-webpack-uncss-plugin": "^1.0.2",
+    "node-sass": "^4.1.1",
+    "sass-loader": "^4.1.1",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "2.2.0-rc.2"
+  }
+}
