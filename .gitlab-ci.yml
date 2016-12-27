@@ -1,0 +1,19 @@
+image: node:6
+
+pages:
+  cache:
+    paths:
+    - node_modules/
+
+  stage: deploy
+
+  script:
+  - npm install
+  - npm run build
+
+  artifacts:
+    paths:
+    - dist
+
+  only:
+  - master
