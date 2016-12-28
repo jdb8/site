@@ -2,7 +2,14 @@ language: node_js
 node_js:
   - "6"
 
+cache:
+  yarn: true
+  directories:
+    - node_modules
+
 before_script:
+  # Ensure we rebuild all packages, specifically binaries
+  - yarn install --force
   - yarn global add firebase-tools
 
 script:
