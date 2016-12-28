@@ -1,11 +1,27 @@
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
+var FaviconsWebpackPlugin = require('favicons-webpack-plugin');
 var HtmlWebpackInlineSourcePlugin = require('html-webpack-inline-source-plugin');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 var HtmlWebpackUncssPlugin = require('html-webpack-uncss-plugin');
 var path = require('path');
 
 
+var HTML_MINIFY_OPTIONS = {
+  removeComments: true,
+  collapseWhitespace: true,
+  removeRedundantAttributes: true,
+  useShortDoctype: true,
+  removeEmptyAttributes: true,
+  removeStyleLinkTypeAttributes: true,
+  keepClosingSlash: true,
+  minifyJS: true,
+  minifyCSS: true,
+  minifyURLs: true,
+};
+
+
 module.exports = {
+  bail: true,
   context: path.resolve(__dirname, 'src'),
   entry: './index.js',
   output: {
@@ -31,22 +47,39 @@ module.exports = {
           limit: 1,
         }
       },
-      {
-        test: /\.html$/,
-        loader: 'html-loader',
-        query: {
-          minimize: true,
-        },
-      },
     ],
   },
   plugins: [
+    new ExtractTextPlugin('inlined-styles.css'),
+    new FaviconsWebpackPlugin({
+      logo: './clown.svg',
+      prefix: 'icons-[hash:8]/',
+      icons: {
+        android: false,
+        appleIcon: false,
+        appleStartup: false,
+        coast: false,
+        favicons: true,
+        firefox: false,
+        opengraph: false,
+        twitter: false,
+        yandex: false,
+        windows: false,
+      }
+    }),
+
     new HtmlWebpackPlugin({
-      favicon: './favicon.ico',
       template: './index.html',
       inlineSource: '.(css|js)$',
+      minify: HTML_MINIFY_OPTIONS,
     }),
-    new ExtractTextPlugin('inlined-styles.css'),
+    new HtmlWebpackPlugin({
+      template: './404.html',
+      filename: '404.html',
+      inject: false,
+      minify: HTML_MINIFY_OPTIONS,
+    }),
+
     new HtmlWebpackInlineSourcePlugin(),
     new HtmlWebpackUncssPlugin(),
   ]
