@@ -10,6 +10,10 @@ cache:
 before_script:
   - yarn global add firebase-tools
 
+  # TODO: work out if this is needed, and remove it
+  - cd node_modules/phantomjs-prebuilt
+  - node install.js
+
 script:
   - yarn run build
 
