@@ -1,0 +1,17 @@
+language: node_js
+node_js:
+  - "6"
+
+cache:
+  yarn: true
+  directories:
+    - node_modules
+
+before_script:
+  - yarn global add firebase-tools
+
+script:
+  - yarn run build
+
+after_success:
+  - firebase deploy --token=${FIREBASE_API_TOKEN}
