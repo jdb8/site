@@ -1,3 +1,4 @@
+var CopyWebpackPlugin = require('copy-webpack-plugin');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
 var FaviconsWebpackPlugin = require('favicons-webpack-plugin');
 var HtmlWebpackInlineSourcePlugin = require('html-webpack-inline-source-plugin');
@@ -79,6 +80,10 @@ module.exports = {
       inject: false,
       minify: HTML_MINIFY_OPTIONS,
     }),
+
+    new CopyWebpackPlugin([
+        { from: './keybase.txt' },
+    ]),
 
     new HtmlWebpackInlineSourcePlugin(),
     new HtmlWebpackUncssPlugin(),

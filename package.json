@@ -7,6 +7,7 @@
   },
   "author": "Joe Bateson",
   "devDependencies": {
+    "copy-webpack-plugin": "^4.0.1",
     "css-loader": "^0.26.1",
     "extract-text-webpack-plugin": "^2.0.0-beta.4",
     "favicons-webpack-plugin": "0.0.7",
