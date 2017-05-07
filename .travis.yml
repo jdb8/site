@@ -10,13 +10,13 @@ cache:
 before_script:
   # Ensure we rebuild all packages, specifically binaries
   - yarn install --force
-  - yarn global add firebase-tools
 
 script:
   - yarn build
 
 deploy:
   provider: firebase
+  skip_cleanup: true
   token:
     secure: ${FIREBASE_API_TOKEN}
   on:
