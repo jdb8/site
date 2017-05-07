@@ -15,5 +15,9 @@ before_script:
 script:
   - yarn build
 
-after_success:
-  - firebase deploy --token=${FIREBASE_API_TOKEN}
+deploy:
+  provider: firebase
+  token:
+    secure: ${FIREBASE_API_TOKEN}
+  on:
+    branch: master
