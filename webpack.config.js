@@ -20,13 +20,16 @@ var HTML_MINIFY_OPTIONS = {
   minifyURLs: true,
 };
 
+var CSS_MINIFY_OPTIONS = {
+    discardComments: {removeAll: true}
+}
 
 module.exports = {
   bail: true,
   context: path.resolve(__dirname, 'src'),
   entry: './index.js',
   output: {
-    path: 'dist',
+    path: path.resolve(__dirname, 'dist'),
     filename: 'inlined-bundle.js'
   },
   module: {
@@ -34,9 +37,9 @@ module.exports = {
       {
         test: /\.s?css$/,
         loader: ExtractTextPlugin.extract({
-          fallbackLoader: 'style-loader',
-          loader: [
-            'css-loader?' + JSON.stringify({discardComments: {removeAll: true}}),
+          fallback: 'style-loader',
+          use: [
+            'css-loader?' + JSON.stringify({minimize: CSS_MINIFY_OPTIONS}),
             'sass-loader',
           ],
         })
