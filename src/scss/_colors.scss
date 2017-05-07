@@ -1,12 +1,12 @@
-// Current theme: Oceanic Next (http://labs.voronianski.com/oceanic-next-color-scheme/)
+// Current theme: Chromodynamics (https://github.com/MagicStack/Chromodynamics)
 
-$background-color: #1b2b34;
-$text-color: #cdd3de;
-$comment-color: #65737e;
+$background-color: #060606;
+$text-color: #c6c6c6;
+$comment-color: #747475;
 $link-color: $text-color;
-$tag-color: #ec5f67;
-$keyword-color: #c594c5;
-$value-color: #99c794;
+$tag-color: #e8364f;
+$keyword-color: #D77C23;
+$value-color: #d3c970;
 
-// #4f5b66 in rgba, to account for http://stackoverflow.com/a/7224621
-$selection-color: rgba(79, 91, 102, .99);
+// #444 in rgba, to account for http://stackoverflow.com/a/7224621
+$selection-color: rgba(68, 68, 68, .99);
