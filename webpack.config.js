@@ -5,6 +5,7 @@ var HtmlWebpackInlineSourcePlugin = require('html-webpack-inline-source-plugin')
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 var HtmlWebpackUncssPlugin = require('html-webpack-uncss-plugin');
 var path = require('path');
+var webpack = require('webpack');
 
 
 var HTML_MINIFY_OPTIONS = {
@@ -90,5 +91,7 @@ module.exports = {
 
     new HtmlWebpackInlineSourcePlugin(),
     new HtmlWebpackUncssPlugin(),
+
+    new webpack.optimize.ModuleConcatenationPlugin(),
   ]
 };

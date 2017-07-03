@@ -7,10 +7,6 @@ cache:
   directories:
     - node_modules
 
-before_script:
-  # Ensure we rebuild all packages, specifically binaries
-  - yarn install --force
-
 script:
   - yarn build
 
