@@ -2,8 +2,10 @@
   "name": "joebateson.com",
   "description": "My site. Hello, World!",
   "scripts": {
-    "build": "webpack -p && rm -rf dist/inlined-*",
-    "clean": "rm -rf dist && rm -rf node_modules"
+    "build": "webpack -p --progress && rm -rf dist/inlined-*",
+    "clean": "rm -rf dist && rm -rf node_modules",
+    "start": "http-server dist -c-1",
+    "test-ci": "gemini test tests/visual"
   },
   "author": "Joe Bateson",
   "devDependencies": {
@@ -15,6 +17,7 @@
     "html-webpack-inline-source-plugin": "0.0.9",
     "html-webpack-plugin": "^2.24.1",
     "html-webpack-uncss-plugin": "^1.0.2",
+    "http-server": "^0.10.0",
     "node-sass": "^4.1.1",
     "sass-loader": "^6.0.3",
     "style-loader": "^0.18.1",
