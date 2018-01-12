@@ -1,12 +1,12 @@
-// Current theme: Chromodynamics (https://github.com/MagicStack/Chromodynamics)
+// Current theme: Dracula (https://github.com/dracula/dracula-theme)
 
-$background-color: #060606;
-$text-color: #c6c6c6;
-$comment-color: #747475;
+$background-color: #282a36;
+$text-color: #f8f8f2;
+$comment-color: #6272a4;
 $link-color: $text-color;
-$tag-color: #e8364f;
-$keyword-color: #D77C23;
-$value-color: #d3c970;
+$tag-color: #ff79c6;
+$keyword-color: #50fa7b;
+$value-color: #f1fa8c;
 
-// #444 in rgba, to account for http://stackoverflow.com/a/7224621
-$selection-color: rgba(68, 68, 68, .99);
+// 0.99 to account for http://stackoverflow.com/a/7224621
+$selection-color: rgba(68, 71, 90, 0.99);

@@ -1,10 +1,11 @@
-// inconsolata-regular - latin
+/* fira-mono-regular - latin */
 @font-face {
-    font-family: 'Inconsolata';
+    font-family: 'Fira Mono';
     font-display: optional;
     font-style: normal;
     font-weight: 400;
-    src: local('Inconsolata'),
-         url('../fonts/inconsolata-v10-latin-regular.woff2') format('woff2'), // Chrome 26+, Opera 23+
-         url('../fonts/inconsolata-v10-latin-regular.woff') format('woff');   // Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+
+    -webkit-font-smoothing: antialiased;
+    src: local('Fira Mono Regular'), local('FiraMono-Regular'),
+        url('../fonts/fira-mono-v6-latin-regular.woff2') format('woff2'),
+        url('../fonts/fira-mono-v6-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }

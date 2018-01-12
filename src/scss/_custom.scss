@@ -22,12 +22,14 @@ html {
 }
 
 body {
-    font-size: 1em;
+    font-size: 0.9em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
     line-height: 1.4;
     background: $background-color;
     border-right: 1px solid #808080;
     color: $text-color;
-    font-family: 'Inconsolata', Consolas, monaco, monospace;
+    font-family: 'Fira Mono', Consolas, monaco, monospace;
     max-width: 90ch;
     min-height: 100%;
     padding: 0 50px;
@@ -49,6 +51,7 @@ body {
 
     .keyword {
         color: $keyword-color;
+        font-style: italic;
     }
 
     .values {
@@ -96,5 +99,3 @@ body {
         padding-left: 25px;
     }
 }
-
-
