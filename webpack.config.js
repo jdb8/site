@@ -1,8 +1,9 @@
 var CopyWebpackPlugin = require('copy-webpack-plugin');
-var ExtractTextPlugin = require('extract-text-webpack-plugin');
+var glob = require('glob');
 var HtmlWebpackInlineSourcePlugin = require('html-webpack-inline-source-plugin');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 var HtmlWebpackUncssPlugin = require('html-webpack-uncss-plugin');
+var MiniCssExtractPlugin = require('mini-css-extract-plugin');
 var path = require('path');
 var webpack = require('webpack');
 
@@ -32,17 +33,15 @@ module.exports = {
         filename: 'inlined-bundle.js',
     },
     module: {
-        loaders: [
+        rules: [
             {
                 test: /\.s?css$/,
-                loader: ExtractTextPlugin.extract({
-                    fallback: 'style-loader',
-                    use: [
-                        'css-loader?' +
-                            JSON.stringify({ minimize: CSS_MINIFY_OPTIONS }),
-                        'sass-loader',
-                    ],
-                }),
+                use: [
+                    MiniCssExtractPlugin.loader,
+                    'css-loader?' +
+                        JSON.stringify({ minimize: CSS_MINIFY_OPTIONS }),
+                    'sass-loader',
+                ],
             },
             {
                 test: /\.(png|woff|woff2|eot|ttf|svg)$/,
@@ -54,7 +53,9 @@ module.exports = {
         ],
     },
     plugins: [
-        new ExtractTextPlugin('inlined-styles.css'),
+        new MiniCssExtractPlugin({
+            filename: 'inlined-styles.css',
+        }),
         new HtmlWebpackPlugin({
             template: './index.html',
             inlineSource: '.(css|js)$',
