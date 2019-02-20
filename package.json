@@ -8,7 +8,7 @@
   },
   "author": "Joe Bateson",
   "devDependencies": {
-    "copy-webpack-plugin": "^4.5.1",
+    "copy-webpack-plugin": "^5.0.0",
     "css-loader": "^1.0.0",
     "file-loader": "^2.0.0",
     "html-webpack-inline-source-plugin": "0.0.10",
