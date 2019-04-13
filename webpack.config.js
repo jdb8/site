@@ -4,7 +4,9 @@ var HtmlWebpackInlineSourcePlugin = require('html-webpack-inline-source-plugin')
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 var HtmlWebpackUncssPlugin = require('html-webpack-uncss-plugin');
 var MiniCssExtractPlugin = require('mini-css-extract-plugin');
+var OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 var path = require('path');
+var TerserJSPlugin = require('terser-webpack-plugin');
 var webpack = require('webpack');
 
 var HTML_MINIFY_OPTIONS = {
@@ -38,8 +40,7 @@ module.exports = {
                 test: /\.s?css$/,
                 use: [
                     MiniCssExtractPlugin.loader,
-                    'css-loader?' +
-                        JSON.stringify({ minimize: CSS_MINIFY_OPTIONS }),
+                    'css-loader',
                     'sass-loader',
                 ],
             },
@@ -56,6 +57,13 @@ module.exports = {
         new MiniCssExtractPlugin({
             filename: 'inlined-styles.css',
         }),
+        new OptimizeCssAssetsPlugin({
+            cssProcessorPluginOptions: {
+                preset: ['default', CSS_MINIFY_OPTIONS],
+            },
+        }),
+
+
         new HtmlWebpackPlugin({
             template: './index.html',
             inlineSource: '.(css|js)$',
@@ -79,5 +87,6 @@ module.exports = {
         new HtmlWebpackUncssPlugin(),
 
         new webpack.optimize.ModuleConcatenationPlugin(),
+        new TerserJSPlugin(),
     ],
 };
