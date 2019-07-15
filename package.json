@@ -3,13 +3,21 @@
   "description": "My site. Hello, World!",
   "scripts": {
     "build": "webpack --mode production && rm -rf dist/inlined-*",
+    "develop": "yarn build && yarn start",
     "clean": "rm -rf dist && rm -rf node_modules",
-    "start": "http-server dist"
+    "start": "http-server dist",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run --record",
+    "test:e2e": "start-server-and-test develop http://localhost:8080 cy:open",
+    "test:e2e:ci": "start-server-and-test develop http://localhost:8080 cy:run"
   },
   "author": "Joe Bateson",
   "devDependencies": {
+    "axe-core": "^3.3.0",
     "copy-webpack-plugin": "^5.0.2",
     "css-loader": "^2.1.1",
+    "cypress": "^3.4.0",
+    "cypress-axe": "^0.5.1",
     "file-loader": "^3.0.1",
     "html-webpack-inline-source-plugin": "0.0.10",
     "html-webpack-plugin": "^3.2.0",
@@ -19,6 +27,7 @@
     "node-sass": "^4.11.0",
     "optimize-css-assets-webpack-plugin": "^5.0.1",
     "sass-loader": "^7.0.3",
+    "start-server-and-test": "^1.9.1",
     "terser-webpack-plugin": "^1.2.3",
     "url-loader": "^1.1.2",
     "webpack": "^4.30.0",
