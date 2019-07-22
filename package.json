@@ -14,7 +14,7 @@
   "author": "Joe Bateson",
   "devDependencies": {
     "axe-core": "^3.3.0",
-    "copy-webpack-plugin": "^5.0.2",
+    "copy-webpack-plugin": "^5.0.3",
     "css-loader": "^3.1.0",
     "cypress": "^3.4.0",
     "cypress-axe": "^0.5.1",
