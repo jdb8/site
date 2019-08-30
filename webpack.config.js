@@ -5,6 +5,7 @@ var MiniCssExtractPlugin = require('mini-css-extract-plugin');
 var OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 var path = require('path');
 var PurgecssPlugin = require('purgecss-webpack-plugin');
+var PnpWebpackPlugin = require(`pnp-webpack-plugin`);
 
 var HTML_MINIFY_OPTIONS = {
     removeComments: true,
@@ -54,6 +55,16 @@ module.exports = {
                     limit: 1,
                 },
             },
+        ],
+    },
+    resolve: {
+        plugins: [
+            PnpWebpackPlugin,
+        ],
+    },
+    resolveLoader: {
+        plugins: [
+            PnpWebpackPlugin.moduleLoader(module),
         ],
     },
     plugins: [
