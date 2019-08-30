@@ -8,6 +8,13 @@ variables:
   YARN_CACHE_FOLDER: $(Pipeline.Workspace)/.yarn
 
 steps:
+- task: geeklearningio.gl-vsts-tasks-yarn.yarn-task.Yarn@2
+  displayName: 'Yarn'
+  inputs:
+    Arguments: 'upgrade-yarn'
+  env:
+    YARN_IGNORE_PATH: 1
+
 - task: CacheBeta@0
   inputs:
     key: yarn | $(Agent.OS) | yarn.lock

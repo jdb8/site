@@ -2,6 +2,7 @@
   "name": "joebateson.com",
   "description": "My site. Hello, World!",
   "scripts": {
+    "upgrade-yarn": "yarn policies set-version v2",
     "build": "webpack --mode production && rm -rf dist/inlined-*",
     "develop": "yarn build && yarn start",
     "clean": "rm -rf dist && rm -rf node_modules",
