@@ -1,6 +1,9 @@
 pool:
   vmImage: "ubuntu-16.04"
 
+trigger:
+- master
+
 steps:
 - task: geeklearningio.gl-vsts-tasks-yarn.yarn-task.Yarn@2
   displayName: 'Yarn'
