@@ -8,22 +8,35 @@
     "start": "http-server dist",
     "cy:open": "cypress open",
     "cy:run": "cypress run --record",
+    "test:lint": "eslint .",
     "test:e2e": "start-server-and-test develop http://localhost:8080 cy:open",
     "test:e2e:ci": "start-server-and-test develop http://localhost:8080 cy:run"
   },
   "author": "Joe Bateson",
   "devDependencies": {
+    "@jbateson/eslint-config": "2.3.0",
+    "@typescript-eslint/eslint-plugin": "^2.0.0",
+    "@typescript-eslint/parser": "^2.0.0",
     "axe-core": "^3.4.1",
+    "babel-eslint": "^10.0.3",
     "copy-webpack-plugin": "^5.1.1",
     "css-loader": "^3.4.0",
     "cypress": "^3.8.0",
     "cypress-axe": "^0.5.3",
+    "eslint": "^6.3.0",
+    "eslint-plugin-flowtype": "^4.2.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react-hooks": "1.x",
     "file-loader": "^5.0.2",
     "html-webpack-inline-source-plugin": "0.0.10",
     "html-webpack-plugin": "^3.2.0",
     "http-server": "^0.12.0",
     "mini-css-extract-plugin": "^0.9.0",
     "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "prettier": "^1.18.2",
     "purgecss-webpack-plugin": "^1.6.0",
     "sass": "^1.24.0",
     "sass-loader": "^8.0.0",
@@ -36,5 +49,9 @@
   },
   "resolutions": {
     "watchpack": "2.0.0-beta.10"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "all"
   }
 }
