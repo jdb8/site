@@ -6,6 +6,7 @@
     "develop": "yarn build && yarn start",
     "clean": "rm -rf dist && rm -rf node_modules",
     "start": "http-server dist",
+    "serve:lhci": "yarn start",
     "cy:open": "cypress open",
     "cy:run": "cypress run --record",
     "test:lint": "eslint .",
@@ -16,6 +17,7 @@
   "author": "Joe Bateson",
   "devDependencies": {
     "@jbateson/eslint-config": "2.3.0",
+    "@lhci/cli": "^0.5.0",
     "@size-limit/preset-app": "^4.5.6",
     "@typescript-eslint/eslint-plugin": "^2.0.0",
     "@typescript-eslint/parser": "^2.0.0",
