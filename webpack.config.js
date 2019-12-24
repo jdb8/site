@@ -1,13 +1,10 @@
 var CopyWebpackPlugin = require('copy-webpack-plugin');
-var glob = require('glob');
 var HtmlWebpackInlineSourcePlugin = require('html-webpack-inline-source-plugin');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
-var HtmlWebpackUncssPlugin = require('html-webpack-uncss-plugin');
 var MiniCssExtractPlugin = require('mini-css-extract-plugin');
 var OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 var path = require('path');
-var TerserJSPlugin = require('terser-webpack-plugin');
-var webpack = require('webpack');
+var PurgecssPlugin = require('purgecss-webpack-plugin');
 
 var HTML_MINIFY_OPTIONS = {
     removeComments: true,
@@ -41,7 +38,13 @@ module.exports = {
                 use: [
                     MiniCssExtractPlugin.loader,
                     'css-loader',
-                    'sass-loader',
+                    {
+                        loader: 'sass-loader',
+                        options: {
+                            // Prefer `dart-sass`
+                            implementation: require('sass'),
+                        }
+                    }
                 ],
             },
             {
@@ -62,7 +65,6 @@ module.exports = {
                 preset: ['default', CSS_MINIFY_OPTIONS],
             },
         }),
-
 
         new HtmlWebpackPlugin({
             template: './index.html',
@@ -85,9 +87,8 @@ module.exports = {
         ]),
 
         new HtmlWebpackInlineSourcePlugin(),
-        new HtmlWebpackUncssPlugin(),
-
-        new webpack.optimize.ModuleConcatenationPlugin(),
-        new TerserJSPlugin(),
+        new PurgecssPlugin({
+            paths: ['./src/index.html']
+        }),
     ],
 };
