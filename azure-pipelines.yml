@@ -9,6 +9,11 @@ steps:
   displayName: 'Yarn'
 
 - task: geeklearningio.gl-vsts-tasks-yarn.yarn-task.Yarn@2
+  displayName: 'Run linting'
+  inputs:
+    Arguments: 'test:lint'
+
+- task: geeklearningio.gl-vsts-tasks-yarn.yarn-task.Yarn@2
   displayName: 'Run e2e tests'
   inputs:
     Arguments: 'test:e2e:ci'
