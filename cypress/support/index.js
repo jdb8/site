@@ -19,12 +19,12 @@ import 'cypress-axe';
 import './commands';
 
 // Ensure that any console.errors or warns are treated as exceptions
-Cypress.on(`window:before:load`, win => {
-  cy.stub(win.console, `error`, msg => {
+Cypress.on(`window:before:load`, (win) => {
+  cy.stub(win.console, `error`, (msg) => {
     cy.now(`task`, `error`, msg);
     throw new Error(msg);
   });
-  cy.stub(win.console, `warn`, msg => {
+  cy.stub(win.console, `warn`, (msg) => {
     cy.now(`task`, `warn`, msg);
     throw new Error(msg);
   });

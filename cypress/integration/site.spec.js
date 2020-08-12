@@ -1,7 +1,7 @@
 /* global cy */
 
-describe('joebateson.com', function() {
-  it('passes smoketest', function() {
+describe('joebateson.com', function () {
+  it('passes smoketest', function () {
     cy.visit('/');
   });
 
