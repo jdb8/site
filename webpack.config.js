@@ -1,7 +1,6 @@
 const path = require('path');
 
 const CopyWebpackPlugin = require('copy-webpack-plugin');
-const HtmlWebpackInlineSourcePlugin = require('html-webpack-inline-source-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
@@ -37,7 +36,12 @@ module.exports = {
       {
         test: /\.s?css$/,
         use: [
-          MiniCssExtractPlugin.loader,
+          {
+            loader: MiniCssExtractPlugin.loader,
+            options: {
+              esModule: true,
+            },
+          },
           'css-loader',
           {
             loader: 'sass-loader',
@@ -51,7 +55,7 @@ module.exports = {
       {
         test: /\.(png|woff|woff2|eot|ttf|svg)$/,
         loader: 'url-loader',
-        query: {
+        options: {
           limit: 1,
         },
       },
@@ -69,7 +73,7 @@ module.exports = {
 
     new HtmlWebpackPlugin({
       template: './index.html',
-      inlineSource: '.(css|js)$',
+      inject: false,
       minify: HTML_MINIFY_OPTIONS,
     }),
     new HtmlWebpackPlugin({
@@ -79,15 +83,16 @@ module.exports = {
       minify: HTML_MINIFY_OPTIONS,
     }),
 
-    new CopyWebpackPlugin([
-      { from: './keybase.txt' },
-      { from: './.well-known', to: '.well-known' },
-      // Hardcode [hash:8] to ab56e196 until we have a better way to keep this
-      // in sync with the HTML. Keep it hashed for long-term caching.
-      { from: './favicon.gif', to: 'icons-ab56e196/favicon.gif' },
-    ]),
+    new CopyWebpackPlugin({
+      patterns: [
+        { from: './keybase.txt' },
+        { from: './.well-known', to: '.well-known' },
+        // Hardcode [hash:8] to ab56e196 until we have a better way to keep this
+        // in sync with the HTML. Keep it hashed for long-term caching.
+        { from: './favicon.gif', to: 'icons-ab56e196/favicon.gif' },
+      ],
+    }),
 
-    new HtmlWebpackInlineSourcePlugin(),
     new PurgecssPlugin({
       paths: ['./src/index.html'],
     }),
