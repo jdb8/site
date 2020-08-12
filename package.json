@@ -10,11 +10,13 @@
     "cy:run": "cypress run --record",
     "test:lint": "eslint .",
     "test:e2e": "start-server-and-test develop http://localhost:8080 cy:open",
-    "test:e2e:ci": "start-server-and-test develop http://localhost:8080 cy:run"
+    "test:e2e:ci": "start-server-and-test develop http://localhost:8080 cy:run",
+    "size": "yarn build && size-limit"
   },
   "author": "Joe Bateson",
   "devDependencies": {
     "@jbateson/eslint-config": "2.3.0",
+    "@size-limit/preset-app": "^4.5.6",
     "@typescript-eslint/eslint-plugin": "^2.0.0",
     "@typescript-eslint/parser": "^2.0.0",
     "axe-core": "^3.4.1",
@@ -40,6 +42,7 @@
     "purgecss-webpack-plugin": "^1.6.0",
     "sass": "^1.24.0",
     "sass-loader": "^8.0.0",
+    "size-limit": "^4.5.6",
     "start-server-and-test": "^1.10.6",
     "terser-webpack-plugin": "^2.3.1",
     "url-loader": "^3.0.0",
@@ -53,5 +56,11 @@
   "prettier": {
     "singleQuote": true,
     "trailingComma": "all"
-  }
+  },
+  "size-limit": [
+    {
+      "path": "dist/index.html",
+      "limit": "100ms"
+    }
+  ]
 }
