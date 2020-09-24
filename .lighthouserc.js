@@ -1,10 +1,10 @@
 module.exports = {
-    ci: {
-        assert: {
-            preset: "lighthouse:all",
-        },
-        upload: {
-            target: 'temporary-public-storage',
-        },
+  ci: {
+    assert: {
+      preset: 'lighthouse:no-pwa',
     },
+    upload: {
+      target: 'temporary-public-storage',
+    },
+  },
 };
