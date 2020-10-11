@@ -6,6 +6,8 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 const PurgecssPlugin = require('purgecss-webpack-plugin');
 
+const InlineChunkHtmlPlugin = require('./InlineChunkHtmlPlugin');
+
 const HTML_MINIFY_OPTIONS = {
   removeComments: true,
   collapseWhitespace: true,
@@ -28,6 +30,7 @@ module.exports = {
   context: path.resolve(__dirname, 'src'),
   entry: './index.js',
   output: {
+    publicPath: '/',
     path: path.resolve(__dirname, 'dist'),
     filename: 'inlined-bundle.js',
   },
@@ -71,11 +74,13 @@ module.exports = {
       },
     }),
 
+    new InlineChunkHtmlPlugin(HtmlWebpackPlugin, [/inlined-.+/]),
+
     new HtmlWebpackPlugin({
       template: './index.html',
-      inject: false,
       minify: HTML_MINIFY_OPTIONS,
     }),
+
     new HtmlWebpackPlugin({
       template: './404.html',
       filename: '404.html',
