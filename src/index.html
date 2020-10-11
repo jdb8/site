@@ -1,13 +1,3 @@
-
-<% function renderTag (tag) { %>
-    <% var tagName = tag.tagName === 'script' ? 'script' : 'style'; %>
-    <% var filePath = tag.tagName === 'script' ? tag.attributes.src : tag.attributes.href; %>
-
-    <<%= tagName %>>
-        <%= compilation.assets[filePath].source() %>
-    </<%= tagName %>>
-<% } %>
-
 <!doctype html>
 <html lang="en">
     <head>
@@ -15,14 +5,15 @@
         <meta http-equiv="x-ua-compatible" content="ie=edge">
 
         <title>Joe Bateson</title>
+
+        <% const woff2FileName = Object.keys(compilation.assets).find(name => name.endsWith('.woff2')) %>
+        <link rel="preload" href="<%= woff2FileName %>" as="font" type="font/woff2" crossorigin/>
+
         <link rel="icon" href="icons-ab56e196/favicon.gif" type="image/gif" />
-        <link rel="preload" href="1242b6a891916445536f2bea7d52a0d4.woff2" as="font" type="font/woff2" crossorigin />
 
         <meta name="description" content="This is the website of Joe Bateson, a software engineer/developer/tinkerer from the UK.">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta name="theme-color" content="#262335">
-
-        <% htmlWebpackPlugin.tags.headTags.forEach(renderTag); %>
     </head>
     <body contenteditable="true" spellcheck="false">
         <header role="banner">
@@ -64,7 +55,5 @@
             </ul>
             <span class="tag">&lt;/ul&gt;</span>
         </main>
-
-        <% htmlWebpackPlugin.tags.bodyTags.forEach(renderTag); %>
     </body>
 </html>
