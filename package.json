@@ -8,7 +8,7 @@
     "start": "http-server dist",
     "serve:lhci": "yarn start",
     "cy:open": "cypress open",
-    "cy:run": "cypress run --record",
+    "cy:run": "cypress run",
     "test:lint": "eslint .",
     "test:e2e": "start-server-and-test develop http://localhost:8080 cy:open",
     "test:e2e:ci": "start-server-and-test develop http://localhost:8080 cy:run",
