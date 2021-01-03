@@ -1,6 +1,5 @@
 const { injectAxe, checkA11y } = require('axe-playwright');
 const { chromium } = require('playwright');
-const expect = require('expect');
 
 const BASE_URL = 'http://localhost:8080';
 

@@ -9,18 +9,11 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 12.x
-      - uses: actions/cache@v1
-        id: cache
-        with:
-          path: node_modules
-          key: ${{ runner.os }}-${{ hashFiles('package.json', 'yarn.lock') }}
-      - name: yarn install
-        if: steps.cache.outputs.cache-hit != 'true'
-        run: yarn
+      - run: yarn
       - run: yarn run test:e2e
       - run: yarn run test:lint
       - run: yarn run build
       - name: run Lighthouse CI
-        run: yarn lhci autorun
+        run: yarn run lhci autorun
         env:
           LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}
