@@ -8,14 +8,12 @@
     "start": "http-server dist",
     "serve:lhci": "yarn start",
     "test:lint": "eslint .",
-    "test:e2e": "start-server-and-test develop http://localhost:8080 'pnpify jest'",
-    "size": "yarn build && size-limit"
+    "test:e2e": "start-server-and-test develop http://localhost:8080 'pnpify jest'"
   },
   "author": "Joe Bateson",
   "devDependencies": {
     "@jbateson/eslint-config": "2.3.0",
     "@lhci/cli": "^0.5.0",
-    "@size-limit/preset-app": "^4.5.6",
     "@typescript-eslint/eslint-plugin": "^2.0.0",
     "@typescript-eslint/parser": "^2.0.0",
     "@yarnpkg/pnpify": "^2.4.0",
@@ -44,7 +42,6 @@
     "purgecss-webpack-plugin": "^3.0.0",
     "sass": "^1.27.0",
     "sass-loader": "^10.0.3",
-    "size-limit": "^4.5.6",
     "start-server-and-test": "^1.11.3",
     "terser-webpack-plugin": "^4.2.3",
     "url-loader": "^4.1.1",
@@ -58,11 +55,5 @@
   "prettier": {
     "singleQuote": true,
     "trailingComma": "all"
-  },
-  "size-limit": [
-    {
-      "path": "dist/index.html",
-      "limit": "100ms"
-    }
-  ]
+  }
 }
