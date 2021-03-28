@@ -665,7 +665,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@lhci/cli@npm:^0.5.0":
+"@lhci/cli@npm:0.5.1":
   version: 0.5.1
   resolution: "@lhci/cli@npm:0.5.1"
   dependencies:
@@ -1119,7 +1119,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/eslint-plugin@npm:^2.0.0":
+"@typescript-eslint/eslint-plugin@npm:2.34.0":
   version: 2.34.0
   resolution: "@typescript-eslint/eslint-plugin@npm:2.34.0"
   dependencies:
@@ -1151,7 +1151,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/parser@npm:^2.0.0":
+"@typescript-eslint/parser@npm:2.34.0":
   version: 2.34.0
   resolution: "@typescript-eslint/parser@npm:2.34.0"
   dependencies:
@@ -1494,7 +1494,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@yarnpkg/pnpify@npm:^2.4.0":
+"@yarnpkg/pnpify@npm:2.4.0":
   version: 2.4.0
   resolution: "@yarnpkg/pnpify@npm:2.4.0"
   dependencies:
@@ -1983,7 +1983,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"axe-playwright@npm:^1.1.5":
+"axe-playwright@npm:1.1.5":
   version: 1.1.5
   resolution: "axe-playwright@npm:1.1.5"
   dependencies:
@@ -2010,7 +2010,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"babel-eslint@npm:^10.1.0":
+"babel-eslint@npm:10.1.0":
   version: 10.1.0
   resolution: "babel-eslint@npm:10.1.0"
   dependencies:
@@ -3086,7 +3086,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"copy-webpack-plugin@npm:^6.2.1":
+"copy-webpack-plugin@npm:6.4.1":
   version: 6.4.1
   resolution: "copy-webpack-plugin@npm:6.4.1"
   dependencies:
@@ -3213,7 +3213,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"css-loader@npm:^4.3.0":
+"css-loader@npm:4.3.0":
   version: 4.3.0
   resolution: "css-loader@npm:4.3.0"
   dependencies:
@@ -4056,6 +4056,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"eslint-config-prettier@npm:7.1.0":
+  version: 7.1.0
+  resolution: "eslint-config-prettier@npm:7.1.0"
+  peerDependencies:
+    eslint: ">=7.0.0"
+  bin:
+    eslint-config-prettier: bin/cli.js
+  checksum: 968a1166c3c14ac769b5bd30192dfc81f02319e565a907f1299ae1322eccf836ebaab5a7ebdb5ceefc35b65f5c9d781e5bb92a72bf299d2dde4353b5a828a0f3
+  languageName: node
+  linkType: hard
+
 "eslint-config-prettier@npm:^6.5.0":
   version: 6.15.0
   resolution: "eslint-config-prettier@npm:6.15.0"
@@ -4066,17 +4077,6 @@ __metadata:
   bin:
     eslint-config-prettier-check: bin/cli.js
   checksum: a790bc61699e43a2edc5453488576cd977fad3b3cf99c129c10760ce6970d422923fddf80b65b2b10a93c00af0180a854e4b7824cc268e5957826cbe5b969e90
-  languageName: node
-  linkType: hard
-
-"eslint-config-prettier@npm:^7.1.0":
-  version: 7.1.0
-  resolution: "eslint-config-prettier@npm:7.1.0"
-  peerDependencies:
-    eslint: ">=7.0.0"
-  bin:
-    eslint-config-prettier: bin/cli.js
-  checksum: 968a1166c3c14ac769b5bd30192dfc81f02319e565a907f1299ae1322eccf836ebaab5a7ebdb5ceefc35b65f5c9d781e5bb92a72bf299d2dde4353b5a828a0f3
   languageName: node
   linkType: hard
 
@@ -4099,7 +4099,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-import-resolver-node@npm:^0.3.4":
+"eslint-import-resolver-node@npm:0.3.4, eslint-import-resolver-node@npm:^0.3.4":
   version: 0.3.4
   resolution: "eslint-import-resolver-node@npm:0.3.4"
   dependencies:
@@ -4119,7 +4119,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-flowtype@npm:^4.2.0":
+"eslint-plugin-flowtype@npm:4.7.0":
   version: 4.7.0
   resolution: "eslint-plugin-flowtype@npm:4.7.0"
   dependencies:
@@ -4130,7 +4130,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-import@npm:^2.18.2":
+"eslint-plugin-import@npm:2.22.1":
   version: 2.22.1
   resolution: "eslint-plugin-import@npm:2.22.1"
   dependencies:
@@ -4153,7 +4153,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-jsx-a11y@npm:^6.2.3":
+"eslint-plugin-jsx-a11y@npm:6.4.1":
   version: 6.4.1
   resolution: "eslint-plugin-jsx-a11y@npm:6.4.1"
   dependencies:
@@ -4174,7 +4174,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-prettier@npm:^3.1.0":
+"eslint-plugin-prettier@npm:3.3.0":
   version: 3.3.0
   resolution: "eslint-plugin-prettier@npm:3.3.0"
   dependencies:
@@ -4189,7 +4189,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-react-hooks@npm:1.x":
+"eslint-plugin-react-hooks@npm:1.7.0":
   version: 1.7.0
   resolution: "eslint-plugin-react-hooks@npm:1.7.0"
   peerDependencies:
@@ -4198,7 +4198,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-react@npm:^7.14.3":
+"eslint-plugin-react@npm:7.22.0":
   version: 7.22.0
   resolution: "eslint-plugin-react@npm:7.22.0"
   dependencies:
@@ -4254,7 +4254,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:^6.3.0":
+"eslint@npm:6.8.0":
   version: 6.8.0
   resolution: "eslint@npm:6.8.0"
   dependencies:
@@ -4758,7 +4758,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"file-loader@npm:^6.1.1":
+"file-loader@npm:6.2.0":
   version: 6.2.0
   resolution: "file-loader@npm:6.2.0"
   dependencies:
@@ -5442,7 +5442,7 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"html-webpack-plugin@npm:^4.5.0":
+"html-webpack-plugin@npm:4.5.0":
   version: 4.5.0
   resolution: "html-webpack-plugin@npm:4.5.0"
   dependencies:
@@ -5526,7 +5526,7 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"http-server@npm:^0.12.3":
+"http-server@npm:0.12.3":
   version: 0.12.3
   resolution: "http-server@npm:0.12.3"
   dependencies:
@@ -6847,7 +6847,7 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"jest@npm:^26.6.3":
+"jest@npm:26.6.3":
   version: 26.6.3
   resolution: "jest@npm:26.6.3"
   dependencies:
@@ -6865,41 +6865,41 @@ fsevents@~2.1.2:
   resolution: "joebateson.com@workspace:."
   dependencies:
     "@jbateson/eslint-config": 2.3.0
-    "@lhci/cli": ^0.5.0
-    "@typescript-eslint/eslint-plugin": ^2.0.0
-    "@typescript-eslint/parser": ^2.0.0
-    "@yarnpkg/pnpify": ^2.4.0
-    axe-playwright: ^1.1.5
-    babel-eslint: ^10.1.0
-    copy-webpack-plugin: ^6.2.1
-    css-loader: ^4.3.0
-    eslint: ^6.3.0
-    eslint-config-prettier: ^7.1.0
-    eslint-import-resolver-node: ^0.3.4
-    eslint-plugin-flowtype: ^4.2.0
-    eslint-plugin-import: ^2.18.2
-    eslint-plugin-jsx-a11y: ^6.2.3
-    eslint-plugin-prettier: ^3.1.0
-    eslint-plugin-react: ^7.14.3
-    eslint-plugin-react-hooks: 1.x
-    file-loader: ^6.1.1
-    html-webpack-plugin: ^4.5.0
-    http-server: ^0.12.3
-    jest: ^26.6.3
-    mini-css-extract-plugin: ^1.0.0
-    optimize-css-assets-webpack-plugin: ^5.0.4
-    playwright-chromium: ^1.10.0
-    playwright-core: ^1.7.1
-    prettier: ^2.0.5
-    purgecss-webpack-plugin: ^3.0.0
-    sass: ^1.27.0
-    sass-loader: ^10.0.3
-    start-server-and-test: ^1.11.3
-    terser-webpack-plugin: ^4.2.3
-    url-loader: ^4.1.1
+    "@lhci/cli": 0.5.1
+    "@typescript-eslint/eslint-plugin": 2.34.0
+    "@typescript-eslint/parser": 2.34.0
+    "@yarnpkg/pnpify": 2.4.0
+    axe-playwright: 1.1.5
+    babel-eslint: 10.1.0
+    copy-webpack-plugin: 6.4.1
+    css-loader: 4.3.0
+    eslint: 6.8.0
+    eslint-config-prettier: 7.1.0
+    eslint-import-resolver-node: 0.3.4
+    eslint-plugin-flowtype: 4.7.0
+    eslint-plugin-import: 2.22.1
+    eslint-plugin-jsx-a11y: 6.4.1
+    eslint-plugin-prettier: 3.3.0
+    eslint-plugin-react: 7.22.0
+    eslint-plugin-react-hooks: 1.7.0
+    file-loader: 6.2.0
+    html-webpack-plugin: 4.5.0
+    http-server: 0.12.3
+    jest: 26.6.3
+    mini-css-extract-plugin: 1.3.3
+    optimize-css-assets-webpack-plugin: 5.0.4
+    playwright-chromium: 1.10.0
+    playwright-core: 1.7.1
+    prettier: 2.2.1
+    purgecss-webpack-plugin: 3.1.3
+    sass: 1.32.0
+    sass-loader: 10.1.0
+    start-server-and-test: 1.11.7
+    terser-webpack-plugin: 4.2.3
+    url-loader: 4.1.1
     watchpack: 2.0.0
-    webpack: ^5.0.0
-    webpack-cli: ^4.0.0
+    webpack: 5.11.1
+    webpack-cli: 4.3.1
   languageName: unknown
   linkType: soft
 
@@ -7762,7 +7762,7 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"mini-css-extract-plugin@npm:^1.0.0":
+"mini-css-extract-plugin@npm:1.3.3":
   version: 1.3.3
   resolution: "mini-css-extract-plugin@npm:1.3.3"
   dependencies:
@@ -8359,7 +8359,7 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"optimize-css-assets-webpack-plugin@npm:^5.0.4":
+"optimize-css-assets-webpack-plugin@npm:5.0.4":
   version: 5.0.4
   resolution: "optimize-css-assets-webpack-plugin@npm:5.0.4"
   dependencies:
@@ -8799,7 +8799,7 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"playwright-chromium@npm:^1.10.0":
+"playwright-chromium@npm:1.10.0":
   version: 1.10.0
   resolution: "playwright-chromium@npm:1.10.0"
   dependencies:
@@ -8822,7 +8822,7 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"playwright-core@npm:^1.7.1":
+"playwright-core@npm:1.7.1":
   version: 1.7.1
   resolution: "playwright-core@npm:1.7.1"
   dependencies:
@@ -9297,7 +9297,7 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"prettier@npm:^2.0.5":
+"prettier@npm:2.2.1":
   version: 2.2.1
   resolution: "prettier@npm:2.2.1"
   bin:
@@ -9491,7 +9491,7 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"purgecss-webpack-plugin@npm:^3.0.0":
+"purgecss-webpack-plugin@npm:3.1.3":
   version: 3.1.3
   resolution: "purgecss-webpack-plugin@npm:3.1.3"
   dependencies:
@@ -10174,7 +10174,7 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"sass-loader@npm:^10.0.3":
+"sass-loader@npm:10.1.0":
   version: 10.1.0
   resolution: "sass-loader@npm:10.1.0"
   dependencies:
@@ -10199,7 +10199,7 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"sass@npm:^1.27.0":
+"sass@npm:1.32.0":
   version: 1.32.0
   resolution: "sass@npm:1.32.0"
   dependencies:
@@ -10678,7 +10678,7 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"start-server-and-test@npm:^1.11.3":
+"start-server-and-test@npm:1.11.7":
   version: 1.11.7
   resolution: "start-server-and-test@npm:1.11.7"
   dependencies:
@@ -11098,7 +11098,7 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"terser-webpack-plugin@npm:^4.2.3":
+"terser-webpack-plugin@npm:4.2.3":
   version: 4.2.3
   resolution: "terser-webpack-plugin@npm:4.2.3"
   dependencies:
@@ -11640,7 +11640,7 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"url-loader@npm:^4.1.1":
+"url-loader@npm:4.1.1":
   version: 4.1.1
   resolution: "url-loader@npm:4.1.1"
   dependencies:
@@ -11863,7 +11863,7 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"webpack-cli@npm:^4.0.0":
+"webpack-cli@npm:4.3.1":
   version: 4.3.1
   resolution: "webpack-cli@npm:4.3.1"
   dependencies:
@@ -11928,7 +11928,7 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"webpack@npm:^5.0.0, webpack@npm:^5.4.0":
+"webpack@npm:5.11.1, webpack@npm:^5.4.0":
   version: 5.11.1
   resolution: "webpack@npm:5.11.1"
   dependencies:
