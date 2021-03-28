@@ -2920,7 +2920,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"commander@npm:^6.0.0, commander@npm:^6.2.0":
+"commander@npm:^6.0.0, commander@npm:^6.1.0, commander@npm:^6.2.0":
   version: 6.2.1
   resolution: "commander@npm:6.2.1"
   checksum: 47856aae6f194404122e359d8463e5e1a18f7cbab26722ce69f1379be8514bd49a160ef81a983d3d2091e3240022643354101d1276c797dcdd0b5bfc3c3f04a3
@@ -6888,7 +6888,7 @@ fsevents@~2.1.2:
     jest: ^26.6.3
     mini-css-extract-plugin: ^1.0.0
     optimize-css-assets-webpack-plugin: ^5.0.4
-    playwright: ^1.7.1
+    playwright-chromium: ^1.10.0
     playwright-core: ^1.7.1
     prettier: ^2.0.5
     purgecss-webpack-plugin: ^3.0.0
@@ -8799,6 +8799,29 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
+"playwright-chromium@npm:^1.10.0":
+  version: 1.10.0
+  resolution: "playwright-chromium@npm:1.10.0"
+  dependencies:
+    commander: ^6.1.0
+    debug: ^4.1.1
+    extract-zip: ^2.0.1
+    https-proxy-agent: ^5.0.0
+    jpeg-js: ^0.4.2
+    mime: ^2.4.6
+    pngjs: ^5.0.0
+    progress: ^2.0.3
+    proper-lockfile: ^4.1.1
+    proxy-from-env: ^1.1.0
+    rimraf: ^3.0.2
+    stack-utils: ^2.0.3
+    ws: ^7.3.1
+  bin:
+    playwright: lib/cli/cli.js
+  checksum: 21aa1d27b1a40cfca5afd594c17ab97d1da1b8f9e9c22300b157c86aec535ac8f9b3eeb650f5be6a519e15d1f6b9f835775dca109385a1b00d084e382ff7192e
+  languageName: node
+  linkType: hard
+
 "playwright-core@npm:^1.7.1":
   version: 1.7.1
   resolution: "playwright-core@npm:1.7.1"
@@ -8815,25 +8838,6 @@ fsevents@~2.1.2:
     rimraf: ^3.0.2
     ws: ^7.3.1
   checksum: 6721b21a7d0de85e954a74908e3ffb83e578b50c6af2bd6aa19683063a611eddce975b07dbf8446ac74a4ce1dca1ba9628ca80fb0c1c9a3fc7946e105af825b1
-  languageName: node
-  linkType: hard
-
-"playwright@npm:^1.7.1":
-  version: 1.7.1
-  resolution: "playwright@npm:1.7.1"
-  dependencies:
-    debug: ^4.1.1
-    extract-zip: ^2.0.1
-    https-proxy-agent: ^5.0.0
-    jpeg-js: ^0.4.2
-    mime: ^2.4.6
-    pngjs: ^5.0.0
-    progress: ^2.0.3
-    proper-lockfile: ^4.1.1
-    proxy-from-env: ^1.1.0
-    rimraf: ^3.0.2
-    ws: ^7.3.1
-  checksum: 218c5cdbbf61f62ecbd973958aab67340705f8c5f32641e9e16c7cd92f61a49e9dd7b5b013b354c023a7fb1e6826b6f07fcff7c95ccbe690b2d003a7c3fb2c9c
   languageName: node
   linkType: hard
 
@@ -10665,7 +10669,7 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"stack-utils@npm:^2.0.2":
+"stack-utils@npm:^2.0.2, stack-utils@npm:^2.0.3":
   version: 2.0.3
   resolution: "stack-utils@npm:2.0.3"
   dependencies:

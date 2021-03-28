@@ -61,7 +61,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["jest", "npm:26.6.3"],
             ["mini-css-extract-plugin", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:1.3.3"],
             ["optimize-css-assets-webpack-plugin", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:5.0.4"],
-            ["playwright", "npm:1.7.1"],
+            ["playwright-chromium", "npm:1.10.0"],
             ["playwright-core", "npm:1.7.1"],
             ["prettier", "npm:2.2.1"],
             ["purgecss-webpack-plugin", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:3.1.3"],
@@ -8203,7 +8203,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["jest", "npm:26.6.3"],
             ["mini-css-extract-plugin", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:1.3.3"],
             ["optimize-css-assets-webpack-plugin", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:5.0.4"],
-            ["playwright", "npm:1.7.1"],
+            ["playwright-chromium", "npm:1.10.0"],
             ["playwright-core", "npm:1.7.1"],
             ["prettier", "npm:2.2.1"],
             ["purgecss-webpack-plugin", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:3.1.3"],
@@ -10335,11 +10335,12 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
-      ["playwright", [
-        ["npm:1.7.1", {
-          "packageLocation": "./.yarn/unplugged/playwright-npm-1.7.1-f038efa4e2/node_modules/playwright/",
+      ["playwright-chromium", [
+        ["npm:1.10.0", {
+          "packageLocation": "./.yarn/unplugged/playwright-chromium-npm-1.10.0-8800c955a2/node_modules/playwright-chromium/",
           "packageDependencies": [
-            ["playwright", "npm:1.7.1"],
+            ["playwright-chromium", "npm:1.10.0"],
+            ["commander", "npm:6.2.1"],
             ["debug", "virtual:d27045f313cae7cbc212b229738d5843f6d2265eba3ea36069f78075a79d301bc17e702a21a7b811ca9aa59de4cb7943fb27cda91a0e7d8a8ad547668124b185#npm:4.3.2"],
             ["extract-zip", "npm:2.0.1"],
             ["https-proxy-agent", "npm:5.0.0"],
@@ -10350,6 +10351,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["proper-lockfile", "npm:4.1.1"],
             ["proxy-from-env", "npm:1.1.0"],
             ["rimraf", "npm:3.0.2"],
+            ["stack-utils", "npm:2.0.3"],
             ["ws", "virtual:0029c64cedb03afb3e8f955289eb8fb53c28afb692fc03c927d60b43257499232baab01f458ec4d93b5d0c987193b1cd454e1b6033d004694545f8cc7e80dd50#npm:7.4.2"]
           ],
           "linkType": "HARD",
