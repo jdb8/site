@@ -95,6 +95,7 @@ module.exports = {
         // Hardcode [hash:8] to ab56e196 until we have a better way to keep this
         // in sync with the HTML. Keep it hashed for long-term caching.
         { from: './favicon.gif', to: 'icons-ab56e196/favicon.gif' },
+        { from: '_headers' },
       ],
     }),
 
