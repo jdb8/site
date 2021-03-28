@@ -70,7 +70,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["start-server-and-test", "npm:1.11.7"],
             ["terser-webpack-plugin", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:4.2.3"],
             ["url-loader", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:4.1.1"],
-            ["watchpack", "npm:2.0.0-beta.10"],
+            ["watchpack", "npm:2.1.1"],
             ["webpack", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:5.11.1"],
             ["webpack-cli", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:4.3.1"]
           ],
@@ -8212,7 +8212,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["start-server-and-test", "npm:1.11.7"],
             ["terser-webpack-plugin", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:4.2.3"],
             ["url-loader", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:4.1.1"],
-            ["watchpack", "npm:2.0.0-beta.10"],
+            ["watchpack", "npm:2.1.1"],
             ["webpack", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:5.11.1"],
             ["webpack-cli", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:4.3.1"]
           ],
@@ -13751,13 +13751,12 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["watchpack", [
-        ["npm:2.0.0-beta.10", {
-          "packageLocation": "./.yarn/cache/watchpack-npm-2.0.0-beta.10-e6d6bc0527-649d34f772.zip/node_modules/watchpack/",
+        ["npm:2.1.1", {
+          "packageLocation": "./.yarn/cache/watchpack-npm-2.1.1-6185708078-1aa185936b.zip/node_modules/watchpack/",
           "packageDependencies": [
-            ["watchpack", "npm:2.0.0-beta.10"],
+            ["watchpack", "npm:2.1.1"],
             ["glob-to-regexp", "npm:0.4.1"],
-            ["graceful-fs", "npm:4.2.4"],
-            ["neo-async", "npm:2.6.2"]
+            ["graceful-fs", "npm:4.2.4"]
           ],
           "linkType": "HARD",
         }]
@@ -13812,7 +13811,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["schema-utils", "npm:3.0.0"],
             ["tapable", "npm:2.2.0"],
             ["terser-webpack-plugin", "virtual:f7d7adf820a0187d44b87d18d80666a9ce6b3db4a2cdbb3d9f46476aee867ecfe9dafc4407333f5c2ad345cbbe7374ef4c9e59d300b02e5062253ecc5892f696#npm:5.0.3"],
-            ["watchpack", "npm:2.0.0-beta.10"],
+            ["watchpack", "npm:2.1.1"],
             ["webpack-cli", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:4.3.1"],
             ["webpack-sources", "npm:2.2.0"]
           ],
