@@ -7005,7 +7005,7 @@ fsevents@~2.1.2:
     playwright-core: 1.10.0
     prettier: 2.2.1
     purgecss-webpack-plugin: 3.1.3
-    sass: 1.32.0
+    sass: 1.32.8
     sass-loader: 10.1.0
     start-server-and-test: 1.11.7
     terser-webpack-plugin: 4.2.3
@@ -10348,14 +10348,14 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-"sass@npm:1.32.0":
-  version: 1.32.0
-  resolution: "sass@npm:1.32.0"
+"sass@npm:1.32.8":
+  version: 1.32.8
+  resolution: "sass@npm:1.32.8"
   dependencies:
     chokidar: ">=2.0.0 <4.0.0"
   bin:
     sass: sass.js
-  checksum: 3d18acd93805431e32061484007b9fd1cc2f216f629f2f33bd97fabcbd875d3d62a1d717a5de226f24d27247b485edbd9cd4cd1d7ef653326f7b5de2b928d35f
+  checksum: d319b3d7459451b6532b492984e3cbb37381e6c6379622f668900b196c0d545f5a2c32819cf02b5405fb2ef79720fe1f8f16b7614a2fef3fb7af8dfec83a6597
   languageName: node
   linkType: hard
 
