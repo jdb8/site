@@ -7239,7 +7239,7 @@ fsevents@~2.1.2:
     playwright-chromium: 1.10.0
     playwright-core: 1.10.0
     prettier: 2.2.1
-    purgecss-webpack-plugin: 3.1.3
+    purgecss-webpack-plugin: 4.0.3
     sass: 1.32.8
     sass-loader: 10.1.1
     start-server-and-test: 1.12.1
@@ -9883,22 +9883,22 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"purgecss-webpack-plugin@npm:3.1.3":
-  version: 3.1.3
-  resolution: "purgecss-webpack-plugin@npm:3.1.3"
+"purgecss-webpack-plugin@npm:4.0.3":
+  version: 4.0.3
+  resolution: "purgecss-webpack-plugin@npm:4.0.3"
   dependencies:
-    purgecss: ^3.1.3
+    purgecss: ^4.0.3
     webpack: ^5.4.0
     webpack-sources: ^2.0.0
   peerDependencies:
     webpack: "*"
-  checksum: 9a73fc1a5cb87fd92c05b775996ea457d54b6971618eb0a216bd6b416f3f5f97ef0805e75e8f9ef99928ec34f153a33d583404b3a128bb9dec5f678c86dfa41c
+  checksum: 543ebe37a5d00c45c9133b39612e9d49f2366c61cd025042bd9da2cc0e95d1a9c24d7e68ded329a64c0f05de32f997f0be260e4b7c489646782edfaf89f790b5
   languageName: node
   linkType: hard
 
-"purgecss@npm:^3.1.3":
-  version: 3.1.3
-  resolution: "purgecss@npm:3.1.3"
+"purgecss@npm:^4.0.3":
+  version: 4.0.3
+  resolution: "purgecss@npm:4.0.3"
   dependencies:
     commander: ^6.0.0
     glob: ^7.0.0
@@ -9906,7 +9906,7 @@ fsevents@~2.1.2:
     postcss-selector-parser: ^6.0.2
   bin:
     purgecss: bin/purgecss.js
-  checksum: 3925b81adfd656041b0285cb42c8119185ccfe059c53f8036f2846c4d14cfa36b1a2f6ab3fb81f28364d92c8a5599ff5ac82cad473e5a1e98d81e8540621cf6a
+  checksum: f432ed6a85f61659b3151985e0cceb7fe201982e0429d17153054505f1d7fd29c355a025ebf4a7d7fc0cb0830433ad3a60f31e5092138d324d4fe44b0c2b6845
   languageName: node
   linkType: hard
 
