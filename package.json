@@ -41,7 +41,7 @@
     "prettier": "2.2.1",
     "purgecss-webpack-plugin": "4.0.3",
     "sass": "1.32.8",
-    "sass-loader": "10.1.1",
+    "sass-loader": "11.0.1",
     "start-server-and-test": "1.12.1",
     "terser-webpack-plugin": "4.2.3",
     "url-loader": "4.1.1",
