@@ -4372,14 +4372,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-flowtype@npm:4.7.0":
-  version: 4.7.0
-  resolution: "eslint-plugin-flowtype@npm:4.7.0"
+"eslint-plugin-flowtype@npm:5.4.0":
+  version: 5.4.0
+  resolution: "eslint-plugin-flowtype@npm:5.4.0"
   dependencies:
     lodash: ^4.17.15
+    string-natural-compare: ^3.0.1
   peerDependencies:
-    eslint: ">=6.1.0"
-  checksum: 2a1e799bcf92a620de1cc4fe143e1a10de4c1d18728a2082e8ca8632b238437d4119b6a395008aebf01dca563ffe9352acf1d8e483f68135f6ad055490fa26a9
+    eslint: ^7.1.0
+  checksum: 3ef2f515ad4345ebd6756c7b8bbf64eba67150d650c559ede2e5d2381a789368a3171ad297ab06ddf0d6bbbff5b2173aef748b7b52054f8a8216de1deb4f402b
   languageName: node
   linkType: hard
 
@@ -7223,7 +7224,7 @@ fsevents@~2.1.2:
     eslint: 6.8.0
     eslint-config-prettier: 8.1.0
     eslint-import-resolver-node: 0.3.4
-    eslint-plugin-flowtype: 4.7.0
+    eslint-plugin-flowtype: 5.4.0
     eslint-plugin-import: 2.22.1
     eslint-plugin-jsx-a11y: 6.4.1
     eslint-plugin-prettier: 3.3.1
@@ -11184,6 +11185,13 @@ resolve@^2.0.0-next.3:
     char-regex: ^1.0.2
     strip-ansi: ^6.0.0
   checksum: afc433824703f1fe3d7e34a980055eb376e9f52ed69b90196c7520819cbc5550b9b1a6abaa22704f4f01c7b40191f22a5e7fe3885a005959b4487d89c7e94b94
+  languageName: node
+  linkType: hard
+
+"string-natural-compare@npm:^3.0.1":
+  version: 3.0.1
+  resolution: "string-natural-compare@npm:3.0.1"
+  checksum: c81b8adc4b91692e01eeb609d85c8fceeba14a41997e65fdc2e01fa9b0a9566663f6326a40436282eaa477ee6997c9096139a995c8220ffca79547c57e1a84e6
   languageName: node
   linkType: hard
 
