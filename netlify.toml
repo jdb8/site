@@ -1,0 +1,2 @@
+[context.deploy-preview]
+  ignore = "git log -1 --format='%aN' | grep -i renovate"
