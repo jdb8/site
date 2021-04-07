@@ -7196,7 +7196,7 @@ fsevents@~2.1.2:
     terser-webpack-plugin: 5.1.1
     url-loader: 4.1.1
     watchpack: 2.1.1
-    webpack: 5.30.0
+    webpack: 5.31.0
     webpack-cli: 4.6.0
   languageName: unknown
   linkType: soft
@@ -12274,9 +12274,9 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-"webpack@npm:5.30.0":
-  version: 5.30.0
-  resolution: "webpack@npm:5.30.0"
+"webpack@npm:5.31.0":
+  version: 5.31.0
+  resolution: "webpack@npm:5.31.0"
   dependencies:
     "@types/eslint-scope": ^3.7.0
     "@types/estree": ^0.0.46
@@ -12306,7 +12306,7 @@ resolve@^2.0.0-next.3:
       optional: true
   bin:
     webpack: bin/webpack.js
-  checksum: 133845a1a94b1c24339ee0aef5b961fd513868ad93b875c7c9a670dac2388aeae238519ace48c283453f52ccbb0159a211043db1cd17a38b12279546aa05ce44
+  checksum: a419dff80c83969a28f0c130f003487a570870b3bde44a3bcca543f5d052b8c6dd5edd0e330251a632c1eb3bc85944fa42fc7159d18abf210c47189f9da56fd9
   languageName: node
   linkType: hard
 
