@@ -3393,25 +3393,24 @@ __metadata:
   languageName: node
   linkType: hard
 
-"css-loader@npm:5.2.1":
-  version: 5.2.1
-  resolution: "css-loader@npm:5.2.1"
+"css-loader@npm:5.2.2":
+  version: 5.2.2
+  resolution: "css-loader@npm:5.2.2"
   dependencies:
     camelcase: ^6.2.0
-    cssesc: ^3.0.0
     icss-utils: ^5.1.0
     loader-utils: ^2.0.0
-    postcss: ^8.2.8
+    postcss: ^8.2.10
     postcss-modules-extract-imports: ^3.0.0
     postcss-modules-local-by-default: ^4.0.0
     postcss-modules-scope: ^3.0.0
     postcss-modules-values: ^4.0.0
     postcss-value-parser: ^4.1.0
     schema-utils: ^3.0.0
-    semver: ^7.3.4
+    semver: ^7.3.5
   peerDependencies:
     webpack: ^4.27.0 || ^5.0.0
-  checksum: ea4174eea8e0a6227584a0114496d5e8468be985e9aca89cca723e4c2afa757267652dff307e7901f2e6fb10571151c8bee71468550933772fe5ff70a520d9d7
+  checksum: 1e0992f03e4e581dbb0da0b555639c0d162a072b8babd7ad065c1775cbc4dc612cb00abdff91e1c651724cd089758f5835064ea38dd8284f6a7d6e2d03791c5a
   languageName: node
   linkType: hard
 
@@ -7170,7 +7169,7 @@ fsevents@~2.1.2:
     axe-playwright: 1.1.8
     babel-eslint: 10.1.0
     copy-webpack-plugin: 8.1.1
-    css-loader: 5.2.1
+    css-loader: 5.2.2
     eslint: 6.8.0
     eslint-config-prettier: 8.2.0
     eslint-import-resolver-node: 0.3.4
@@ -8200,6 +8199,15 @@ fsevents@~2.1.2:
   bin:
     nanoid: bin/nanoid.cjs
   checksum: 4788d36edcfec7bb32ddf33ed8f1f46df2867f70e9b1993bb131f7677e04ead2b621e5d614d2736308be18db1d54208d8ab207b4586bd5b052f71fb9d4c0ebea
+  languageName: node
+  linkType: hard
+
+"nanoid@npm:^3.1.22":
+  version: 3.1.22
+  resolution: "nanoid@npm:3.1.22"
+  bin:
+    nanoid: bin/nanoid.cjs
+  checksum: 6a38c799816de388cd67233a9fad6216e0ad2abda3ce5b34eb126afbef6905924507223dc65797e2bcbc513f9cd7e078ea7e69448d59f434a6206b491278ae24
   languageName: node
   linkType: hard
 
@@ -9569,14 +9577,14 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"postcss@npm:^8.2.8":
-  version: 8.2.8
-  resolution: "postcss@npm:8.2.8"
+"postcss@npm:^8.2.10":
+  version: 8.2.10
+  resolution: "postcss@npm:8.2.10"
   dependencies:
     colorette: ^1.2.2
-    nanoid: ^3.1.20
+    nanoid: ^3.1.22
     source-map: ^0.6.1
-  checksum: 6e17d28833cf918a5ab306bfc7ec66b236dc51ed0f3de959491d40f6a171f5bd5f26de12f74e6bfeebaad44b0ac92b9f477a669d5f1fc07a27d67d8147a4bf6f
+  checksum: 83912f846376ceb501d887951bb3c7f5efc16452b124ba5ffbdd27f718dabd1edce8f6ef777a88aeb93366081cc2a3804581b2e6711a1e89ecaecb0dff2d2b73
   languageName: node
   linkType: hard
 
@@ -10607,7 +10615,7 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-"semver@npm:^7.3.4":
+"semver@npm:^7.3.5":
   version: 7.3.5
   resolution: "semver@npm:7.3.5"
   dependencies:
