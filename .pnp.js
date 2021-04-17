@@ -65,7 +65,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["playwright-core", "npm:1.10.0"],
             ["prettier", "npm:2.2.1"],
             ["purgecss-webpack-plugin", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:4.0.3"],
-            ["sass", "npm:1.32.8"],
+            ["sass", "npm:1.32.10"],
             ["sass-loader", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:11.0.1"],
             ["start-server-and-test", "npm:1.12.1"],
             ["terser-webpack-plugin", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:5.1.1"],
@@ -3301,13 +3301,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["chokidar", [
-        ["npm:3.4.3", {
-          "packageLocation": "./.yarn/cache/chokidar-npm-3.4.3-58f7548978-b5a566b312.zip/node_modules/chokidar/",
+        ["npm:3.5.1", {
+          "packageLocation": "./.yarn/cache/chokidar-npm-3.5.1-205217279e-61b3f710f9.zip/node_modules/chokidar/",
           "packageDependencies": [
-            ["chokidar", "npm:3.4.3"],
+            ["chokidar", "npm:3.5.1"],
             ["anymatch", "npm:3.1.1"],
             ["braces", "npm:3.0.2"],
-            ["fsevents", "patch:fsevents@npm%3A2.1.3#builtin<compat/fsevents>::version=2.1.3&hash=11e9ea"],
+            ["fsevents", "patch:fsevents@npm%3A2.3.2#builtin<compat/fsevents>::version=2.3.2&hash=11e9ea"],
             ["glob-parent", "npm:5.1.1"],
             ["is-binary-path", "npm:2.1.0"],
             ["is-glob", "npm:4.0.1"],
@@ -6117,18 +6117,18 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["fsevents", [
-        ["patch:fsevents@npm%3A2.1.3#builtin<compat/fsevents>::version=2.1.3&hash=11e9ea", {
-          "packageLocation": "./.yarn/unplugged/fsevents-patch-5794df231e/node_modules/fsevents/",
-          "packageDependencies": [
-            ["fsevents", "patch:fsevents@npm%3A2.1.3#builtin<compat/fsevents>::version=2.1.3&hash=11e9ea"],
-            ["node-gyp", "npm:7.1.2"]
-          ],
-          "linkType": "HARD",
-        }],
         ["patch:fsevents@npm%3A2.2.1#builtin<compat/fsevents>::version=2.2.1&hash=11e9ea", {
           "packageLocation": "./.yarn/unplugged/fsevents-patch-341a3f4cfc/node_modules/fsevents/",
           "packageDependencies": [
             ["fsevents", "patch:fsevents@npm%3A2.2.1#builtin<compat/fsevents>::version=2.2.1&hash=11e9ea"],
+            ["node-gyp", "npm:7.1.2"]
+          ],
+          "linkType": "HARD",
+        }],
+        ["patch:fsevents@npm%3A2.3.2#builtin<compat/fsevents>::version=2.3.2&hash=11e9ea", {
+          "packageLocation": "./.yarn/unplugged/fsevents-patch-3bc6df0d9f/node_modules/fsevents/",
+          "packageDependencies": [
+            ["fsevents", "patch:fsevents@npm%3A2.3.2#builtin<compat/fsevents>::version=2.3.2&hash=11e9ea"],
             ["node-gyp", "npm:7.1.2"]
           ],
           "linkType": "HARD",
@@ -8322,7 +8322,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["playwright-core", "npm:1.10.0"],
             ["prettier", "npm:2.2.1"],
             ["purgecss-webpack-plugin", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:4.0.3"],
-            ["sass", "npm:1.32.8"],
+            ["sass", "npm:1.32.10"],
             ["sass-loader", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:11.0.1"],
             ["start-server-and-test", "npm:1.12.1"],
             ["terser-webpack-plugin", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:5.1.1"],
@@ -12008,11 +12008,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["sass", [
-        ["npm:1.32.8", {
-          "packageLocation": "./.yarn/cache/sass-npm-1.32.8-6b113b5d20-d319b3d745.zip/node_modules/sass/",
+        ["npm:1.32.10", {
+          "packageLocation": "./.yarn/cache/sass-npm-1.32.10-7592dd9f72-dc310c9d4f.zip/node_modules/sass/",
           "packageDependencies": [
-            ["sass", "npm:1.32.8"],
-            ["chokidar", "npm:3.4.3"]
+            ["sass", "npm:1.32.10"],
+            ["chokidar", "npm:3.5.1"]
           ],
           "linkType": "HARD",
         }]
@@ -12037,7 +12037,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["klona", "npm:2.0.4"],
             ["neo-async", "npm:2.6.2"],
             ["node-sass", null],
-            ["sass", "npm:1.32.8"],
+            ["sass", "npm:1.32.10"],
             ["webpack", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:5.33.2"]
           ],
           "packagePeers": [
