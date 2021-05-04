@@ -46,7 +46,7 @@
     "terser-webpack-plugin": "5.1.1",
     "url-loader": "4.1.1",
     "watchpack": "2.1.1",
-    "webpack": "5.35.1",
+    "webpack": "5.36.2",
     "webpack-cli": "4.6.0"
   },
   "resolutions": {
