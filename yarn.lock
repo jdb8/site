@@ -7178,8 +7178,8 @@ fsevents@~2.3.1:
     jest: 26.6.3
     mini-css-extract-plugin: 1.6.0
     optimize-css-assets-webpack-plugin: 5.0.4
-    playwright-chromium: 1.10.0
-    playwright-core: 1.10.0
+    playwright-chromium: 1.11.0
+    playwright-core: 1.11.0
     prettier: 2.3.0
     purgecss-webpack-plugin: 4.0.3
     sass: 1.32.12
@@ -9088,9 +9088,9 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"playwright-chromium@npm:1.10.0":
-  version: 1.10.0
-  resolution: "playwright-chromium@npm:1.10.0"
+"playwright-chromium@npm:1.11.0":
+  version: 1.11.0
+  resolution: "playwright-chromium@npm:1.11.0"
   dependencies:
     commander: ^6.1.0
     debug: ^4.1.1
@@ -9105,15 +9105,16 @@ fsevents@~2.3.1:
     rimraf: ^3.0.2
     stack-utils: ^2.0.3
     ws: ^7.3.1
+    yazl: ^2.5.1
   bin:
     playwright: lib/cli/cli.js
-  checksum: 21aa1d27b1a40cfca5afd594c17ab97d1da1b8f9e9c22300b157c86aec535ac8f9b3eeb650f5be6a519e15d1f6b9f835775dca109385a1b00d084e382ff7192e
+  checksum: f692239030f48c0f52ed009baba1f321635b47d6b924c7926eb84df178b344a769b92b381dbda6bda9daa79c96e5388d891b57212d7df18607663cd276f4427f
   languageName: node
   linkType: hard
 
-"playwright-core@npm:1.10.0":
-  version: 1.10.0
-  resolution: "playwright-core@npm:1.10.0"
+"playwright-core@npm:1.11.0":
+  version: 1.11.0
+  resolution: "playwright-core@npm:1.11.0"
   dependencies:
     commander: ^6.1.0
     debug: ^4.1.1
@@ -9128,9 +9129,10 @@ fsevents@~2.3.1:
     rimraf: ^3.0.2
     stack-utils: ^2.0.3
     ws: ^7.3.1
+    yazl: ^2.5.1
   bin:
     playwright: lib/cli/cli.js
-  checksum: 04b374f79ff9a7fef08b7b62a4c67c99e6c7cbf012b2a588cb99e6a69873c5f8b4e9ab02e8800d3c2fa80597b87d7f34758542458044a1a5bb5db4dde3f0d63c
+  checksum: 00b3445f0893e4aa9be67eef5d8ca0e74d29441bf8e10ebc446ff69f9a14b6fd80b807ce75a9063c13288f915b4b8aed02ffb5873c6d581879fc7978a30c2d8e
   languageName: node
   linkType: hard
 
@@ -12703,6 +12705,15 @@ resolve@^2.0.0-next.3:
     buffer-crc32: ~0.2.3
     fd-slicer: ~1.1.0
   checksum: 6d0c4e72706ec2df6ea842d09c792e7b34badc5db3d8a893e0c70d0e464c9bf82bac4b1690f3515b5e1d96b72fceb6cc4dd96465426077ba6dddc54e7dd4d517
+  languageName: node
+  linkType: hard
+
+"yazl@npm:^2.5.1":
+  version: 2.5.1
+  resolution: "yazl@npm:2.5.1"
+  dependencies:
+    buffer-crc32: ~0.2.3
+  checksum: ee9bd2f57dfe1bdca333749bbb42b5a9e68a39871a31d8eed93b5606b8dfa1a1dda89af5cfd274a455c0f5f5790d743538067f2468d3bc8cd4227cdc94bc6ec3
   languageName: node
   linkType: hard
 
