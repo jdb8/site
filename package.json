@@ -40,7 +40,7 @@
     "playwright-core": "1.11.0",
     "prettier": "2.3.0",
     "purgecss-webpack-plugin": "4.0.3",
-    "sass": "1.32.12",
+    "sass": "1.32.13",
     "sass-loader": "11.1.0",
     "start-server-and-test": "1.12.1",
     "terser-webpack-plugin": "5.1.2",
