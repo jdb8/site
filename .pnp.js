@@ -61,8 +61,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["jest", "npm:26.6.3"],
             ["mini-css-extract-plugin", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:1.6.0"],
             ["optimize-css-assets-webpack-plugin", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:6.0.0"],
-            ["playwright-chromium", "npm:1.11.0"],
-            ["playwright-core", "npm:1.11.0"],
+            ["playwright-chromium", "npm:1.11.1"],
+            ["playwright-core", "npm:1.11.1"],
             ["prettier", "npm:2.3.0"],
             ["purgecss-webpack-plugin", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:4.0.3"],
             ["sass", "npm:1.32.13"],
@@ -2584,7 +2584,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["axe-playwright", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:1.1.8"],
             ["@types/playwright-core", null],
             ["axe-core", "npm:4.1.1"],
-            ["playwright-core", "npm:1.11.0"]
+            ["playwright-core", "npm:1.11.1"]
           ],
           "packagePeers": [
             "@types/playwright-core",
@@ -8291,8 +8291,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["jest", "npm:26.6.3"],
             ["mini-css-extract-plugin", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:1.6.0"],
             ["optimize-css-assets-webpack-plugin", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:6.0.0"],
-            ["playwright-chromium", "npm:1.11.0"],
-            ["playwright-core", "npm:1.11.0"],
+            ["playwright-chromium", "npm:1.11.1"],
+            ["playwright-core", "npm:1.11.1"],
             ["prettier", "npm:2.3.0"],
             ["purgecss-webpack-plugin", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:4.0.3"],
             ["sass", "npm:1.32.13"],
@@ -10374,10 +10374,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["playwright-chromium", [
-        ["npm:1.11.0", {
-          "packageLocation": "./.yarn/unplugged/playwright-chromium-npm-1.11.0-ecdb19de59/node_modules/playwright-chromium/",
+        ["npm:1.11.1", {
+          "packageLocation": "./.yarn/unplugged/playwright-chromium-npm-1.11.1-1ede3f625f/node_modules/playwright-chromium/",
           "packageDependencies": [
-            ["playwright-chromium", "npm:1.11.0"],
+            ["playwright-chromium", "npm:1.11.1"],
             ["commander", "npm:6.2.1"],
             ["debug", "virtual:d27045f313cae7cbc212b229738d5843f6d2265eba3ea36069f78075a79d301bc17e702a21a7b811ca9aa59de4cb7943fb27cda91a0e7d8a8ad547668124b185#npm:4.3.2"],
             ["extract-zip", "npm:2.0.1"],
@@ -10397,10 +10397,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["playwright-core", [
-        ["npm:1.11.0", {
-          "packageLocation": "./.yarn/unplugged/playwright-core-npm-1.11.0-8354f6d78f/node_modules/playwright-core/",
+        ["npm:1.11.1", {
+          "packageLocation": "./.yarn/unplugged/playwright-core-npm-1.11.1-e074431cb9/node_modules/playwright-core/",
           "packageDependencies": [
-            ["playwright-core", "npm:1.11.0"],
+            ["playwright-core", "npm:1.11.1"],
             ["commander", "npm:6.2.1"],
             ["debug", "virtual:d27045f313cae7cbc212b229738d5843f6d2265eba3ea36069f78075a79d301bc17e702a21a7b811ca9aa59de4cb7943fb27cda91a0e7d8a8ad547668124b185#npm:4.3.2"],
             ["extract-zip", "npm:2.0.1"],

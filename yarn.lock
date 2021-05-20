@@ -7143,8 +7143,8 @@ fsevents@~2.3.1:
     jest: 26.6.3
     mini-css-extract-plugin: 1.6.0
     optimize-css-assets-webpack-plugin: 6.0.0
-    playwright-chromium: 1.11.0
-    playwright-core: 1.11.0
+    playwright-chromium: 1.11.1
+    playwright-core: 1.11.1
     prettier: 2.3.0
     purgecss-webpack-plugin: 4.0.3
     sass: 1.32.13
@@ -9039,9 +9039,9 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"playwright-chromium@npm:1.11.0":
-  version: 1.11.0
-  resolution: "playwright-chromium@npm:1.11.0"
+"playwright-chromium@npm:1.11.1":
+  version: 1.11.1
+  resolution: "playwright-chromium@npm:1.11.1"
   dependencies:
     commander: ^6.1.0
     debug: ^4.1.1
@@ -9059,13 +9059,13 @@ fsevents@~2.3.1:
     yazl: ^2.5.1
   bin:
     playwright: lib/cli/cli.js
-  checksum: f692239030f48c0f52ed009baba1f321635b47d6b924c7926eb84df178b344a769b92b381dbda6bda9daa79c96e5388d891b57212d7df18607663cd276f4427f
+  checksum: a10b89c0d9e0a8192b328687043c4efea71cf692e541e0a6e1e928cb992a71e91d745c1716e5f17d608ce94b61e65d05347a681ce1c47ac27b822efde24c8bbe
   languageName: node
   linkType: hard
 
-"playwright-core@npm:1.11.0":
-  version: 1.11.0
-  resolution: "playwright-core@npm:1.11.0"
+"playwright-core@npm:1.11.1":
+  version: 1.11.1
+  resolution: "playwright-core@npm:1.11.1"
   dependencies:
     commander: ^6.1.0
     debug: ^4.1.1
@@ -9083,7 +9083,7 @@ fsevents@~2.3.1:
     yazl: ^2.5.1
   bin:
     playwright: lib/cli/cli.js
-  checksum: 00b3445f0893e4aa9be67eef5d8ca0e74d29441bf8e10ebc446ff69f9a14b6fd80b807ce75a9063c13288f915b4b8aed02ffb5873c6d581879fc7978a30c2d8e
+  checksum: 391cef5261fb1d54e9b68e5f59d93c0fafee247a0305a6bfe741f3070e5e59d69b04f52fb12afe75c87ee98b6a0970e04d1b690419e9c2e97c5dfc1dff0ef3f4
   languageName: node
   linkType: hard
 
