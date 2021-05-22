@@ -65,7 +65,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["playwright-core", "npm:1.11.1"],
             ["prettier", "npm:2.3.0"],
             ["purgecss-webpack-plugin", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:4.0.3"],
-            ["sass", "npm:1.33.0"],
+            ["sass", "npm:1.34.0"],
             ["sass-loader", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:11.1.1"],
             ["start-server-and-test", "npm:1.12.2"],
             ["terser-webpack-plugin", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:5.1.2"],
@@ -8291,7 +8291,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["playwright-core", "npm:1.11.1"],
             ["prettier", "npm:2.3.0"],
             ["purgecss-webpack-plugin", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:4.0.3"],
-            ["sass", "npm:1.33.0"],
+            ["sass", "npm:1.34.0"],
             ["sass-loader", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:11.1.1"],
             ["start-server-and-test", "npm:1.12.2"],
             ["terser-webpack-plugin", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:5.1.2"],
@@ -12250,10 +12250,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["sass", [
-        ["npm:1.33.0", {
-          "packageLocation": "./.yarn/cache/sass-npm-1.33.0-93351f6030-581f2dfe51.zip/node_modules/sass/",
+        ["npm:1.34.0", {
+          "packageLocation": "./.yarn/cache/sass-npm-1.34.0-0827c919e0-abc3e39a85.zip/node_modules/sass/",
           "packageDependencies": [
-            ["sass", "npm:1.33.0"],
+            ["sass", "npm:1.34.0"],
             ["chokidar", "npm:3.5.1"]
           ],
           "linkType": "HARD",
@@ -12279,7 +12279,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["klona", "npm:2.0.4"],
             ["neo-async", "npm:2.6.2"],
             ["node-sass", null],
-            ["sass", "npm:1.33.0"],
+            ["sass", "npm:1.34.0"],
             ["webpack", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:5.37.1"]
           ],
           "packagePeers": [
