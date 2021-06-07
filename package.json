@@ -47,7 +47,7 @@
     "url-loader": "4.1.1",
     "watchpack": "2.1.1",
     "webpack": "5.38.1",
-    "webpack-cli": "4.7.1"
+    "webpack-cli": "4.7.2"
   },
   "resolutions": {
     "watchpack": "2.1.1"
