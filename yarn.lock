@@ -7113,8 +7113,8 @@ __metadata:
     jest: 27.0.4
     mini-css-extract-plugin: 1.6.0
     optimize-css-assets-webpack-plugin: 6.0.0
-    playwright-chromium: 1.11.1
-    playwright-core: 1.11.1
+    playwright-chromium: 1.12.0
+    playwright-core: 1.12.0
     prettier: 2.3.1
     purgecss-webpack-plugin: 4.0.3
     sass: 1.34.1
@@ -8885,9 +8885,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"playwright-chromium@npm:1.11.1":
-  version: 1.11.1
-  resolution: "playwright-chromium@npm:1.11.1"
+"playwright-chromium@npm:1.12.0":
+  version: 1.12.0
+  resolution: "playwright-chromium@npm:1.12.0"
   dependencies:
     commander: ^6.1.0
     debug: ^4.1.1
@@ -8901,17 +8901,17 @@ __metadata:
     proxy-from-env: ^1.1.0
     rimraf: ^3.0.2
     stack-utils: ^2.0.3
-    ws: ^7.3.1
+    ws: ^7.4.6
     yazl: ^2.5.1
   bin:
     playwright: lib/cli/cli.js
-  checksum: a10b89c0d9e0a8192b328687043c4efea71cf692e541e0a6e1e928cb992a71e91d745c1716e5f17d608ce94b61e65d05347a681ce1c47ac27b822efde24c8bbe
+  checksum: 427b61b47de6dce9da75d024556f8aa130bc99682e4ee5bac2903d2631deba287c1edd4098ab43912882f25115d4d80ebbc394d572bfbc7df634ba085faae16a
   languageName: node
   linkType: hard
 
-"playwright-core@npm:1.11.1":
-  version: 1.11.1
-  resolution: "playwright-core@npm:1.11.1"
+"playwright-core@npm:1.12.0":
+  version: 1.12.0
+  resolution: "playwright-core@npm:1.12.0"
   dependencies:
     commander: ^6.1.0
     debug: ^4.1.1
@@ -8925,11 +8925,11 @@ __metadata:
     proxy-from-env: ^1.1.0
     rimraf: ^3.0.2
     stack-utils: ^2.0.3
-    ws: ^7.3.1
+    ws: ^7.4.6
     yazl: ^2.5.1
   bin:
     playwright: lib/cli/cli.js
-  checksum: 391cef5261fb1d54e9b68e5f59d93c0fafee247a0305a6bfe741f3070e5e59d69b04f52fb12afe75c87ee98b6a0970e04d1b690419e9c2e97c5dfc1dff0ef3f4
+  checksum: 3dfa33b0ee3771cdfb84d47a49edf4729e6865657002b9bf1582f1f88afb05cfc36433b77fcf306151804c5060f174ba8f3b0856de1f0850a118603dcbdd02a4
   languageName: node
   linkType: hard
 
@@ -12054,22 +12054,7 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-"ws@npm:^7.3.1":
-  version: 7.4.2
-  resolution: "ws@npm:7.4.2"
-  peerDependencies:
-    bufferutil: ^4.0.1
-    utf-8-validate: ^5.0.2
-  peerDependenciesMeta:
-    bufferutil:
-      optional: true
-    utf-8-validate:
-      optional: true
-  checksum: 832efdf1440706058ac04708aa56da951b6e5d10d956e6d01f7a2a32cd3f67acaabea8feb4b578b041a55289e421fc4c48769cbcf02f4d42915eb918c3f7e496
-  languageName: node
-  linkType: hard
-
-"ws@npm:^7.4.5":
+"ws@npm:^7.4.5, ws@npm:^7.4.6":
   version: 7.4.6
   resolution: "ws@npm:7.4.6"
   peerDependencies:
