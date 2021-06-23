@@ -7111,7 +7111,7 @@ __metadata:
     http-server: 0.12.3
     jest: 27.0.5
     mini-css-extract-plugin: 1.6.0
-    optimize-css-assets-webpack-plugin: 6.0.0
+    optimize-css-assets-webpack-plugin: 6.0.1
     playwright-chromium: 1.12.2
     playwright-core: 1.12.2
     prettier: 2.3.1
@@ -8466,16 +8466,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"optimize-css-assets-webpack-plugin@npm:6.0.0":
-  version: 6.0.0
-  resolution: "optimize-css-assets-webpack-plugin@npm:6.0.0"
+"optimize-css-assets-webpack-plugin@npm:6.0.1":
+  version: 6.0.1
+  resolution: "optimize-css-assets-webpack-plugin@npm:6.0.1"
   dependencies:
     cssnano: ^5.0.2
     last-call-webpack-plugin: ^3.0.0
     postcss: ^8.2.1
   peerDependencies:
     webpack: ^4.0.0
-  checksum: 5d02e1263ede7c6a78f1bdac9cd52beb824dd8f64c9822818be713b4c6a1c669047a6e3c92855aa93aceb2ab2e20f3388cd49a9ba72854a63c8137fb6063b02d
+  checksum: ed893e07aab0f4ac8f138ad2504526b1534f1820e9ba6daab6221a42d37d8c2cd4b2744f9f88fa852b92af7d43caef3e86372a4c880889af1ef0ca8af738c190
   languageName: node
   linkType: hard
 
