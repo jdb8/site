@@ -7130,7 +7130,7 @@ __metadata:
     html-webpack-plugin: 4.5.2
     http-server: 0.12.3
     jest: 27.0.6
-    mini-css-extract-plugin: 2.0.0
+    mini-css-extract-plugin: 2.1.0
     optimize-css-assets-webpack-plugin: 6.0.1
     playwright-chromium: 1.12.3
     playwright-core: 1.12.3
@@ -7962,14 +7962,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mini-css-extract-plugin@npm:2.0.0":
-  version: 2.0.0
-  resolution: "mini-css-extract-plugin@npm:2.0.0"
+"mini-css-extract-plugin@npm:2.1.0":
+  version: 2.1.0
+  resolution: "mini-css-extract-plugin@npm:2.1.0"
   dependencies:
     schema-utils: ^3.0.0
   peerDependencies:
     webpack: ^5.0.0
-  checksum: 4b54e77a830a284b48cc71dbbf739b586ab9a63fec8356c9389e16205b068e0318f59d7355b8695fd6a779f6c324b9c29c60280527aaadbca2ef9c23f25b9a21
+  checksum: b219c2a053f97b1756e73050a520c466ca849aff57fb995ee1331d844e871179aa299eb810c3445b18cae4babed9506680dfb203ed6e241efeb92b826aaefb1d
   languageName: node
   linkType: hard
 
