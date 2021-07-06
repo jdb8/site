@@ -67,7 +67,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["purgecss-webpack-plugin", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:4.0.3"],
             ["sass", "npm:1.35.1"],
             ["sass-loader", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:12.1.0"],
-            ["start-server-and-test", "npm:1.12.5"],
+            ["start-server-and-test", "npm:1.12.6"],
             ["terser-webpack-plugin", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:5.1.4"],
             ["url-loader", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:4.1.1"],
             ["watchpack", "npm:2.1.1"],
@@ -4611,13 +4611,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "SOFT",
         }],
-        ["npm:4.3.1", {
-          "packageLocation": "./.yarn/cache/debug-npm-4.3.1-22e08d605e-0d41ba5177.zip/node_modules/debug/",
-          "packageDependencies": [
-            ["debug", "npm:4.3.1"]
-          ],
-          "linkType": "SOFT",
-        }],
         ["npm:4.3.2", {
           "packageLocation": "./.yarn/cache/debug-npm-4.3.2-f0148b6afe-5543570879.zip/node_modules/debug/",
           "packageDependencies": [
@@ -4654,18 +4647,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["debug", "virtual:d49388645023d1a9f290827e9892b2e5d87cf8aef7f18e9b163bebe9b849c3ea732fb1652f58447c27db955ea8e477790f0e823fd8080dd79265ddfc0a4c9d89#npm:2.6.9"],
             ["ms", "npm:2.0.0"],
-            ["supports-color", null]
-          ],
-          "packagePeers": [
-            "supports-color"
-          ],
-          "linkType": "HARD",
-        }],
-        ["virtual:e7d541cc32a77f5037ebf53b840756c05518d32e752e9f6cb8fd6135f60bc43e0e0c9f397e0f57a4cee422162f067ba38800b6fa675893821e7a317df750e18d#npm:4.3.1", {
-          "packageLocation": "./.yarn/$$virtual/debug-virtual-e2149025a4/0/cache/debug-npm-4.3.1-22e08d605e-0d41ba5177.zip/node_modules/debug/",
-          "packageDependencies": [
-            ["debug", "virtual:e7d541cc32a77f5037ebf53b840756c05518d32e752e9f6cb8fd6135f60bc43e0e0c9f397e0f57a4cee422162f067ba38800b6fa675893821e7a317df750e18d#npm:4.3.1"],
-            ["ms", "npm:2.1.2"],
             ["supports-color", null]
           ],
           "packagePeers": [
@@ -8497,7 +8478,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["purgecss-webpack-plugin", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:4.0.3"],
             ["sass", "npm:1.35.1"],
             ["sass-loader", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:12.1.0"],
-            ["start-server-and-test", "npm:1.12.5"],
+            ["start-server-and-test", "npm:1.12.6"],
             ["terser-webpack-plugin", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:5.1.4"],
             ["url-loader", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:4.1.1"],
             ["watchpack", "npm:2.1.1"],
@@ -12622,13 +12603,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["start-server-and-test", [
-        ["npm:1.12.5", {
-          "packageLocation": "./.yarn/cache/start-server-and-test-npm-1.12.5-e7d541cc32-6061062678.zip/node_modules/start-server-and-test/",
+        ["npm:1.12.6", {
+          "packageLocation": "./.yarn/cache/start-server-and-test-npm-1.12.6-c66bd5be42-ec4bc25dc6.zip/node_modules/start-server-and-test/",
           "packageDependencies": [
-            ["start-server-and-test", "npm:1.12.5"],
+            ["start-server-and-test", "npm:1.12.6"],
             ["bluebird", "npm:3.7.2"],
             ["check-more-types", "npm:2.24.0"],
-            ["debug", "virtual:e7d541cc32a77f5037ebf53b840756c05518d32e752e9f6cb8fd6135f60bc43e0e0c9f397e0f57a4cee422162f067ba38800b6fa675893821e7a317df750e18d#npm:4.3.1"],
+            ["debug", "virtual:d27045f313cae7cbc212b229738d5843f6d2265eba3ea36069f78075a79d301bc17e702a21a7b811ca9aa59de4cb7943fb27cda91a0e7d8a8ad547668124b185#npm:4.3.2"],
             ["execa", "npm:5.1.1"],
             ["lazy-ass", "npm:1.6.0"],
             ["ps-tree", "npm:1.2.0"],
