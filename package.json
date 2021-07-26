@@ -42,7 +42,7 @@
     "purgecss-webpack-plugin": "4.0.3",
     "sass": "1.36.0",
     "sass-loader": "12.1.0",
-    "start-server-and-test": "1.13.0",
+    "start-server-and-test": "1.13.1",
     "terser-webpack-plugin": "5.1.4",
     "url-loader": "4.1.1",
     "watchpack": "2.1.1",
