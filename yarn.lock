@@ -7131,7 +7131,7 @@ __metadata:
     playwright-core: 1.13.1
     prettier: 2.3.2
     purgecss-webpack-plugin: 4.0.3
-    sass: 1.37.3
+    sass: 1.37.5
     sass-loader: 12.1.0
     start-server-and-test: 1.13.1
     terser-webpack-plugin: 5.1.4
@@ -10204,14 +10204,14 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-"sass@npm:1.37.3":
-  version: 1.37.3
-  resolution: "sass@npm:1.37.3"
+"sass@npm:1.37.5":
+  version: 1.37.5
+  resolution: "sass@npm:1.37.5"
   dependencies:
     chokidar: ">=3.0.0 <4.0.0"
   bin:
     sass: sass.js
-  checksum: d1a9f6a25e807ecab0611258e7d3d8b085e947988c735d72746efface7d5aa3ae69f5b301cb5453ba923e4e942bd4b968fbe2ecb96e8d91bc60e8bc5535c373c
+  checksum: f7751f481cee57b075b49d5e992bcda66f353098a2fc6e6a906e7732fd5dc4544ce7cba0efdbd3d6c5734ebff792026a462f6fa36e99359b475e9094418a2373
   languageName: node
   linkType: hard
 
