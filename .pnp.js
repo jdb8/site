@@ -57,7 +57,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-react-hooks", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:4.2.0"],
             ["file-loader", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:6.2.0"],
             ["html-webpack-plugin", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:4.5.2"],
-            ["http-server", "npm:0.12.3"],
+            ["http-server", "npm:0.13.0"],
             ["jest", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:27.0.6"],
             ["mini-css-extract-plugin", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:2.2.0"],
             ["optimize-css-assets-webpack-plugin", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:6.0.1"],
@@ -5034,19 +5034,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
-      ["ecstatic", [
-        ["npm:3.3.2", {
-          "packageLocation": "./.yarn/cache/ecstatic-npm-3.3.2-35099559aa-a6185a71da.zip/node_modules/ecstatic/",
-          "packageDependencies": [
-            ["ecstatic", "npm:3.3.2"],
-            ["he", "npm:1.2.0"],
-            ["mime", "npm:1.6.0"],
-            ["minimist", "npm:1.2.5"],
-            ["url-join", "npm:2.0.5"]
-          ],
-          "linkType": "HARD",
-        }]
-      ]],
       ["ee-first", [
         ["npm:1.1.1", {
           "packageLocation": "./.yarn/cache/ee-first-npm-1.1.1-33f8535b39-ba74f91398.zip/node_modules/ee-first/",
@@ -6988,20 +6975,22 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["http-server", [
-        ["npm:0.12.3", {
-          "packageLocation": "./.yarn/cache/http-server-npm-0.12.3-798b1680fa-cbb1f5b926.zip/node_modules/http-server/",
+        ["npm:0.13.0", {
+          "packageLocation": "./.yarn/cache/http-server-npm-0.13.0-1cf2d3378e-847c5d79ee.zip/node_modules/http-server/",
           "packageDependencies": [
-            ["http-server", "npm:0.12.3"],
+            ["http-server", "npm:0.13.0"],
             ["basic-auth", "npm:1.1.0"],
             ["colors", "npm:1.4.0"],
             ["corser", "npm:2.0.1"],
-            ["ecstatic", "npm:3.3.2"],
+            ["he", "npm:1.2.0"],
             ["http-proxy", "npm:1.18.1"],
+            ["mime", "npm:1.6.0"],
             ["minimist", "npm:1.2.5"],
             ["opener", "npm:1.5.2"],
             ["portfinder", "npm:1.0.28"],
             ["secure-compare", "npm:3.0.1"],
-            ["union", "npm:0.5.0"]
+            ["union", "npm:0.5.0"],
+            ["url-join", "npm:2.0.5"]
           ],
           "linkType": "HARD",
         }]
@@ -8488,7 +8477,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-react-hooks", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:4.2.0"],
             ["file-loader", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:6.2.0"],
             ["html-webpack-plugin", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:4.5.2"],
-            ["http-server", "npm:0.12.3"],
+            ["http-server", "npm:0.13.0"],
             ["jest", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:27.0.6"],
             ["mini-css-extract-plugin", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:2.2.0"],
             ["optimize-css-assets-webpack-plugin", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:6.0.1"],
