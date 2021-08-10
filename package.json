@@ -13,7 +13,7 @@
   "author": "Joe Bateson",
   "devDependencies": {
     "@jbateson/eslint-config": "2.3.0",
-    "@lhci/cli": "0.5.1",
+    "@lhci/cli": "0.8.0",
     "@typescript-eslint/eslint-plugin": "4.29.1",
     "@typescript-eslint/parser": "4.29.1",
     "@yarnpkg/pnpify": "2.4.0",
