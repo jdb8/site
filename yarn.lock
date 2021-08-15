@@ -4417,7 +4417,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-import-resolver-node@npm:0.3.5, eslint-import-resolver-node@npm:^0.3.5":
+"eslint-import-resolver-node@npm:0.3.6":
+  version: 0.3.6
+  resolution: "eslint-import-resolver-node@npm:0.3.6"
+  dependencies:
+    debug: ^3.2.7
+    resolve: ^1.20.0
+  checksum: 92e394bf0d61ac3bbedda3bf86fc27f662e9e08ce4586572fe0e443f3b784b5068441ae94d0114db82fa6651212d52b3008e36ca8f290a5ccd929af873046071
+  languageName: node
+  linkType: hard
+
+"eslint-import-resolver-node@npm:^0.3.5":
   version: 0.3.5
   resolution: "eslint-import-resolver-node@npm:0.3.5"
   dependencies:
@@ -6991,7 +7001,7 @@ __metadata:
     css-loader: 6.2.0
     eslint: 6.8.0
     eslint-config-prettier: 8.3.0
-    eslint-import-resolver-node: 0.3.5
+    eslint-import-resolver-node: 0.3.6
     eslint-plugin-flowtype: 5.9.0
     eslint-plugin-import: 2.24.0
     eslint-plugin-jsx-a11y: 6.4.1
