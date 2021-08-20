@@ -5707,9 +5707,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"http-server@npm:13.0.0":
-  version: 13.0.0
-  resolution: "http-server@npm:13.0.0"
+"http-server@npm:13.0.1":
+  version: 13.0.1
+  resolution: "http-server@npm:13.0.1"
   dependencies:
     basic-auth: ^1.0.3
     colors: ^1.4.0
@@ -5724,9 +5724,8 @@ __metadata:
     union: ~0.5.0
     url-join: ^2.0.5
   bin:
-    hs: bin/http-server
     http-server: bin/http-server
-  checksum: 915988b6ba663f9bf56cca3a5f1d50d59c7a05b62e1dbfc320cd734eefff0c86bdc419f2359d58b4d77ac06384440ace0b54c083bf78d3afefe57f9175f617b7
+  checksum: 996cbc7a6d117734c7b3b4623e00b7a31c18b3915794621dffef73adc8851bb761b8866afa6abc275f4a94afdb5e8595c498e82900f75c4adc0e59fcf604c720
   languageName: node
   linkType: hard
 
@@ -7000,7 +6999,7 @@ __metadata:
     eslint-plugin-react-hooks: 4.2.0
     file-loader: 6.2.0
     html-webpack-plugin: 4.5.2
-    http-server: 13.0.0
+    http-server: 13.0.1
     jest: 27.0.6
     mini-css-extract-plugin: 2.2.0
     optimize-css-assets-webpack-plugin: 6.0.1
