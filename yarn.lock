@@ -4437,15 +4437,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-flowtype@npm:5.9.0":
-  version: 5.9.0
-  resolution: "eslint-plugin-flowtype@npm:5.9.0"
+"eslint-plugin-flowtype@npm:5.9.2":
+  version: 5.9.2
+  resolution: "eslint-plugin-flowtype@npm:5.9.2"
   dependencies:
     lodash: ^4.17.15
     string-natural-compare: ^3.0.1
   peerDependencies:
     eslint: ^7.1.0
-  checksum: 1d5aea1f1e7c3c32c26351b9470c106bb3c42ec7b145098e448d34fcc2023b7af7417f0ec04594567431498492ad0c2e7a15d26a257a4823e345b984037e3039
+  checksum: fce01666f89583952981d6b48181fdcaf866ecf4ad1df3e6ad5a388c001ea39e916a57d43918da0a28d9c102969272ededcd8912a2d935bad306d56555d2c7eb
   languageName: node
   linkType: hard
 
@@ -6992,7 +6992,7 @@ __metadata:
     eslint: 6.8.0
     eslint-config-prettier: 8.3.0
     eslint-import-resolver-node: 0.3.5
-    eslint-plugin-flowtype: 5.9.0
+    eslint-plugin-flowtype: 5.9.2
     eslint-plugin-import: 2.24.0
     eslint-plugin-jsx-a11y: 6.4.1
     eslint-plugin-prettier: 3.4.0
