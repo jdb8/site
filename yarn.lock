@@ -916,11 +916,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@lhci/cli@npm:0.8.0":
-  version: 0.8.0
-  resolution: "@lhci/cli@npm:0.8.0"
+"@lhci/cli@npm:0.8.1":
+  version: 0.8.1
+  resolution: "@lhci/cli@npm:0.8.1"
   dependencies:
-    "@lhci/utils": 0.8.0
+    "@lhci/utils": 0.8.1
     chrome-launcher: ^0.13.4
     compression: ^1.7.4
     debug: ^4.3.1
@@ -937,20 +937,20 @@ __metadata:
     yargs-parser: ^13.1.2
   bin:
     lhci: ./src/cli.js
-  checksum: 95b4688c5c4da7f2a53337c3b76e9312fbb1b32a07309f8ea2c8101ba4a7233e66784e2ed0d6e0e25247039156cdd4cab4295316d36f0753c84a5f11cb7eff15
+  checksum: 9ca24d9e3564bc625147b232daadae49284fb73ae54169affc415e4eed95bd32902d85266f70c955957b54c2cd67ab3bf7d84dd50287ad6cef7f346f7a1f4268
   languageName: node
   linkType: hard
 
-"@lhci/utils@npm:0.8.0":
-  version: 0.8.0
-  resolution: "@lhci/utils@npm:0.8.0"
+"@lhci/utils@npm:0.8.1":
+  version: 0.8.1
+  resolution: "@lhci/utils@npm:0.8.1"
   dependencies:
     debug: ^4.3.1
     isomorphic-fetch: ^3.0.0
     js-yaml: ^3.13.1
     lighthouse: 8.0.0
     tree-kill: ^1.2.1
-  checksum: ccf359864106d238ec6f14ee633568403c9af1790dfa86e403acae636226a349d83a343d1829ec6e0269f832a090e64666bd2a7da3915b2703479b2c78d89244
+  checksum: 91f014736cc602e36c97b12f31dd31f13f8db4dd28725dd31bb1e35677ed50be5b46fd4a65d1238aba78b6877e175aa70a2e565cc4fbfc01a1f260c0c8d95c6d
   languageName: node
   linkType: hard
 
@@ -6981,7 +6981,7 @@ __metadata:
   resolution: "joebateson.com@workspace:."
   dependencies:
     "@jbateson/eslint-config": 2.3.0
-    "@lhci/cli": 0.8.0
+    "@lhci/cli": 0.8.1
     "@typescript-eslint/eslint-plugin": 4.29.1
     "@typescript-eslint/parser": 4.29.1
     "@yarnpkg/pnpify": 2.4.0
