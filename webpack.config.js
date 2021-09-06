@@ -1,12 +1,12 @@
 const path = require('path');
 
+const InlineChunkHtmlPlugin = require('./InlineChunkHtmlPlugin');
+
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 const PurgecssPlugin = require('purgecss-webpack-plugin');
-
-const InlineChunkHtmlPlugin = require('./InlineChunkHtmlPlugin');
 
 const HTML_MINIFY_OPTIONS = {
   removeComments: true,
@@ -55,13 +55,6 @@ module.exports = {
           },
         ],
       },
-      {
-        test: /\.(png|woff|woff2|eot|ttf|svg)$/,
-        loader: 'url-loader',
-        options: {
-          limit: 1,
-        },
-      },
     ],
   },
   plugins: [
@@ -79,6 +72,8 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './index.html',
       minify: HTML_MINIFY_OPTIONS,
+      // We use the InlineChunkHtmlPlugin to inject, so we don't want deferral
+      scriptLoading: 'blocking',
     }),
 
     new HtmlWebpackPlugin({
