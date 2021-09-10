@@ -16,7 +16,7 @@
     "@lhci/cli": "0.8.1",
     "@typescript-eslint/eslint-plugin": "4.31.0",
     "@typescript-eslint/parser": "4.31.0",
-    "@yarnpkg/pnpify": "3.0.1-rc.2",
+    "@yarnpkg/pnpify": "3.0.1-rc.3",
     "axe-playwright": "1.1.9",
     "babel-eslint": "10.1.0",
     "copy-webpack-plugin": "9.0.1",
