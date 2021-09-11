@@ -57,7 +57,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["html-webpack-plugin", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:5.3.2"],
             ["http-server", "npm:13.0.1"],
             ["jest", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:27.1.1"],
-            ["mini-css-extract-plugin", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:2.2.2"],
+            ["mini-css-extract-plugin", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:2.3.0"],
             ["optimize-css-assets-webpack-plugin", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:6.0.1"],
             ["playwright-chromium", "npm:1.14.1"],
             ["playwright-core", "npm:1.14.1"],
@@ -7750,7 +7750,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["html-webpack-plugin", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:5.3.2"],
             ["http-server", "npm:13.0.1"],
             ["jest", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:27.1.1"],
-            ["mini-css-extract-plugin", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:2.2.2"],
+            ["mini-css-extract-plugin", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:2.3.0"],
             ["optimize-css-assets-webpack-plugin", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:6.0.1"],
             ["playwright-chromium", "npm:1.14.1"],
             ["playwright-core", "npm:1.14.1"],
@@ -8575,17 +8575,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["mini-css-extract-plugin", [
-        ["npm:2.2.2", {
-          "packageLocation": "./.yarn/cache/mini-css-extract-plugin-npm-2.2.2-7fa73b2c0b-8b4504b588.zip/node_modules/mini-css-extract-plugin/",
+        ["npm:2.3.0", {
+          "packageLocation": "./.yarn/cache/mini-css-extract-plugin-npm-2.3.0-8fc60ba089-3c2f5ff29b.zip/node_modules/mini-css-extract-plugin/",
           "packageDependencies": [
-            ["mini-css-extract-plugin", "npm:2.2.2"]
+            ["mini-css-extract-plugin", "npm:2.3.0"]
           ],
           "linkType": "SOFT",
         }],
-        ["virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:2.2.2", {
-          "packageLocation": "./.yarn/__virtual__/mini-css-extract-plugin-virtual-800aa6dc4a/0/cache/mini-css-extract-plugin-npm-2.2.2-7fa73b2c0b-8b4504b588.zip/node_modules/mini-css-extract-plugin/",
+        ["virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:2.3.0", {
+          "packageLocation": "./.yarn/__virtual__/mini-css-extract-plugin-virtual-59711962ec/0/cache/mini-css-extract-plugin-npm-2.3.0-8fc60ba089-3c2f5ff29b.zip/node_modules/mini-css-extract-plugin/",
           "packageDependencies": [
-            ["mini-css-extract-plugin", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:2.2.2"],
+            ["mini-css-extract-plugin", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:2.3.0"],
             ["@types/webpack", null],
             ["schema-utils", "npm:3.1.1"],
             ["webpack", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:5.52.1"]
