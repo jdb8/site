@@ -14,8 +14,8 @@
   "devDependencies": {
     "@jbateson/eslint-config": "2.3.0",
     "@lhci/cli": "0.8.1",
-    "@typescript-eslint/eslint-plugin": "4.31.0",
-    "@typescript-eslint/parser": "4.31.0",
+    "@typescript-eslint/eslint-plugin": "4.31.1",
+    "@typescript-eslint/parser": "4.31.1",
     "@yarnpkg/pnpify": "3.0.1-rc.4",
     "axe-playwright": "1.1.9",
     "babel-eslint": "10.1.0",
