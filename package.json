@@ -45,6 +45,8 @@
   },
   "prettier": {
     "singleQuote": true,
-    "trailingComma": "all"
+    "trailingComma": "all",
+    "tabWidth": 2,
+    "printWidth": 110
   }
 }
