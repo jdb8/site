@@ -5,7 +5,7 @@ const InlineChunkHtmlPlugin = require('./InlineChunkHtmlPlugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
-const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
+const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
 const PurgecssPlugin = require('purgecss-webpack-plugin');
 
 const HTML_MINIFY_OPTIONS = {
@@ -19,10 +19,6 @@ const HTML_MINIFY_OPTIONS = {
   minifyJS: true,
   minifyCSS: true,
   minifyURLs: true,
-};
-
-const CSS_MINIFY_OPTIONS = {
-  discardComments: { removeAll: true },
 };
 
 module.exports = {
@@ -50,15 +46,13 @@ module.exports = {
       },
     ],
   },
+  optimization: {
+    minimizer: ['...', new CssMinimizerPlugin()],
+  },
   plugins: [
     new MiniCssExtractPlugin({
       filename: 'inlined-styles.css',
       experimentalUseImportModule: true,
-    }),
-    new OptimizeCssAssetsPlugin({
-      cssProcessorPluginOptions: {
-        preset: ['default', CSS_MINIFY_OPTIONS],
-      },
     }),
 
     new InlineChunkHtmlPlugin(HtmlWebpackPlugin, [/inlined-.+/]),
