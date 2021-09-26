@@ -37,7 +37,7 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.s?css$/,
+        test: /\.css$/,
         use: [
           {
             loader: MiniCssExtractPlugin.loader,
@@ -46,13 +46,6 @@ module.exports = {
             },
           },
           'css-loader',
-          {
-            loader: 'sass-loader',
-            options: {
-              // Prefer `dart-sass`
-              implementation: require('sass'),
-            },
-          },
         ],
       },
     ],
@@ -60,6 +53,7 @@ module.exports = {
   plugins: [
     new MiniCssExtractPlugin({
       filename: 'inlined-styles.css',
+      experimentalUseImportModule: true,
     }),
     new OptimizeCssAssetsPlugin({
       cssProcessorPluginOptions: {

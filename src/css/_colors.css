@@ -1,0 +1,18 @@
+/* Current theme: SynthWave '84 (https://github.com/robb0wen/synthwave-vscode) */
+
+:root {
+    --darken-percent: 5%;
+
+    --background-color: #262335;
+    --text-color: hsl(0, 0%, 100%); /* white */
+    --comment-color: #495495;
+    --link-color: var(--text-color);
+    --dark-link-color: hsl(0, 0%, calc(100% - var(--darken-percent)));
+    --tag-color: #72f1b8;
+    --keyword-color: #fede5d;
+    --value-color: hsl(25, 100%, 61%); /* #ff8b39 */
+    --dark-value-color: hsl(25, 100%, calc(61% - var(--darken-percent)));
+
+    /* 0.99 to account for http://stackoverflow.com/a/7224621 */
+    --selection-color: rgba(68, 71, 90, 0.99);
+}
