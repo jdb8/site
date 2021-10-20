@@ -55,7 +55,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-react", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:7.26.1"],
             ["eslint-plugin-react-hooks", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:4.2.0"],
             ["html-webpack-plugin", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:5.4.0"],
-            ["http-server", "npm:13.0.2"],
+            ["http-server", "npm:14.0.0"],
             ["jest", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:27.3.1"],
             ["mini-css-extract-plugin", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:2.4.2"],
             ["playwright-chromium", "npm:1.15.2"],
@@ -2978,10 +2978,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["basic-auth", [
-        ["npm:1.1.0", {
-          "packageLocation": "./.yarn/cache/basic-auth-npm-1.1.0-8eab57a059-a248a4b125.zip/node_modules/basic-auth/",
+        ["npm:2.0.1", {
+          "packageLocation": "./.yarn/cache/basic-auth-npm-2.0.1-f1627ef330-3419b805d5.zip/node_modules/basic-auth/",
           "packageDependencies": [
-            ["basic-auth", "npm:1.1.0"]
+            ["basic-auth", "npm:2.0.1"],
+            ["safe-buffer", "npm:5.1.2"]
           ],
           "linkType": "HARD",
         }]
@@ -6230,6 +6231,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["whatwg-encoding", "npm:1.0.5"]
           ],
           "linkType": "HARD",
+        }],
+        ["npm:3.0.0", {
+          "packageLocation": "./.yarn/cache/html-encoding-sniffer-npm-3.0.0-daac3dfe41-8d806aa004.zip/node_modules/html-encoding-sniffer/",
+          "packageDependencies": [
+            ["html-encoding-sniffer", "npm:3.0.0"],
+            ["whatwg-encoding", "npm:2.0.0"]
+          ],
+          "linkType": "HARD",
         }]
       ]],
       ["html-escaper", [
@@ -6366,14 +6375,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["http-server", [
-        ["npm:13.0.2", {
-          "packageLocation": "./.yarn/cache/http-server-npm-13.0.2-6237f841a5-04ce03f515.zip/node_modules/http-server/",
+        ["npm:14.0.0", {
+          "packageLocation": "./.yarn/cache/http-server-npm-14.0.0-fb39a7f2f7-2b7d0f86e7.zip/node_modules/http-server/",
           "packageDependencies": [
-            ["http-server", "npm:13.0.2"],
-            ["basic-auth", "npm:1.1.0"],
+            ["http-server", "npm:14.0.0"],
+            ["basic-auth", "npm:2.0.1"],
             ["colors", "npm:1.4.0"],
             ["corser", "npm:2.0.1"],
             ["he", "npm:1.2.0"],
+            ["html-encoding-sniffer", "npm:3.0.0"],
             ["http-proxy", "npm:1.18.1"],
             ["mime", "npm:1.6.0"],
             ["minimist", "npm:1.2.5"],
@@ -6381,7 +6391,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["portfinder", "npm:1.0.28"],
             ["secure-compare", "npm:3.0.1"],
             ["union", "npm:0.5.0"],
-            ["url-join", "npm:2.0.5"]
+            ["url-join", "npm:4.0.1"]
           ],
           "linkType": "HARD",
         }]
@@ -6434,6 +6444,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/iconv-lite-npm-0.4.24-c5c4ac6695-bd9f120f5a.zip/node_modules/iconv-lite/",
           "packageDependencies": [
             ["iconv-lite", "npm:0.4.24"],
+            ["safer-buffer", "npm:2.1.2"]
+          ],
+          "linkType": "HARD",
+        }],
+        ["npm:0.6.3", {
+          "packageLocation": "./.yarn/cache/iconv-lite-npm-0.6.3-24b8aae27e-3f60d47a5c.zip/node_modules/iconv-lite/",
+          "packageDependencies": [
+            ["iconv-lite", "npm:0.6.3"],
             ["safer-buffer", "npm:2.1.2"]
           ],
           "linkType": "HARD",
@@ -7716,7 +7734,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-react", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:7.26.1"],
             ["eslint-plugin-react-hooks", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:4.2.0"],
             ["html-webpack-plugin", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:5.4.0"],
-            ["http-server", "npm:13.0.2"],
+            ["http-server", "npm:14.0.0"],
             ["jest", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:27.3.1"],
             ["mini-css-extract-plugin", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:2.4.2"],
             ["playwright-chromium", "npm:1.15.2"],
@@ -12315,10 +12333,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["url-join", [
-        ["npm:2.0.5", {
-          "packageLocation": "./.yarn/cache/url-join-npm-2.0.5-30916ff613-5c935cc99e.zip/node_modules/url-join/",
+        ["npm:4.0.1", {
+          "packageLocation": "./.yarn/cache/url-join-npm-4.0.1-e1f4415722-f74e868bf2.zip/node_modules/url-join/",
           "packageDependencies": [
-            ["url-join", "npm:2.0.5"]
+            ["url-join", "npm:4.0.1"]
           ],
           "linkType": "HARD",
         }]
@@ -12626,6 +12644,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["whatwg-encoding", "npm:1.0.5"],
             ["iconv-lite", "npm:0.4.24"]
+          ],
+          "linkType": "HARD",
+        }],
+        ["npm:2.0.0", {
+          "packageLocation": "./.yarn/cache/whatwg-encoding-npm-2.0.0-d7451f51b4-7087810c41.zip/node_modules/whatwg-encoding/",
+          "packageDependencies": [
+            ["whatwg-encoding", "npm:2.0.0"],
+            ["iconv-lite", "npm:0.6.3"]
           ],
           "linkType": "HARD",
         }]
