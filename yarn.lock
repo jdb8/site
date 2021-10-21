@@ -1655,7 +1655,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"agent-base@npm:6":
+"agent-base@npm:6, agent-base@npm:^6.0.2":
   version: 6.0.2
   resolution: "agent-base@npm:6.0.2"
   dependencies:
@@ -2681,7 +2681,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"commander@npm:^6.0.0, commander@npm:^6.1.0":
+"commander@npm:^6.0.0":
   version: 6.2.1
   resolution: "commander@npm:6.2.1"
   checksum: d7090410c0de6bc5c67d3ca41c41760d6d268f3c799e530aafb73b7437d1826bbf0d2a3edac33f8b57cc9887b4a986dce307fa5557e109be40eadb7c43b21742
@@ -2695,7 +2695,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"commander@npm:^8.1.0":
+"commander@npm:^8.1.0, commander@npm:^8.2.0":
   version: 8.2.0
   resolution: "commander@npm:8.2.0"
   checksum: e868805bc266777f7a9c8a740e15b9e02b8148d8251f577ea9b9ef373ac0bdeb77b9b60cfc033592c9e1affea89993be08c13c623f0c619f9bf152c0e4d12cb0
@@ -5194,6 +5194,13 @@ fsevents@^2.3.2:
   languageName: node
   linkType: hard
 
+"ip@npm:^1.1.5":
+  version: 1.1.5
+  resolution: "ip@npm:1.1.5"
+  checksum: 30133981f082a060a32644f6a7746e9ba7ac9e2bc07ecc8bbdda3ee8ca9bec1190724c390e45a1ee7695e7edfd2a8f7dda2c104ec5f7ac5068c00648504c7e5a
+  languageName: node
+  linkType: hard
+
 "ipaddr.js@npm:1.9.1":
   version: 1.9.1
   resolution: "ipaddr.js@npm:1.9.1"
@@ -6162,8 +6169,8 @@ fsevents@^2.3.2:
     http-server: 14.0.0
     jest: 27.3.1
     mini-css-extract-plugin: 2.4.3
-    playwright-chromium: 1.15.2
-    playwright-core: 1.15.2
+    playwright-chromium: 1.16.0
+    playwright-core: 1.16.0
     prettier: 2.4.1
     purgecss-webpack-plugin: 4.0.3
     start-server-and-test: 1.14.0
@@ -7655,35 +7662,22 @@ fsevents@^2.3.2:
   languageName: node
   linkType: hard
 
-"playwright-chromium@npm:1.15.2":
-  version: 1.15.2
-  resolution: "playwright-chromium@npm:1.15.2"
+"playwright-chromium@npm:1.16.0":
+  version: 1.16.0
+  resolution: "playwright-chromium@npm:1.16.0"
   dependencies:
-    commander: ^6.1.0
-    debug: ^4.1.1
-    extract-zip: ^2.0.1
-    https-proxy-agent: ^5.0.0
-    jpeg-js: ^0.4.2
-    mime: ^2.4.6
-    pngjs: ^5.0.0
-    progress: ^2.0.3
-    proper-lockfile: ^4.1.1
-    proxy-from-env: ^1.1.0
-    rimraf: ^3.0.2
-    stack-utils: ^2.0.3
-    ws: ^7.4.6
-    yazl: ^2.5.1
+    playwright-core: =1.16.0
   bin:
-    playwright: lib/cli/cli.js
-  checksum: e8a9d557331170c25854196c6da8f0cbfe36ed4c18547eeacff74da3ec5390dce820e120ed0036c1e6eb21af2bf8401289adbe3261b6ea55aee163d3a66a2ece
+    playwright: cli.js
+  checksum: 1a4948414a532b05b6bcd2f69040f91ce72685aba5d3a152abeff5f97e514a98f12c71e92a9d1065aa03f073df4c9fe8e6b59919ad233b4fe53562e22a0daaa3
   languageName: node
   linkType: hard
 
-"playwright-core@npm:1.15.2":
-  version: 1.15.2
-  resolution: "playwright-core@npm:1.15.2"
+"playwright-core@npm:1.16.0, playwright-core@npm:=1.16.0":
+  version: 1.16.0
+  resolution: "playwright-core@npm:1.16.0"
   dependencies:
-    commander: ^6.1.0
+    commander: ^8.2.0
     debug: ^4.1.1
     extract-zip: ^2.0.1
     https-proxy-agent: ^5.0.0
@@ -7694,12 +7688,14 @@ fsevents@^2.3.2:
     proper-lockfile: ^4.1.1
     proxy-from-env: ^1.1.0
     rimraf: ^3.0.2
+    socks-proxy-agent: ^6.1.0
     stack-utils: ^2.0.3
     ws: ^7.4.6
+    yauzl: ^2.10.0
     yazl: ^2.5.1
   bin:
-    playwright: lib/cli/cli.js
-  checksum: ebb4d5e26fc9e1fc74cb9677a3d50528d7cbfd25af267b5db9a94da93da67285eebf78f9f85dfbbbca902ae8514374e527ad3a33e7dd24c62c6b276b3ef2f9a3
+    playwright: cli.js
+  checksum: 13ee67d39d44eced5a2af32c5c9b465095977e1894d8fc55f20a2e6ae0c094473d74bbf5407155a94f9ee78f6d6bb7d9f6345bfe794cdc470752ebe4b183ab04
   languageName: node
   linkType: hard
 
@@ -9027,6 +9023,34 @@ resolve@^2.0.0-next.3:
     astral-regex: ^2.0.0
     is-fullwidth-code-point: ^3.0.0
   checksum: 4a82d7f085b0e1b070e004941ada3c40d3818563ac44766cca4ceadd2080427d337554f9f99a13aaeb3b4a94d9964d9466c807b3d7b7541d1ec37ee32d308756
+  languageName: node
+  linkType: hard
+
+"smart-buffer@npm:^4.1.0":
+  version: 4.2.0
+  resolution: "smart-buffer@npm:4.2.0"
+  checksum: b5167a7142c1da704c0e3af85c402002b597081dd9575031a90b4f229ca5678e9a36e8a374f1814c8156a725d17008ae3bde63b92f9cfd132526379e580bec8b
+  languageName: node
+  linkType: hard
+
+"socks-proxy-agent@npm:^6.1.0":
+  version: 6.1.0
+  resolution: "socks-proxy-agent@npm:6.1.0"
+  dependencies:
+    agent-base: ^6.0.2
+    debug: ^4.3.1
+    socks: ^2.6.1
+  checksum: 32ea0d62c848b5c246955e8d6c34832fe6cd8c5f3b66f5ace3a9bd7387bafae3e67d96474d41291723ba7135e2da46d65e008a8a35a793dfa5cb0f4ac05429df
+  languageName: node
+  linkType: hard
+
+"socks@npm:^2.6.1":
+  version: 2.6.1
+  resolution: "socks@npm:2.6.1"
+  dependencies:
+    ip: ^1.1.5
+    smart-buffer: ^4.1.0
+  checksum: 2ca9d616e424f645838ebaabb04f85d94ea999e0f8393dc07f86c435af22ed88cb83958feeabd1bb7bc537c635ed47454255635502c6808a6df61af1f41af750
   languageName: node
   linkType: hard
 
