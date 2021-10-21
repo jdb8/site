@@ -57,7 +57,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["html-webpack-plugin", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:5.4.0"],
             ["http-server", "npm:14.0.0"],
             ["jest", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:27.3.1"],
-            ["mini-css-extract-plugin", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:2.4.2"],
+            ["mini-css-extract-plugin", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:2.4.3"],
             ["playwright-chromium", "npm:1.15.2"],
             ["playwright-core", "npm:1.15.2"],
             ["prettier", "npm:2.4.1"],
@@ -7736,7 +7736,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["html-webpack-plugin", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:5.4.0"],
             ["http-server", "npm:14.0.0"],
             ["jest", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:27.3.1"],
-            ["mini-css-extract-plugin", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:2.4.2"],
+            ["mini-css-extract-plugin", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:2.4.3"],
             ["playwright-chromium", "npm:1.15.2"],
             ["playwright-core", "npm:1.15.2"],
             ["prettier", "npm:2.4.1"],
@@ -8535,17 +8535,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["mini-css-extract-plugin", [
-        ["npm:2.4.2", {
-          "packageLocation": "./.yarn/cache/mini-css-extract-plugin-npm-2.4.2-606da34cbe-c413b4fd0b.zip/node_modules/mini-css-extract-plugin/",
+        ["npm:2.4.3", {
+          "packageLocation": "./.yarn/cache/mini-css-extract-plugin-npm-2.4.3-4dd8ad3f8c-bee9d5f5c8.zip/node_modules/mini-css-extract-plugin/",
           "packageDependencies": [
-            ["mini-css-extract-plugin", "npm:2.4.2"]
+            ["mini-css-extract-plugin", "npm:2.4.3"]
           ],
           "linkType": "SOFT",
         }],
-        ["virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:2.4.2", {
-          "packageLocation": "./.yarn/__virtual__/mini-css-extract-plugin-virtual-ef2440bfab/0/cache/mini-css-extract-plugin-npm-2.4.2-606da34cbe-c413b4fd0b.zip/node_modules/mini-css-extract-plugin/",
+        ["virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:2.4.3", {
+          "packageLocation": "./.yarn/__virtual__/mini-css-extract-plugin-virtual-b442639140/0/cache/mini-css-extract-plugin-npm-2.4.3-4dd8ad3f8c-bee9d5f5c8.zip/node_modules/mini-css-extract-plugin/",
           "packageDependencies": [
-            ["mini-css-extract-plugin", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:2.4.2"],
+            ["mini-css-extract-plugin", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:2.4.3"],
             ["@types/webpack", null],
             ["schema-utils", "npm:3.1.1"],
             ["webpack", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:5.59.1"]
