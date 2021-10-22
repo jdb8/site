@@ -58,8 +58,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["http-server", "npm:14.0.0"],
             ["jest", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:27.3.1"],
             ["mini-css-extract-plugin", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:2.4.3"],
-            ["playwright-chromium", "npm:1.16.0"],
-            ["playwright-core", "npm:1.16.0"],
+            ["playwright-chromium", "npm:1.16.1"],
+            ["playwright-core", "npm:1.16.1"],
             ["prettier", "npm:2.4.1"],
             ["purgecss-webpack-plugin", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:4.0.3"],
             ["start-server-and-test", "npm:1.14.0"],
@@ -2774,7 +2774,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["axe-playwright", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:1.1.9"],
             ["@types/playwright-core", null],
             ["axe-core", "npm:4.2.1"],
-            ["playwright-core", "npm:1.16.0"]
+            ["playwright-core", "npm:1.16.1"]
           ],
           "packagePeers": [
             "@types/playwright-core",
@@ -7746,8 +7746,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["http-server", "npm:14.0.0"],
             ["jest", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:27.3.1"],
             ["mini-css-extract-plugin", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:2.4.3"],
-            ["playwright-chromium", "npm:1.16.0"],
-            ["playwright-core", "npm:1.16.0"],
+            ["playwright-chromium", "npm:1.16.1"],
+            ["playwright-core", "npm:1.16.1"],
             ["prettier", "npm:2.4.1"],
             ["purgecss-webpack-plugin", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:4.0.3"],
             ["start-server-and-test", "npm:1.14.0"],
@@ -7857,7 +7857,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["whatwg-encoding", "npm:1.0.5"],
             ["whatwg-mimetype", "npm:2.3.0"],
             ["whatwg-url", "npm:8.5.0"],
-            ["ws", "virtual:40944fc445ef1c165751f7faa55775cf695d6068f2fa6eae70752cfce4aabdebed0365c2b869125620d066157430e521c1fb2857e749b625814b9109d201beb4#npm:7.4.6"],
+            ["ws", "virtual:4431ca12481a5deb4ba5a17730f980ceab75f8035cb8f71efc25872cd16a6ec5d3d21ea95a0b605b4b23cc879a8792792386b964a265ac8f244bf27691a7b1c5#npm:7.4.6"],
             ["xml-name-validator", "npm:3.0.0"]
           ],
           "packagePeers": [
@@ -9435,20 +9435,20 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["playwright-chromium", [
-        ["npm:1.16.0", {
-          "packageLocation": "./.yarn/unplugged/playwright-chromium-npm-1.16.0-6ddb06f62a/node_modules/playwright-chromium/",
+        ["npm:1.16.1", {
+          "packageLocation": "./.yarn/unplugged/playwright-chromium-npm-1.16.1-3aa310316a/node_modules/playwright-chromium/",
           "packageDependencies": [
-            ["playwright-chromium", "npm:1.16.0"],
-            ["playwright-core", "npm:1.16.0"]
+            ["playwright-chromium", "npm:1.16.1"],
+            ["playwright-core", "npm:1.16.1"]
           ],
           "linkType": "HARD",
         }]
       ]],
       ["playwright-core", [
-        ["npm:1.16.0", {
-          "packageLocation": "./.yarn/unplugged/playwright-core-npm-1.16.0-40944fc445/node_modules/playwright-core/",
+        ["npm:1.16.1", {
+          "packageLocation": "./.yarn/unplugged/playwright-core-npm-1.16.1-4431ca1248/node_modules/playwright-core/",
           "packageDependencies": [
-            ["playwright-core", "npm:1.16.0"],
+            ["playwright-core", "npm:1.16.1"],
             ["commander", "npm:8.2.0"],
             ["debug", "virtual:ad01ee799ecfde69459aef99d6fcf821d4556cd51a2a55d6b6c60b8f9fabaf1e822a9f875172b70d9e11ce1c2a53328e828fe3cb1e3f487be2ec1fe7ed9f39e3#npm:4.3.2"],
             ["extract-zip", "npm:2.0.1"],
@@ -9462,7 +9462,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["rimraf", "npm:3.0.2"],
             ["socks-proxy-agent", "npm:6.1.0"],
             ["stack-utils", "npm:2.0.3"],
-            ["ws", "virtual:40944fc445ef1c165751f7faa55775cf695d6068f2fa6eae70752cfce4aabdebed0365c2b869125620d066157430e521c1fb2857e749b625814b9109d201beb4#npm:7.4.6"],
+            ["ws", "virtual:4431ca12481a5deb4ba5a17730f980ceab75f8035cb8f71efc25872cd16a6ec5d3d21ea95a0b605b4b23cc879a8792792386b964a265ac8f244bf27691a7b1c5#npm:7.4.6"],
             ["yauzl", "npm:2.10.0"],
             ["yazl", "npm:2.5.1"]
           ],
@@ -12872,10 +12872,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "SOFT",
         }],
-        ["virtual:40944fc445ef1c165751f7faa55775cf695d6068f2fa6eae70752cfce4aabdebed0365c2b869125620d066157430e521c1fb2857e749b625814b9109d201beb4#npm:7.4.6", {
-          "packageLocation": "./.yarn/__virtual__/ws-virtual-770833e873/0/cache/ws-npm-7.4.6-9c9a725604-3a990b32ed.zip/node_modules/ws/",
+        ["virtual:4431ca12481a5deb4ba5a17730f980ceab75f8035cb8f71efc25872cd16a6ec5d3d21ea95a0b605b4b23cc879a8792792386b964a265ac8f244bf27691a7b1c5#npm:7.4.6", {
+          "packageLocation": "./.yarn/__virtual__/ws-virtual-0685ac2ca5/0/cache/ws-npm-7.4.6-9c9a725604-3a990b32ed.zip/node_modules/ws/",
           "packageDependencies": [
-            ["ws", "virtual:40944fc445ef1c165751f7faa55775cf695d6068f2fa6eae70752cfce4aabdebed0365c2b869125620d066157430e521c1fb2857e749b625814b9109d201beb4#npm:7.4.6"],
+            ["ws", "virtual:4431ca12481a5deb4ba5a17730f980ceab75f8035cb8f71efc25872cd16a6ec5d3d21ea95a0b605b4b23cc879a8792792386b964a265ac8f244bf27691a7b1c5#npm:7.4.6"],
             ["@types/bufferutil", null],
             ["@types/utf-8-validate", null],
             ["bufferutil", null],
