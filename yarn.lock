@@ -3804,15 +3804,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-flowtype@npm:8.0.2":
-  version: 8.0.2
-  resolution: "eslint-plugin-flowtype@npm:8.0.2"
+"eslint-plugin-flowtype@npm:8.0.3":
+  version: 8.0.3
+  resolution: "eslint-plugin-flowtype@npm:8.0.3"
   dependencies:
     lodash: ^4.17.21
     string-natural-compare: ^3.0.1
   peerDependencies:
+    "@babel/plugin-syntax-flow": ^7.14.5
+    "@babel/plugin-transform-react-jsx": ^7.14.9
     eslint: ^8.1.0
-  checksum: 51fc3562e6f7b29de7cc0c5da8db2171ea4e912d80bc1c40461f07e162820f67fbd6f1d7fc058c89fc627707750e33125d2d41b85974ebd0bb918fbea076773a
+  checksum: 30e63c5357b0b5571f39afed51e59c140084f4aa53c106b1fd04f26da42b268908466daa6020b92943e71409bdaee1c67202515ed9012404d027cc92cb03cefa
   languageName: node
   linkType: hard
 
@@ -6195,7 +6197,7 @@ fsevents@^2.3.2:
     eslint: 7.32.0
     eslint-config-prettier: 8.3.0
     eslint-import-resolver-node: 0.3.6
-    eslint-plugin-flowtype: 8.0.2
+    eslint-plugin-flowtype: 8.0.3
     eslint-plugin-import: 2.25.2
     eslint-plugin-jsx-a11y: 6.4.1
     eslint-plugin-prettier: 4.0.0
