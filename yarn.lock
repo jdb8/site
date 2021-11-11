@@ -2872,20 +2872,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"copy-webpack-plugin@npm:9.0.1":
-  version: 9.0.1
-  resolution: "copy-webpack-plugin@npm:9.0.1"
+"copy-webpack-plugin@npm:9.1.0":
+  version: 9.1.0
+  resolution: "copy-webpack-plugin@npm:9.1.0"
   dependencies:
-    fast-glob: ^3.2.5
-    glob-parent: ^6.0.0
+    fast-glob: ^3.2.7
+    glob-parent: ^6.0.1
     globby: ^11.0.3
     normalize-path: ^3.0.0
-    p-limit: ^3.1.0
-    schema-utils: ^3.0.0
+    schema-utils: ^3.1.1
     serialize-javascript: ^6.0.0
   peerDependencies:
     webpack: ^5.1.0
-  checksum: f3e69883e173f9a298b63dcf35ba5aafc02e252c67c236029424af19fb2e36fc93de94054bd7a9ada8b4cbcc4e96e9a3a269f972e4a45f4fd1b32a3d199d2cae
+  checksum: 06cb4fb6fc99a95ccfd3169115ee57f64953e5b4075900fc8faab98b7e7d3fcd6915b125fdb98c919cfd55e581a8444f5c6b9dbb342cbd60b154d8fb3f79f2b9
   languageName: node
   linkType: hard
 
@@ -4283,7 +4282,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fast-glob@npm:^3.1.1, fast-glob@npm:^3.2.2, fast-glob@npm:^3.2.5":
+"fast-glob@npm:^3.1.1, fast-glob@npm:^3.2.2":
   version: 3.2.5
   resolution: "fast-glob@npm:3.2.5"
   dependencies:
@@ -4294,6 +4293,19 @@ __metadata:
     micromatch: ^4.0.2
     picomatch: ^2.2.1
   checksum: 5d6772c9b63dbb739d60b5630851e1f2cbf9744119e0968eac44c9f8cbc2d3d5cb4f2f0c74715ccb23daa336c87bea42186ed367e6c991afee61cd3d967320eb
+  languageName: node
+  linkType: hard
+
+"fast-glob@npm:^3.2.7":
+  version: 3.2.7
+  resolution: "fast-glob@npm:3.2.7"
+  dependencies:
+    "@nodelib/fs.stat": ^2.0.2
+    "@nodelib/fs.walk": ^1.2.3
+    glob-parent: ^5.1.2
+    merge2: ^1.3.0
+    micromatch: ^4.0.4
+  checksum: 2f4708ff112d2b451888129fdd9a0938db88b105b0ddfd043c064e3c4d3e20eed8d7c7615f7565fee660db34ddcf08a2db1bf0ab3c00b87608e4719694642d78
   languageName: node
   linkType: hard
 
@@ -4655,12 +4667,12 @@ fsevents@^2.3.2:
   languageName: node
   linkType: hard
 
-"glob-parent@npm:^6.0.0":
-  version: 6.0.0
-  resolution: "glob-parent@npm:6.0.0"
+"glob-parent@npm:^6.0.1":
+  version: 6.0.2
+  resolution: "glob-parent@npm:6.0.2"
   dependencies:
-    is-glob: ^4.0.1
-  checksum: 48c492051a121c695e7a920c50512e5016458698f11e12133a217505d4b7d41bb20b244bcdd9df10ca29f0f1bd419ed97bcea35d15b1a645ba9e5a388013af7e
+    is-glob: ^4.0.3
+  checksum: c13ee97978bef4f55106b71e66428eb1512e71a7466ba49025fc2aec59a5bfb0954d5abd58fc5ee6c9b076eef4e1f6d3375c2e964b88466ca390da4419a786a8
   languageName: node
   linkType: hard
 
@@ -6213,7 +6225,7 @@ fsevents@^2.3.2:
     "@yarnpkg/pnpify": 3.1.0
     axe-playwright: 1.1.9
     babel-eslint: 10.1.0
-    copy-webpack-plugin: 9.0.1
+    copy-webpack-plugin: 9.1.0
     css-loader: 6.5.1
     css-minimizer-webpack-plugin: 3.1.3
     eslint: 7.32.0
@@ -8879,7 +8891,7 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-"schema-utils@npm:^3.0.0, schema-utils@npm:^3.1.0, schema-utils@npm:^3.1.1":
+"schema-utils@npm:^3.1.0, schema-utils@npm:^3.1.1":
   version: 3.1.1
   resolution: "schema-utils@npm:3.1.1"
   dependencies:
