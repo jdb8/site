@@ -37,7 +37,7 @@
     "mini-css-extract-plugin": "2.4.5",
     "playwright-chromium": "1.16.3",
     "playwright-core": "1.16.3",
-    "prettier": "2.4.1",
+    "prettier": "2.5.0",
     "purgecss-webpack-plugin": "4.0.3",
     "start-server-and-test": "1.14.0",
     "webpack": "5.64.3",
