@@ -38,7 +38,7 @@
     "playwright-chromium": "1.16.3",
     "playwright-core": "1.16.3",
     "prettier": "2.5.0",
-    "purgecss-webpack-plugin": "4.1.1",
+    "purgecss-webpack-plugin": "4.1.2",
     "start-server-and-test": "1.14.0",
     "webpack": "5.64.4",
     "webpack-cli": "4.9.1"
