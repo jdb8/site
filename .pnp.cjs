@@ -61,7 +61,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["playwright-chromium", "npm:1.16.3"],
             ["playwright-core", "npm:1.16.3"],
             ["prettier", "npm:2.5.0"],
-            ["purgecss-webpack-plugin", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:4.1.2"],
+            ["purgecss-webpack-plugin", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:4.1.3"],
             ["start-server-and-test", "npm:1.14.0"],
             ["webpack", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:5.64.4"],
             ["webpack-cli", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:4.9.1"]
@@ -7939,7 +7939,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["playwright-chromium", "npm:1.16.3"],
             ["playwright-core", "npm:1.16.3"],
             ["prettier", "npm:2.5.0"],
-            ["purgecss-webpack-plugin", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:4.1.2"],
+            ["purgecss-webpack-plugin", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:4.1.3"],
             ["start-server-and-test", "npm:1.14.0"],
             ["webpack", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:5.64.4"],
             ["webpack-cli", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:4.9.1"]
@@ -10724,10 +10724,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["purgecss", [
-        ["npm:4.1.2", {
-          "packageLocation": "./.yarn/cache/purgecss-npm-4.1.2-0c5d652152-717177ba20.zip/node_modules/purgecss/",
+        ["npm:4.1.3", {
+          "packageLocation": "./.yarn/cache/purgecss-npm-4.1.3-9099a5bb50-508613f904.zip/node_modules/purgecss/",
           "packageDependencies": [
-            ["purgecss", "npm:4.1.2"],
+            ["purgecss", "npm:4.1.3"],
             ["commander", "npm:8.3.0"],
             ["glob", "npm:7.2.0"],
             ["postcss", "npm:8.3.8"],
@@ -10737,19 +10737,19 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["purgecss-webpack-plugin", [
-        ["npm:4.1.2", {
-          "packageLocation": "./.yarn/cache/purgecss-webpack-plugin-npm-4.1.2-5e3b6f0343-4514370dbc.zip/node_modules/purgecss-webpack-plugin/",
+        ["npm:4.1.3", {
+          "packageLocation": "./.yarn/cache/purgecss-webpack-plugin-npm-4.1.3-dcd95e4b02-d944f23765.zip/node_modules/purgecss-webpack-plugin/",
           "packageDependencies": [
-            ["purgecss-webpack-plugin", "npm:4.1.2"]
+            ["purgecss-webpack-plugin", "npm:4.1.3"]
           ],
           "linkType": "SOFT",
         }],
-        ["virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:4.1.2", {
-          "packageLocation": "./.yarn/__virtual__/purgecss-webpack-plugin-virtual-05bdbd6df1/0/cache/purgecss-webpack-plugin-npm-4.1.2-5e3b6f0343-4514370dbc.zip/node_modules/purgecss-webpack-plugin/",
+        ["virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:4.1.3", {
+          "packageLocation": "./.yarn/__virtual__/purgecss-webpack-plugin-virtual-7c86caef06/0/cache/purgecss-webpack-plugin-npm-4.1.3-dcd95e4b02-d944f23765.zip/node_modules/purgecss-webpack-plugin/",
           "packageDependencies": [
-            ["purgecss-webpack-plugin", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:4.1.2"],
+            ["purgecss-webpack-plugin", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:4.1.3"],
             ["@types/webpack", null],
-            ["purgecss", "npm:4.1.2"],
+            ["purgecss", "npm:4.1.3"],
             ["webpack", "virtual:40005b440cbaabc0d0fe9a8ed63137f9d7c86e3b7b54525e6c2d47a3ec37e1e2b6bd5aa87ec1cc82a0b499d2568f003c007c0b602ff6f888a6df114c6d99e6f3#npm:5.64.4"],
             ["webpack-sources", "npm:3.2.0"]
           ],
