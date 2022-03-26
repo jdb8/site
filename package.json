@@ -17,7 +17,7 @@
     "@typescript-eslint/eslint-plugin": "5.8.1",
     "@typescript-eslint/parser": "5.8.1",
     "@yarnpkg/pnpify": "3.1.1",
-    "axe-playwright": "1.1.9",
+    "axe-playwright": "1.1.11",
     "babel-eslint": "10.1.0",
     "copy-webpack-plugin": "9.1.0",
     "css-loader": "6.5.1",
