@@ -2070,14 +2070,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"axe-playwright@npm:1.1.9":
-  version: 1.1.9
-  resolution: "axe-playwright@npm:1.1.9"
+"axe-playwright@npm:1.1.11":
+  version: 1.1.11
+  resolution: "axe-playwright@npm:1.1.11"
   dependencies:
     axe-core: ^4.0.1
   peerDependencies:
     playwright-core: ">1.0.0"
-  checksum: 6616e669dd51e37a235949e779673db7bdda7b36f2abea4f7730ccb11b70901ed0c108102ee7936c8e18668c38b92b169ed2b71af14cab6d9d62f4c5682110cd
+  checksum: 651deb9c2b1df94bb39472bdbbc449e56460ca58826b50c8fd654803d0823d9c09eae181daf24f2350fb822278f435c6cff1009fc077cfaf49af2252759b7478
   languageName: node
   linkType: hard
 
@@ -6282,7 +6282,7 @@ fsevents@^2.3.2:
     "@typescript-eslint/eslint-plugin": 5.8.1
     "@typescript-eslint/parser": 5.8.1
     "@yarnpkg/pnpify": 3.1.1
-    axe-playwright: 1.1.9
+    axe-playwright: 1.1.11
     babel-eslint: 10.1.0
     copy-webpack-plugin: 9.1.0
     css-loader: 6.5.1
