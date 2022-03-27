@@ -2492,6 +2492,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"chalk@npm:^4.1.2":
+  version: 4.1.2
+  resolution: "chalk@npm:4.1.2"
+  dependencies:
+    ansi-styles: ^4.1.0
+    supports-color: ^7.1.0
+  checksum: fe75c9d5c76a7a98d45495b91b2172fa3b7a09e0cc9370e5c8feb1c567b85c4288e2b3fded7cfdd7359ac28d6b3844feb8b82b8686842e93d23c827c417e83fc
+  languageName: node
+  linkType: hard
+
 "char-regex@npm:^1.0.2":
   version: 1.0.2
   resolution: "char-regex@npm:1.0.2"
@@ -2750,13 +2760,6 @@ __metadata:
   version: 2.0.14
   resolution: "colorette@npm:2.0.14"
   checksum: a156f2a6b85f504bd2dec04591e64fe42751f459ccd828f3eb5c15ed6afdff7f0547f206a4147414520a976ce0130ac8c363093b3eb1924dd13b7014f67665d5
-  languageName: node
-  linkType: hard
-
-"colors@npm:^1.4.0":
-  version: 1.4.0
-  resolution: "colors@npm:1.4.0"
-  checksum: 98aa2c2418ad87dedf25d781be69dc5fc5908e279d9d30c34d8b702e586a0474605b3a189511482b9d5ed0d20c867515d22749537f7bc546256c6014f3ebdcec
   languageName: node
   linkType: hard
 
@@ -5087,12 +5090,12 @@ fsevents@^2.3.2:
   languageName: node
   linkType: hard
 
-"http-server@npm:14.0.0":
-  version: 14.0.0
-  resolution: "http-server@npm:14.0.0"
+"http-server@npm:14.1.0":
+  version: 14.1.0
+  resolution: "http-server@npm:14.1.0"
   dependencies:
     basic-auth: ^2.0.1
-    colors: ^1.4.0
+    chalk: ^4.1.2
     corser: ^2.0.1
     he: ^1.2.0
     html-encoding-sniffer: ^3.0.0
@@ -5106,7 +5109,7 @@ fsevents@^2.3.2:
     url-join: ^4.0.1
   bin:
     http-server: bin/http-server
-  checksum: 2b7d0f86e7779aafca3a19c5f6a2452c54e3d1cb31656f0ea26b45e86ebbaea713634d9d04eb48101bb84dcce5ebad4c0359d43c7f5f51c5846cda257a30b20b
+  checksum: 9a88fb47aa25aff445183da7d801d849e0dc0ae7decbc7580cded2d32c7d17c88405a88a69e7b10c77320ecdc6f67cb71b4973afe66b5898c95f9b186bad67af
   languageName: node
   linkType: hard
 
@@ -6298,7 +6301,7 @@ fsevents@^2.3.2:
     eslint-plugin-react: 7.29.4
     eslint-plugin-react-hooks: 4.3.0
     html-webpack-plugin: 5.5.0
-    http-server: 14.0.0
+    http-server: 14.1.0
     jest: 27.4.5
     mini-css-extract-plugin: 2.4.5
     playwright-chromium: 1.17.1
