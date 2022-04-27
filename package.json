@@ -33,7 +33,7 @@
     "eslint-plugin-react-hooks": "4.5.0",
     "html-webpack-plugin": "5.5.0",
     "http-server": "14.1.0",
-    "jest": "28.0.1",
+    "jest": "28.0.2",
     "mini-css-extract-plugin": "2.6.0",
     "playwright-chromium": "1.21.1",
     "playwright-core": "1.21.1",
