@@ -1,0 +1,69 @@
+==================================================================
+https://keybase.io/joebateson
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://joebateson.com
+  * I am joebateson (https://keybase.io/joebateson) on keybase.
+  * I have a public key with fingerprint 7D9D EDB1 0596 5730 4936  6841 76BD 4C11 1C18 6C02
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "7d9dedb1059657304936684176bd4c111c186c02",
+            "host": "keybase.io",
+            "key_id": "76BD4C111C186C02",
+            "uid": "cd02b31accca3e9ec0ad833f4e77f800",
+            "username": "joebateson"
+        },
+        "service": {
+            "hostname": "joebateson.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1398554767,
+    "expire_in": 157680000,
+    "prev": "64937326100c095ad93c5af6ed86c109018052043400392149251338f19b429f",
+    "seqno": 5,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v2.0.22 (MingW32)
+
+owGbwMvMwMRYttdHUEYih4nx9IGvSQzBMQ6bqpWS8lMqlayqlbJTwVRaZl56alFB
+UWZeiZKVknmKZUpqSpKhgamlmam5sYGJpbGZmYWJoblZUopJsqGhYbKhhVmygZGS
+jlJGfjFIB9CYpMTiVL3MfKAYkBOfmQIyx8zJxcQZqN4ZqN4ZrL4ULJGcYmCUZGyY
+mJycnGicapmabJCYYmFsnGaSam6eZmFgAFJYnFqUl5ibClSdlZ+alFiSWpyfp1Sr
+owQUL8tMTgW5GmQ5hhq95PxcoP6CovyS/OT8HKBcRklJgRVIa0llAUhteWpSPNSU
++KTMvBSg34EaylKLijOBVlgZAlUml2SCjDU0trQwNTUxNzPXUUqtKMgsSo3PBKkw
+NTcDutLAAGRNahnQSDNgEJkbG5kZGhgkG1iaJqZYGiebJqaZpaYAA8rQwNLA0MLA
+1MjAxNjEwMDY0sjQxNLI1NDY2CLN0DLJxMgyTQnkr8K8fCUrU6AzE9OBRhZnpucl
+lpQWpSrVdjLJsDAwMjGwsTKBYo+Bi1MAFqdTfvH/TxUKnVImOck0x7lH9usBtzXq
+P6/ZSJgtWN7FqSCquF8xc3qKn3ueeR/T/l6Wr2yuH5S1lhUdXbaj6JA4i29W8nLb
+veKcJc+/dy1/Pz3N2OsaR++ugrsGiZLf97V9SbpS/OC49+3CGYz1e/7zTvwf+zJE
+JVGbm0lo+1aBo458pYe/HH/VtD17Y/r5860PPqWJBN1JLDyenrx36d2cVzVrXz7I
+y1zleeJu9Zx20aTVf5YZPtsgPpd/36WpGo+nbMo3UnE8EKapdN4mMun/szJ9xkTb
+49fW7Zxf/uZWpKpAjZrZLXvxr4peTVEikw+H3p/Y8FXv+dQylrOdRhFbP7mxFm8t
+W6X5fVPA/DWTGip27N/8JzFziWP38gMmjZO/iV2eZB9XvWXTP4aY5d9aJ62wUWnp
+SvdJ9a9+sS5TJybIPV655uuZ7W28DOe0Ptfu8j9qxM6ScvyaBmOtqlFt2rE/bG/C
+Vt6KKZvPyh/+Iv7AIdcX9kz9eW+u7JE8Om31jowkjQbhidfOsPgYNH6SX2G70Lju
+wYzIvlfHO7w0Aj14redOObBXlufWqZVe0uWh75Sfvo1lf/T+8iKJD6Kiu7058sqq
+LTSd2B+V/FE6FOg8a35yaClLVfAWmx8zEoIv7g0o3r1S2+efTv6RZxPs9A0tbdpm
+3EtX9D5zJmA6zxnBTxtvPCi2zwxk4V/OmFT/8Rxb1tXg9qddogyXT74FAA==
+=NxXF
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/joebateson
+
+==================================================================
