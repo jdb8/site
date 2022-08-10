@@ -6,10 +6,11 @@
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
+    "develop": "yarn build && yarn preview",
     "clean": "rm -rf dist && rm -rf node_modules",
-    "serve:lhci": "yarn start",
+    "serve:lhci": "yarn develop",
     "test:lint": "eslint .",
-    "test:e2e": "start-server-and-test dev http://localhost:8080 jest"
+    "test:e2e": "start-server-and-test develop http://localhost:3000 jest"
   },
   "author": "Joe Bateson",
   "devDependencies": {
