@@ -1,7 +1,7 @@
 const { injectAxe, checkA11y } = require('axe-playwright');
 const { chromium } = require('playwright-chromium');
 
-const BASE_URL = 'http://localhost:8080';
+const BASE_URL = 'http://localhost:3000';
 
 let browser;
 let page;
