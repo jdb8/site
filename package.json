@@ -9,7 +9,7 @@
     "clean": "rm -rf dist && rm -rf node_modules",
     "serve:lhci": "yarn start",
     "test:lint": "eslint .",
-    "test:e2e": "start-server-and-test develop http://localhost:8080 'pnpify jest'"
+    "test:e2e": "start-server-and-test dev http://localhost:8080 jest"
   },
   "author": "Joe Bateson",
   "devDependencies": {
@@ -17,7 +17,6 @@
     "@lhci/cli": "0.9.0",
     "@typescript-eslint/eslint-plugin": "5.30.0",
     "@typescript-eslint/parser": "5.30.0",
-    "@yarnpkg/pnpify": "3.1.3",
     "astro": "^1.0.1",
     "axe-playwright": "1.1.11",
     "babel-eslint": "10.1.0",
