@@ -1888,9 +1888,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"astro@npm:^1.0.1":
-  version: 1.0.1
-  resolution: "astro@npm:1.0.1"
+"astro@npm:1.0.2":
+  version: 1.0.2
+  resolution: "astro@npm:1.0.2"
   dependencies:
     "@astrojs/compiler": ^0.23.1
     "@astrojs/language-server": ^0.20.0
@@ -1944,12 +1944,12 @@ __metadata:
     tsconfig-resolver: ^3.0.1
     unist-util-visit: ^4.1.0
     vfile: ^5.3.2
-    vite: 3.0.4
+    vite: 3.0.5
     yargs-parser: ^21.0.1
     zod: ^3.17.3
   bin:
     astro: astro.js
-  checksum: a1df698dd629d12f31bc90231628ee321eeb6ff83f507a0364c7665bf049d0753b8f9279ba99d943a2e33605b5de8bce5bdfe0d776d93487802e153c6fcd4422
+  checksum: c35d7d888e0f2fa67462381652fb2dd01b93145a150c43527cc9172de305c783d4bfb1b2013ffb83dbc9944d1971b51266f25043da66b6b1920fd9b05d95373f
   languageName: node
   linkType: hard
 
@@ -6073,7 +6073,7 @@ __metadata:
     "@lhci/cli": 0.9.0
     "@typescript-eslint/eslint-plugin": 5.33.0
     "@typescript-eslint/parser": 5.33.0
-    astro: ^1.0.1
+    astro: 1.0.2
     astro-critters: ^0.0.11
     axe-playwright: 1.1.11
     babel-eslint: 10.1.0
@@ -8232,7 +8232,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:^8.3.7, postcss@npm:^8.4.14":
+"postcss@npm:^8.3.7, postcss@npm:^8.4.14, postcss@npm:^8.4.16":
   version: 8.4.16
   resolution: "postcss@npm:8.4.16"
   dependencies:
@@ -10289,13 +10289,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:3.0.4":
-  version: 3.0.4
-  resolution: "vite@npm:3.0.4"
+"vite@npm:3.0.5":
+  version: 3.0.5
+  resolution: "vite@npm:3.0.5"
   dependencies:
     esbuild: ^0.14.47
     fsevents: ~2.3.2
-    postcss: ^8.4.14
+    postcss: ^8.4.16
     resolve: ^1.22.1
     rollup: ^2.75.6
   peerDependencies:
@@ -10317,7 +10317,7 @@ __metadata:
       optional: true
   bin:
     vite: bin/vite.js
-  checksum: f13eceb94f7b399942ce5e7c10df73314f7b073171d6594228b078cc1203042c4cdb9e8356fe64ad444c3533c31437abb3c64ac56478f0865fab598e924cf68b
+  checksum: c00ec43356469032fa261872b028740526d5a5726132cb306741e2d9dca241dcb7b0b5d39181d5ebc39c5e82396511080640fa302c66e713a622e8bfa1f14a8d
   languageName: node
   linkType: hard
 
