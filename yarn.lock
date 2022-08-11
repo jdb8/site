@@ -1877,7 +1877,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"astro-critters@npm:^0.0.11":
+"astro-critters@npm:0.0.11":
   version: 0.0.11
   resolution: "astro-critters@npm:0.0.11"
   dependencies:
@@ -6074,7 +6074,7 @@ __metadata:
     "@typescript-eslint/eslint-plugin": 5.33.0
     "@typescript-eslint/parser": 5.33.0
     astro: 1.0.2
-    astro-critters: ^0.0.11
+    astro-critters: 0.0.11
     axe-playwright: 1.1.11
     babel-eslint: 10.1.0
     eslint: 7.32.0
