@@ -1888,9 +1888,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"astro@npm:1.0.6":
-  version: 1.0.6
-  resolution: "astro@npm:1.0.6"
+"astro@npm:1.0.8":
+  version: 1.0.8
+  resolution: "astro@npm:1.0.8"
   dependencies:
     "@astrojs/compiler": ^0.23.3
     "@astrojs/language-server": ^0.20.0
@@ -1944,12 +1944,12 @@ __metadata:
     tsconfig-resolver: ^3.0.1
     unist-util-visit: ^4.1.0
     vfile: ^5.3.2
-    vite: 3.0.5
+    vite: 3.0.9
     yargs-parser: ^21.0.1
     zod: ^3.17.3
   bin:
     astro: astro.js
-  checksum: 1f1979ec5a3ab4d1705db9f59fdac52dcab8befcafbe990a7ac258628c80a4e0bb22c6773980ed702640c14fcbf7b04d255bf7569e397eb8eb4cd52e68051988
+  checksum: e1732909aa8a52255ade3db0a3f532abe17c40ba9e327c1379eeaae22b5c85b7e0fa0f42c0a4b484e2f70f1d805e8c517f1dea34b072ad8e950ca712e1853ba0
   languageName: node
   linkType: hard
 
@@ -6073,7 +6073,7 @@ __metadata:
     "@lhci/cli": 0.9.0
     "@typescript-eslint/eslint-plugin": 5.34.0
     "@typescript-eslint/parser": 5.34.0
-    astro: 1.0.6
+    astro: 1.0.8
     astro-critters: 1.0.1
     axe-playwright: 1.1.11
     babel-eslint: 10.1.0
@@ -8891,6 +8891,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"rollup@npm:>=2.75.6 <2.77.0 || ~2.77.0":
+  version: 2.77.3
+  resolution: "rollup@npm:2.77.3"
+  dependencies:
+    fsevents: ~2.3.2
+  dependenciesMeta:
+    fsevents:
+      optional: true
+  bin:
+    rollup: dist/bin/rollup
+  checksum: b179c68249584565ddb5664a241e8e48c293b2207718d885b08ee25797d98857a383f06b544bb89819407da5a71557f4713309a278f61c4778bb32b1d3321a1c
+  languageName: node
+  linkType: hard
+
 "rollup@npm:^2.75.6":
   version: 2.77.2
   resolution: "rollup@npm:2.77.2"
@@ -10289,15 +10303,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:3.0.5":
-  version: 3.0.5
-  resolution: "vite@npm:3.0.5"
+"vite@npm:3.0.9":
+  version: 3.0.9
+  resolution: "vite@npm:3.0.9"
   dependencies:
     esbuild: ^0.14.47
     fsevents: ~2.3.2
     postcss: ^8.4.16
     resolve: ^1.22.1
-    rollup: ^2.75.6
+    rollup: ">=2.75.6 <2.77.0 || ~2.77.0"
   peerDependencies:
     less: "*"
     sass: "*"
@@ -10317,7 +10331,7 @@ __metadata:
       optional: true
   bin:
     vite: bin/vite.js
-  checksum: c00ec43356469032fa261872b028740526d5a5726132cb306741e2d9dca241dcb7b0b5d39181d5ebc39c5e82396511080640fa302c66e713a622e8bfa1f14a8d
+  checksum: 6341aa43579ae45f8a383bdc0c5041dea3dff98f14e0a546d6d884a864134b00082246a28d1de8adff0ce0dd92b468c7ade8f972ffe1ed97258671d63e0f16f7
   languageName: node
   linkType: hard
 
