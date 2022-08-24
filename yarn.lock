@@ -1877,14 +1877,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"astro-critters@npm:1.0.1":
-  version: 1.0.1
-  resolution: "astro-critters@npm:1.0.1"
+"astro-critters@npm:1.0.2":
+  version: 1.0.2
+  resolution: "astro-critters@npm:1.0.2"
   dependencies:
     critters: 0.0.16
     deepmerge-ts: 4.2.1
     fast-glob: 3.2.11
-  checksum: f04c22adeb3e0a4006649677667df7fbd4f5e3ed4b8be23aece2decebbbf68556b963f17e04fc1063584dab8330384b2767c88430712f91516bd15f56ab8c3fa
+  checksum: d052776660737f609ef511b14161c05ec18d65cb34dce21cc9ae9229f783079c02ea1a9dd481968f2b53dc26d1c897458d78db9126d0f612bef062962d9ca8e9
   languageName: node
   linkType: hard
 
@@ -6074,7 +6074,7 @@ __metadata:
     "@typescript-eslint/eslint-plugin": 5.34.0
     "@typescript-eslint/parser": 5.34.0
     astro: 1.0.8
-    astro-critters: 1.0.1
+    astro-critters: 1.0.2
     axe-playwright: 1.1.11
     babel-eslint: 10.1.0
     eslint: 7.32.0
