@@ -15,10 +15,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/compiler@npm:^0.23.3":
-  version: 0.23.3
-  resolution: "@astrojs/compiler@npm:0.23.3"
-  checksum: 3267089dce036ae00ceca83447b61a41d4c283895c0e0736bccca92bf5101aee80469fc5060ec2b4d5f73bb8376ccbae4adfba8fa6de7c4f5179a52c45f69c3b
+"@astrojs/compiler@npm:^0.23.4":
+  version: 0.23.4
+  resolution: "@astrojs/compiler@npm:0.23.4"
+  checksum: 0d7e44b76229b50a0c1aacd3bc3dd4bdfcbc990db9530e6f60f747cf13c9d10fe79b101274d29c106128ba004e7b9f50a98cfc66cdef0cdcd7fb757e09729de1
   languageName: node
   linkType: hard
 
@@ -1898,11 +1898,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"astro@npm:1.0.8":
-  version: 1.0.8
-  resolution: "astro@npm:1.0.8"
+"astro@npm:1.0.9":
+  version: 1.0.9
+  resolution: "astro@npm:1.0.9"
   dependencies:
-    "@astrojs/compiler": ^0.23.3
+    "@astrojs/compiler": ^0.23.4
     "@astrojs/language-server": ^0.20.0
     "@astrojs/markdown-remark": ^1.0.0
     "@astrojs/telemetry": ^1.0.0
@@ -1943,7 +1943,7 @@ __metadata:
     recast: ^0.20.5
     rehype: ^12.0.1
     resolve: ^1.22.0
-    rollup: ^2.75.6
+    rollup: ~2.77.0
     semver: ^7.3.7
     shiki: ^0.10.1
     sirv: ^2.0.2
@@ -1959,7 +1959,7 @@ __metadata:
     zod: ^3.17.3
   bin:
     astro: astro.js
-  checksum: e1732909aa8a52255ade3db0a3f532abe17c40ba9e327c1379eeaae22b5c85b7e0fa0f42c0a4b484e2f70f1d805e8c517f1dea34b072ad8e950ca712e1853ba0
+  checksum: 438c532a8d83798ad63980ae3a908625a10673af0375b302ae60f59f993dc64fc918902ce7f152a8170df7a95a346fb86e4babc9128acd7ba8a5b2dd1b620e68
   languageName: node
   linkType: hard
 
@@ -6084,7 +6084,7 @@ __metadata:
     "@lhci/cli": 0.9.0
     "@typescript-eslint/eslint-plugin": 5.35.1
     "@typescript-eslint/parser": 5.35.1
-    astro: 1.0.8
+    astro: 1.0.9
     astro-critters: 1.0.2
     axe-playwright: 1.1.11
     babel-eslint: 10.1.0
@@ -8901,7 +8901,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rollup@npm:>=2.75.6 <2.77.0 || ~2.77.0":
+"rollup@npm:>=2.75.6 <2.77.0 || ~2.77.0, rollup@npm:~2.77.0":
   version: 2.77.3
   resolution: "rollup@npm:2.77.3"
   dependencies:
@@ -8912,20 +8912,6 @@ __metadata:
   bin:
     rollup: dist/bin/rollup
   checksum: b179c68249584565ddb5664a241e8e48c293b2207718d885b08ee25797d98857a383f06b544bb89819407da5a71557f4713309a278f61c4778bb32b1d3321a1c
-  languageName: node
-  linkType: hard
-
-"rollup@npm:^2.75.6":
-  version: 2.77.2
-  resolution: "rollup@npm:2.77.2"
-  dependencies:
-    fsevents: ~2.3.2
-  dependenciesMeta:
-    fsevents:
-      optional: true
-  bin:
-    rollup: dist/bin/rollup
-  checksum: 5a84fb98a6f858906bceba091430442f6c1f362b07c5fa9123b708f87e39f52640e34a189cd9a1776ceae61300055c78ba648205fa03188451539ebeb19797df
   languageName: node
   linkType: hard
 
