@@ -15,18 +15,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/compiler@npm:^0.23.4":
+"@astrojs/compiler@npm:^0.23.3, @astrojs/compiler@npm:^0.23.4":
   version: 0.23.4
   resolution: "@astrojs/compiler@npm:0.23.4"
   checksum: 0d7e44b76229b50a0c1aacd3bc3dd4bdfcbc990db9530e6f60f747cf13c9d10fe79b101274d29c106128ba004e7b9f50a98cfc66cdef0cdcd7fb757e09729de1
   languageName: node
   linkType: hard
 
-"@astrojs/language-server@npm:^0.20.0":
-  version: 0.20.3
-  resolution: "@astrojs/language-server@npm:0.20.3"
+"@astrojs/language-server@npm:^0.23.0":
+  version: 0.23.0
+  resolution: "@astrojs/language-server@npm:0.23.0"
   dependencies:
     "@vscode/emmet-helper": ^2.8.4
+    prettier: ^2.7.1
+    prettier-plugin-astro: ^0.5.3
     source-map: ^0.7.3
     typescript: ~4.6.4
     vscode-css-languageservice: ^6.0.1
@@ -38,13 +40,13 @@ __metadata:
     vscode-uri: ^3.0.3
   bin:
     astro-ls: bin/nodeServer.js
-  checksum: 1976acb9deee65d5a4cf45f5da0a32c08a0dc90a1af575435fa9216a6ca2f8905d37a248e05e36db6cd8448e32e249488136860973ec9f5514d0aeb0ec453b92
+  checksum: db3fbd61ebd4aad43ce1f648b9aaf9a1ff59b5203a0fccd79048f70d101e175d1030c9f92a7a7faab858bc6b04636162b920d24d4e165bdaeb216787ee719e31
   languageName: node
   linkType: hard
 
-"@astrojs/markdown-remark@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "@astrojs/markdown-remark@npm:1.0.0"
+"@astrojs/markdown-remark@npm:^1.1.0":
+  version: 1.1.0
+  resolution: "@astrojs/markdown-remark@npm:1.1.0"
   dependencies:
     "@astrojs/micromark-extension-mdx-jsx": ^1.0.3
     "@astrojs/prism": ^1.0.0
@@ -67,7 +69,7 @@ __metadata:
     unist-util-map: ^3.1.1
     unist-util-visit: ^4.1.0
     vfile: ^5.3.2
-  checksum: 75495900c8a05094d7ccb2412d45b0f9a4e0ef82d19bed9624e45c201d05ed36ba33fa455ec923de79471072ec3d8adc815bb02ad27057616b260fe7fe102bf7
+  checksum: d8f446bd130fb5fc8f656b387811de5582ca5b16fb85398260a8f2dfc21289730b07d889d3ca3b57e3d77490615636d5e37fce20b2592853efe947ce3d03ef6c
   languageName: node
   linkType: hard
 
@@ -1084,6 +1086,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@pkgr/utils@npm:^2.3.0":
+  version: 2.3.1
+  resolution: "@pkgr/utils@npm:2.3.1"
+  dependencies:
+    cross-spawn: ^7.0.3
+    is-glob: ^4.0.3
+    open: ^8.4.0
+    picocolors: ^1.0.0
+    tiny-glob: ^0.2.9
+    tslib: ^2.4.0
+  checksum: 118a1971120253740121a1db0a6658c21195b7da962acf9c124b507a3df707cfc97b0b84a16edcbd4352853b182e8337da9fc6e8e3d06c60d75ae4fb42321c75
+  languageName: node
+  linkType: hard
+
 "@polka/url@npm:^1.0.0-next.20":
   version: 1.0.0-next.21
   resolution: "@polka/url@npm:1.0.0-next.21"
@@ -1898,13 +1914,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"astro@npm:1.0.9":
-  version: 1.0.9
-  resolution: "astro@npm:1.0.9"
+"astro@npm:1.1.1":
+  version: 1.1.1
+  resolution: "astro@npm:1.1.1"
   dependencies:
     "@astrojs/compiler": ^0.23.4
-    "@astrojs/language-server": ^0.20.0
-    "@astrojs/markdown-remark": ^1.0.0
+    "@astrojs/language-server": ^0.23.0
+    "@astrojs/markdown-remark": ^1.1.0
     "@astrojs/telemetry": ^1.0.0
     "@astrojs/webapi": ^1.0.0
     "@babel/core": ^7.18.2
@@ -1959,7 +1975,7 @@ __metadata:
     zod: ^3.17.3
   bin:
     astro: astro.js
-  checksum: 438c532a8d83798ad63980ae3a908625a10673af0375b302ae60f59f993dc64fc918902ce7f152a8170df7a95a346fb86e4babc9128acd7ba8a5b2dd1b620e68
+  checksum: 284f32f0cf16d789ddb0f2a6f4999f6aa262523dcba3ee7012e0a35af65a6b2915b8b30e3b34c8cf07f0f1458999544bca7a95de21ef4e147be5ad0229b752d7
   languageName: node
   linkType: hard
 
@@ -4626,6 +4642,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"globalyzer@npm:0.1.0":
+  version: 0.1.0
+  resolution: "globalyzer@npm:0.1.0"
+  checksum: 419a0f95ba542534fac0842964d31b3dc2936a479b2b1a8a62bad7e8b61054faa9b0a06ad9f2e12593396b9b2621cac93358d9b3071d33723fb1778608d358a1
+  languageName: node
+  linkType: hard
+
 "globby@npm:^11.1.0":
   version: 11.1.0
   resolution: "globby@npm:11.1.0"
@@ -4637,6 +4660,13 @@ __metadata:
     merge2: ^1.4.1
     slash: ^3.0.0
   checksum: b4be8885e0cfa018fc783792942d53926c35c50b3aefd3fdcfb9d22c627639dc26bd2327a40a0b74b074100ce95bb7187bfeae2f236856aa3de183af7a02aea6
+  languageName: node
+  linkType: hard
+
+"globrex@npm:^0.1.2":
+  version: 0.1.2
+  resolution: "globrex@npm:0.1.2"
+  checksum: adca162494a176ce9ecf4dd232f7b802956bb1966b37f60c15e49d2e7d961b66c60826366dc2649093cad5a0d69970cfa8875bd1695b5a1a2f33dcd2aa88da3c
   languageName: node
   linkType: hard
 
@@ -6084,7 +6114,7 @@ __metadata:
     "@lhci/cli": 0.9.0
     "@typescript-eslint/eslint-plugin": 5.35.1
     "@typescript-eslint/parser": 5.35.1
-    astro: 1.0.9
+    astro: 1.1.1
     astro-critters: 1.0.2
     axe-playwright: 1.1.11
     babel-eslint: 10.1.0
@@ -8289,7 +8319,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:2.7.1":
+"prettier-plugin-astro@npm:^0.5.3":
+  version: 0.5.3
+  resolution: "prettier-plugin-astro@npm:0.5.3"
+  dependencies:
+    "@astrojs/compiler": ^0.23.3
+    prettier: ^2.7.1
+    sass-formatter: ^0.7.2
+    synckit: ^0.7.0
+  checksum: ef4d0b99d2be63484e5af6a552999213d9c377f4092c3c1ef254c24719597b039408f2d8b4e5ecd1267086c15e75797a20fc9c9def45571033e34377863bd2a9
+  languageName: node
+  linkType: hard
+
+"prettier@npm:2.7.1, prettier@npm:^2.7.1":
   version: 2.7.1
   resolution: "prettier@npm:2.7.1"
   bin:
@@ -8949,6 +8991,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"s.color@npm:0.0.15":
+  version: 0.0.15
+  resolution: "s.color@npm:0.0.15"
+  checksum: 28fc4896e446acc4a32c4146196493bc393b50990b5c17397cbb04b44e027db600ce5d1b241ba5f4619446f8523951cba22ae5abe19ce0b7e70e1533cde1f122
+  languageName: node
+  linkType: hard
+
 "sade@npm:^1.7.3":
   version: 1.8.1
   resolution: "sade@npm:1.8.1"
@@ -8976,6 +9025,15 @@ __metadata:
   version: 2.1.2
   resolution: "safer-buffer@npm:2.1.2"
   checksum: cab8f25ae6f1434abee8d80023d7e72b598cf1327164ddab31003c51215526801e40b66c5e65d658a0af1e9d6478cadcb4c745f4bd6751f97d8644786c0978b0
+  languageName: node
+  linkType: hard
+
+"sass-formatter@npm:^0.7.2":
+  version: 0.7.5
+  resolution: "sass-formatter@npm:0.7.5"
+  dependencies:
+    suf-log: ^2.5.3
+  checksum: 967d789635359cf829f029595789d5e095dd0bb3e57b62d2e3ba7e013c68a89587f8c843ffcdaba0302859c4d69f0a3258f6d2131caf661775dd31868e8ae830
   languageName: node
   linkType: hard
 
@@ -9563,6 +9621,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"suf-log@npm:^2.5.3":
+  version: 2.5.3
+  resolution: "suf-log@npm:2.5.3"
+  dependencies:
+    s.color: 0.0.15
+  checksum: 0545466dda882c6410857346640b0af46cb876951d4a5a5a2ff4be1910abf5bba73fb5d6bf72f72f2c7a0b8a96b1f2275553f2bcfefd25b98981549d492965ee
+  languageName: node
+  linkType: hard
+
 "supports-color@npm:^5.3.0":
   version: 5.5.0
   resolution: "supports-color@npm:5.5.0"
@@ -9613,6 +9680,16 @@ __metadata:
   version: 1.0.0
   resolution: "supports-preserve-symlinks-flag@npm:1.0.0"
   checksum: 53b1e247e68e05db7b3808b99b892bd36fb096e6fba213a06da7fab22045e97597db425c724f2bbd6c99a3c295e1e73f3e4de78592289f38431049e1277ca0ae
+  languageName: node
+  linkType: hard
+
+"synckit@npm:^0.7.0":
+  version: 0.7.3
+  resolution: "synckit@npm:0.7.3"
+  dependencies:
+    "@pkgr/utils": ^2.3.0
+    tslib: ^2.4.0
+  checksum: 15b1841c16e80e84e4eb7b43680f37ad94377a032cd9f5f6fd1c9cbd32bb1b7d1cf1c32111821d4f1b5477dffb599aeda7f0c1e70c7333fbedd80951d41bf5e8
   languageName: node
   linkType: hard
 
@@ -9698,6 +9775,16 @@ __metadata:
   version: 4.0.1
   resolution: "timed-out@npm:4.0.1"
   checksum: 98efc5d6fc0d2a329277bd4d34f65c1bf44d9ca2b14fd267495df92898f522e6f563c5e9e467c418e0836f5ca1f47a84ca3ee1de79b1cc6fe433834b7f02ec54
+  languageName: node
+  linkType: hard
+
+"tiny-glob@npm:^0.2.9":
+  version: 0.2.9
+  resolution: "tiny-glob@npm:0.2.9"
+  dependencies:
+    globalyzer: 0.1.0
+    globrex: ^0.1.2
+  checksum: aea5801eb6663ddf77ebb74900b8f8bd9dfcfc9b6a1cc8018cb7421590c00bf446109ff45e4b64a98e6c95ddb1255a337a5d488fb6311930e2a95334151ec9c6
   languageName: node
   linkType: hard
 
@@ -9826,7 +9913,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tslib@npm:^2.0.1, tslib@npm:^2.1.0":
+"tslib@npm:^2.0.1, tslib@npm:^2.1.0, tslib@npm:^2.4.0":
   version: 2.4.0
   resolution: "tslib@npm:2.4.0"
   checksum: 8c4aa6a3c5a754bf76aefc38026134180c053b7bd2f81338cb5e5ebf96fefa0f417bff221592bf801077f5bf990562f6264fecbc42cd3309b33872cb6fc3b113
