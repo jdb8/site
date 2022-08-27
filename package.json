@@ -18,7 +18,7 @@
     "@lhci/cli": "0.9.0",
     "@typescript-eslint/eslint-plugin": "5.35.1",
     "@typescript-eslint/parser": "5.35.1",
-    "astro": "1.0.9",
+    "astro": "1.1.1",
     "astro-critters": "1.0.2",
     "axe-playwright": "1.1.11",
     "babel-eslint": "10.1.0",
