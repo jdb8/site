@@ -44,9 +44,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/markdown-remark@npm:^1.1.0":
-  version: 1.1.0
-  resolution: "@astrojs/markdown-remark@npm:1.1.0"
+"@astrojs/markdown-remark@npm:^1.1.1":
+  version: 1.1.1
+  resolution: "@astrojs/markdown-remark@npm:1.1.1"
   dependencies:
     "@astrojs/micromark-extension-mdx-jsx": ^1.0.3
     "@astrojs/prism": ^1.0.0
@@ -64,12 +64,12 @@ __metadata:
     remark-parse: ^10.0.1
     remark-rehype: ^10.1.0
     remark-smartypants: ^2.0.0
-    shiki: ^0.10.1
+    shiki: ^0.11.1
     unified: ^10.1.2
     unist-util-map: ^3.1.1
     unist-util-visit: ^4.1.0
     vfile: ^5.3.2
-  checksum: d8f446bd130fb5fc8f656b387811de5582ca5b16fb85398260a8f2dfc21289730b07d889d3ca3b57e3d77490615636d5e37fce20b2592853efe947ce3d03ef6c
+  checksum: d3585ce3ae7b228d4bbf45308439513faaffd568d94367156cc0a2d7b4fbd5f4ee181896e408017a2b1dbc7102104cbab570a21b2082e392a280a4729f184dc7
   languageName: node
   linkType: hard
 
@@ -1915,13 +1915,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"astro@npm:1.1.1":
-  version: 1.1.1
-  resolution: "astro@npm:1.1.1"
+"astro@npm:1.1.2":
+  version: 1.1.2
+  resolution: "astro@npm:1.1.2"
   dependencies:
     "@astrojs/compiler": ^0.23.4
     "@astrojs/language-server": ^0.23.0
-    "@astrojs/markdown-remark": ^1.1.0
+    "@astrojs/markdown-remark": ^1.1.1
     "@astrojs/telemetry": ^1.0.0
     "@astrojs/webapi": ^1.0.0
     "@babel/core": ^7.18.2
@@ -1962,7 +1962,7 @@ __metadata:
     resolve: ^1.22.0
     rollup: ~2.77.0
     semver: ^7.3.7
-    shiki: ^0.10.1
+    shiki: ^0.11.1
     sirv: ^2.0.2
     slash: ^4.0.0
     string-width: ^5.1.2
@@ -1976,7 +1976,7 @@ __metadata:
     zod: ^3.17.3
   bin:
     astro: astro.js
-  checksum: 284f32f0cf16d789ddb0f2a6f4999f6aa262523dcba3ee7012e0a35af65a6b2915b8b30e3b34c8cf07f0f1458999544bca7a95de21ef4e147be5ad0229b752d7
+  checksum: 41504d13f5961f53f37be16bde63f6cf090ca1157441f4850c249f5b8e97099025a783a8a83aa5604fb48e0eea830b32aef77a77a82a439175902361c43e93f1
   languageName: node
   linkType: hard
 
@@ -6115,7 +6115,7 @@ __metadata:
     "@lhci/cli": 0.9.0
     "@typescript-eslint/eslint-plugin": 5.36.0
     "@typescript-eslint/parser": 5.36.0
-    astro: 1.1.1
+    astro: 1.1.2
     astro-critters: 1.0.3
     axe-playwright: 1.1.11
     babel-eslint: 10.1.0
@@ -9172,14 +9172,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"shiki@npm:^0.10.1":
-  version: 0.10.1
-  resolution: "shiki@npm:0.10.1"
+"shiki@npm:^0.11.1":
+  version: 0.11.1
+  resolution: "shiki@npm:0.11.1"
   dependencies:
     jsonc-parser: ^3.0.0
     vscode-oniguruma: ^1.6.1
-    vscode-textmate: 5.2.0
-  checksum: fb746f3cb3de7e545e3b10a6cb658d3938f840e4ccc9a3c90ceb7e69a8f89dbb432171faac1e9f02a03f103684dad88ee5e54b5c4964fa6b579fca6e8e26424d
+    vscode-textmate: ^6.0.0
+  checksum: 2a4ebc3b466816263fc244ae4f67a4ff96aa74d863b9c5e7e4affc50f37fd6d1a781405de0dbf763b777bc33e49a0d441de7ff3fededb8b01e3b8dbb37e2927d
   languageName: node
   linkType: hard
 
@@ -10499,10 +10499,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vscode-textmate@npm:5.2.0":
-  version: 5.2.0
-  resolution: "vscode-textmate@npm:5.2.0"
-  checksum: 5449b42d451080f6f3649b66948f4b5ee4643c4e88cfe3558a3b31c84c78060cfdd288c4958c1690eaa5cd65d09992fa6b7c3bef9d4aa72b3651054a04624d20
+"vscode-textmate@npm:^6.0.0":
+  version: 6.0.0
+  resolution: "vscode-textmate@npm:6.0.0"
+  checksum: ff6f17a406c2906586afc14ef01cb122e33acd35312e815abb5c924347a777c6783ce3fe7db8b83f1760ebf843c669843b9390f905b69c433b3395af28e4b483
   languageName: node
   linkType: hard
 
