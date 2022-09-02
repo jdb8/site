@@ -1888,7 +1888,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ast-types@npm:0.14.2, ast-types@npm:^0.14.2":
+"ast-types@npm:0.14.2":
   version: 0.14.2
   resolution: "ast-types@npm:0.14.2"
   dependencies:
@@ -1915,9 +1915,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"astro@npm:1.1.3":
-  version: 1.1.3
-  resolution: "astro@npm:1.1.3"
+"astro@npm:1.1.5":
+  version: 1.1.5
+  resolution: "astro@npm:1.1.5"
   dependencies:
     "@astrojs/compiler": ^0.23.4
     "@astrojs/language-server": ^0.23.0
@@ -1932,7 +1932,6 @@ __metadata:
     "@babel/types": ^7.18.4
     "@proload/core": ^0.3.2
     "@proload/plugin-tsm": ^0.2.1
-    ast-types: ^0.14.2
     boxen: ^6.2.1
     ci-info: ^3.3.1
     common-ancestor-path: ^1.0.1
@@ -1976,7 +1975,7 @@ __metadata:
     zod: ^3.17.3
   bin:
     astro: astro.js
-  checksum: c82337100786d4cad4e71e4fa5da3161b807525ce0a3dad21e2aa0283ca0f4c0767f6c4ec78e33b0126bcc9a3cd511a81b0defe3bebe11a9b2e42176f4a13098
+  checksum: fa997f28be32b256bd6960bed78d3122717b07a28023bf92acbc825689a4e308602b7372e3b0d0a99257a172f20520a083eda38694ada34d5e17cb75da010fa9
   languageName: node
   linkType: hard
 
@@ -6115,7 +6114,7 @@ __metadata:
     "@lhci/cli": 0.9.0
     "@typescript-eslint/eslint-plugin": 5.36.1
     "@typescript-eslint/parser": 5.36.1
-    astro: 1.1.3
+    astro: 1.1.5
     astro-critters: 1.0.3
     axe-playwright: 1.1.11
     babel-eslint: 10.1.0
