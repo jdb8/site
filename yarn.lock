@@ -22,10 +22,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/compiler@npm:^0.23.5":
-  version: 0.23.5
-  resolution: "@astrojs/compiler@npm:0.23.5"
-  checksum: 9779b8a7fab2b467ea8637fca8129110fe3b6dbee4fc2e9fe4ec162c3f91ffd77fd447abab01a926b7440749e03c269dda65c4ca1d8759d9662f9198e56eeb01
+"@astrojs/compiler@npm:^0.24.0":
+  version: 0.24.0
+  resolution: "@astrojs/compiler@npm:0.24.0"
+  checksum: 31e9d473de7d8bc3c439a5eb150ae4bf32eecb59de92af9911b3fb4f709c3ba0c8f29ebf0b9319ff7d5f27a2c2c1a48d807c877db7df6109c9b647be5d36858b
   languageName: node
   linkType: hard
 
@@ -1114,13 +1114,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@proload/core@npm:^0.3.2":
-  version: 0.3.2
-  resolution: "@proload/core@npm:0.3.2"
+"@proload/core@npm:^0.3.3":
+  version: 0.3.3
+  resolution: "@proload/core@npm:0.3.3"
   dependencies:
     deepmerge: ^4.2.2
     escalade: ^3.1.1
-  checksum: 8a53657bac827b1e7a63d3bea9b5465b1413c9031fbbc1caad1ad43e4820ac7dee9a4c8f42215fe948979ac505f884baed9104a3b17a269870226e61f6d82cdd
+  checksum: bf1483f21928eabbf632b3d34bb53b0d86d0c44d22c2bf798151351c0179db4fdefa6801176bff6a6318e01caa3bc486d600d3b1afd963a57cf227168639bc7f
   languageName: node
   linkType: hard
 
@@ -1215,7 +1215,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/babel__core@npm:^7.1.14":
+"@types/babel__core@npm:^7.1.14, @types/babel__core@npm:^7.1.19":
   version: 7.1.19
   resolution: "@types/babel__core@npm:7.1.19"
   dependencies:
@@ -1305,6 +1305,13 @@ __metadata:
   dependencies:
     "@types/unist": "*"
   checksum: fff47998f4c11e21a7454b58673f70478740ecdafd95aaf50b70a3daa7da9cdc57315545bf9c039613732c40b7b0e9e49d11d03fe9a4304721cdc3b29a88141e
+  languageName: node
+  linkType: hard
+
+"@types/html-escaper@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "@types/html-escaper@npm:3.0.0"
+  checksum: 45262fe292d132675abad3db4c9058d18e8a73e3c7e2e5b82a552e73697e5f50fead5142db432cb0685aba5b091a1ea275ae6fb96b8b1a2964ca45f8e50c0fdf
   languageName: node
   linkType: hard
 
@@ -1446,7 +1453,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/yargs-parser@npm:*":
+"@types/yargs-parser@npm:*, @types/yargs-parser@npm:^21.0.0":
   version: 21.0.0
   resolution: "@types/yargs-parser@npm:21.0.0"
   checksum: b2f4c8d12ac18a567440379909127cf2cec393daffb73f246d0a25df36ea983b93b7e9e824251f959e9f928cbc7c1aab6728d0a0ff15d6145f66cec2be67d9a2
@@ -1922,11 +1929,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"astro@npm:1.1.7":
-  version: 1.1.7
-  resolution: "astro@npm:1.1.7"
+"astro@npm:1.2.1":
+  version: 1.2.1
+  resolution: "astro@npm:1.2.1"
   dependencies:
-    "@astrojs/compiler": ^0.23.5
+    "@astrojs/compiler": ^0.24.0
     "@astrojs/language-server": ^0.23.0
     "@astrojs/markdown-remark": ^1.1.1
     "@astrojs/telemetry": ^1.0.0
@@ -1937,8 +1944,11 @@ __metadata:
     "@babel/plugin-transform-react-jsx": ^7.17.12
     "@babel/traverse": ^7.18.2
     "@babel/types": ^7.18.4
-    "@proload/core": ^0.3.2
+    "@proload/core": ^0.3.3
     "@proload/plugin-tsm": ^0.2.1
+    "@types/babel__core": ^7.1.19
+    "@types/html-escaper": ^3.0.0
+    "@types/yargs-parser": ^21.0.0
     boxen: ^6.2.1
     ci-info: ^3.3.1
     common-ancestor-path: ^1.0.1
@@ -1982,7 +1992,7 @@ __metadata:
     zod: ^3.17.3
   bin:
     astro: astro.js
-  checksum: f51462ddb672e96003fe1873b85ffa0e434e5f0744b053aa77196091ab0eca7a3a5085ba71cc8f14b69385d70e12b469a09aac637e8e50abfed3f60f398d2665
+  checksum: b03f17f87d98a22c8b376e57a84405812cd3f9066905d8ac8a596181b0aeecf9dae8c5a6495d41fdff06598192dcdda20e912421c3080ed86870cd03342f3157
   languageName: node
   linkType: hard
 
@@ -6121,7 +6131,7 @@ __metadata:
     "@lhci/cli": 0.9.0
     "@typescript-eslint/eslint-plugin": 5.36.2
     "@typescript-eslint/parser": 5.36.2
-    astro: 1.1.7
+    astro: 1.2.1
     astro-critters: 1.0.3
     axe-playwright: 1.1.11
     babel-eslint: 10.1.0
