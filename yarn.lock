@@ -51,15 +51,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/markdown-remark@npm:^1.1.1":
-  version: 1.1.1
-  resolution: "@astrojs/markdown-remark@npm:1.1.1"
+"@astrojs/markdown-remark@npm:^1.1.2":
+  version: 1.1.2
+  resolution: "@astrojs/markdown-remark@npm:1.1.2"
   dependencies:
     "@astrojs/micromark-extension-mdx-jsx": ^1.0.3
     "@astrojs/prism": ^1.0.0
     acorn: ^8.7.1
     acorn-jsx: ^5.3.2
     github-slugger: ^1.4.0
+    hast-util-to-html: ^8.0.3
     mdast-util-mdx-expression: ^1.2.1
     mdast-util-mdx-jsx: ^1.2.0
     micromark-extension-mdx-expression: ^1.0.3
@@ -76,7 +77,7 @@ __metadata:
     unist-util-map: ^3.1.1
     unist-util-visit: ^4.1.0
     vfile: ^5.3.2
-  checksum: d3585ce3ae7b228d4bbf45308439513faaffd568d94367156cc0a2d7b4fbd5f4ee181896e408017a2b1dbc7102104cbab570a21b2082e392a280a4729f184dc7
+  checksum: 8352e21e29d5f7087db382bb83d9be1a4f0ed050867df6541ffed56a657da48cc2e8b44cc37229ae81f6ff5ec7489de3104d1779e16b47ac44511dea850cab41
   languageName: node
   linkType: hard
 
@@ -1935,13 +1936,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"astro@npm:1.2.7":
-  version: 1.2.7
-  resolution: "astro@npm:1.2.7"
+"astro@npm:1.2.8":
+  version: 1.2.8
+  resolution: "astro@npm:1.2.8"
   dependencies:
     "@astrojs/compiler": ^0.24.0
     "@astrojs/language-server": ^0.23.0
-    "@astrojs/markdown-remark": ^1.1.1
+    "@astrojs/markdown-remark": ^1.1.2
     "@astrojs/telemetry": ^1.0.0
     "@astrojs/webapi": ^1.0.0
     "@babel/core": ^7.18.2
@@ -1998,7 +1999,7 @@ __metadata:
     zod: ^3.17.3
   bin:
     astro: astro.js
-  checksum: e0f28fe3bc0050a671af41cd1651f567770acc2a9185ab7287020929764eff249b30ea696381c8f13257daae02059fcd9616463ead2dc8df83097ebe96561b13
+  checksum: e726378cae50ae6816c124ac76f968fbba507a79656fbda608320b14d8215f764237154a01534765ca2839cd02e843dd3e9a0735e2923fc6bc052990eb772b98
   languageName: node
   linkType: hard
 
@@ -5105,7 +5106,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"hast-util-to-html@npm:^8.0.0":
+"hast-util-to-html@npm:^8.0.0, hast-util-to-html@npm:^8.0.3":
   version: 8.0.3
   resolution: "hast-util-to-html@npm:8.0.3"
   dependencies:
@@ -6364,7 +6365,7 @@ __metadata:
     "@lhci/cli": 0.9.0
     "@typescript-eslint/eslint-plugin": 5.38.0
     "@typescript-eslint/parser": 5.38.0
-    astro: 1.2.7
+    astro: 1.2.8
     astro-critters: 1.0.4
     axe-playwright: 1.1.11
     babel-eslint: 10.1.0
