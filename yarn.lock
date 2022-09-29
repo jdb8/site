@@ -22,10 +22,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/compiler@npm:^0.24.0":
-  version: 0.24.0
-  resolution: "@astrojs/compiler@npm:0.24.0"
-  checksum: 31e9d473de7d8bc3c439a5eb150ae4bf32eecb59de92af9911b3fb4f709c3ba0c8f29ebf0b9319ff7d5f27a2c2c1a48d807c877db7df6109c9b647be5d36858b
+"@astrojs/compiler@npm:^0.25.0":
+  version: 0.25.1
+  resolution: "@astrojs/compiler@npm:0.25.1"
+  checksum: af018b068474d4548e766d7bda73e5f7cfcdde8efa10ef98c09aca7ac26040262e5a1f74dff0b49dc735bbb58280825f584b4a39874bf3bfb2e8bf91bdaa3b96
   languageName: node
   linkType: hard
 
@@ -51,9 +51,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/markdown-remark@npm:^1.1.2":
-  version: 1.1.2
-  resolution: "@astrojs/markdown-remark@npm:1.1.2"
+"@astrojs/markdown-remark@npm:^1.1.3":
+  version: 1.1.3
+  resolution: "@astrojs/markdown-remark@npm:1.1.3"
   dependencies:
     "@astrojs/micromark-extension-mdx-jsx": ^1.0.3
     "@astrojs/prism": ^1.0.0
@@ -61,6 +61,8 @@ __metadata:
     acorn-jsx: ^5.3.2
     github-slugger: ^1.4.0
     hast-util-to-html: ^8.0.3
+    import-meta-resolve: ^2.1.0
+    mdast-util-from-markdown: ^1.2.0
     mdast-util-mdx-expression: ^1.2.1
     mdast-util-mdx-jsx: ^1.2.0
     micromark-extension-mdx-expression: ^1.0.3
@@ -77,7 +79,7 @@ __metadata:
     unist-util-map: ^3.1.1
     unist-util-visit: ^4.1.0
     vfile: ^5.3.2
-  checksum: 8352e21e29d5f7087db382bb83d9be1a4f0ed050867df6541ffed56a657da48cc2e8b44cc37229ae81f6ff5ec7489de3104d1779e16b47ac44511dea850cab41
+  checksum: 1d8aa5226f2b746e004fb18db0b50086a674b7e31da502dea6182925f48d14972879d5be3771614ea06cc9c8872bcd0b217a69676c6bf18d5b18d534ee151553
   languageName: node
   linkType: hard
 
@@ -107,9 +109,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/telemetry@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "@astrojs/telemetry@npm:1.0.0"
+"@astrojs/telemetry@npm:^1.0.1":
+  version: 1.0.1
+  resolution: "@astrojs/telemetry@npm:1.0.1"
   dependencies:
     ci-info: ^3.3.1
     debug: ^4.3.4
@@ -119,7 +121,7 @@ __metadata:
     is-wsl: ^2.2.0
     node-fetch: ^3.2.5
     which-pm-runs: ^1.1.0
-  checksum: fc198e3fc3ebcc72970d3a1637142841e2e82ba40b6c4f3485fbf2225e539e4c12dc0a3da84dddaabc45bbceab3b4bfad3a6d015a33ed3032491dc105efdc6da
+  checksum: f98e21e84e2750cde5a0eb660c18e5c745dde2ee3a84e0c471e8aed64600e7f4b76a0b1858c05f4596920f6d19f715b57552b4186db9ca583b58207f9529cc41
   languageName: node
   linkType: hard
 
@@ -1937,14 +1939,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"astro@npm:1.3.1":
-  version: 1.3.1
-  resolution: "astro@npm:1.3.1"
+"astro@npm:1.4.0":
+  version: 1.4.0
+  resolution: "astro@npm:1.4.0"
   dependencies:
-    "@astrojs/compiler": ^0.24.0
+    "@astrojs/compiler": ^0.25.0
     "@astrojs/language-server": ^0.26.2
-    "@astrojs/markdown-remark": ^1.1.2
-    "@astrojs/telemetry": ^1.0.0
+    "@astrojs/markdown-remark": ^1.1.3
+    "@astrojs/telemetry": ^1.0.1
     "@astrojs/webapi": ^1.1.0
     "@babel/core": ^7.18.2
     "@babel/generator": ^7.18.2
@@ -1960,6 +1962,7 @@ __metadata:
     boxen: ^6.2.1
     ci-info: ^3.3.1
     common-ancestor-path: ^1.0.1
+    cookie: ^0.5.0
     debug: ^4.3.4
     diff: ^5.1.0
     eol: ^0.9.1
@@ -2001,7 +2004,7 @@ __metadata:
     zod: ^3.17.3
   bin:
     astro: astro.js
-  checksum: c7f23e439be0568fcc2f4ffb9b3125070df8d8971d3b6474404580cbad9be1c0c4ed46d490ddcd615fd7f816fc6e1f5eacd5d00446bff8cc4e988b94b62f117d
+  checksum: 944f1c946195287d4c09685c666e1a64931a90bfcab57a60b17a7dbb898986ffa37dddb142c12f9600089576e6c2fd1eee0e9576be4126c13f90f0e1820596d7
   languageName: node
   linkType: hard
 
@@ -2841,7 +2844,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cookie@npm:0.5.0":
+"cookie@npm:0.5.0, cookie@npm:^0.5.0":
   version: 0.5.0
   resolution: "cookie@npm:0.5.0"
   checksum: 1f4bd2ca5765f8c9689a7e8954183f5332139eb72b6ff783d8947032ec1fdf43109852c178e21a953a30c0dd42257828185be01b49d1eb1a67fd054ca588a180
@@ -5437,6 +5440,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"import-meta-resolve@npm:^2.1.0":
+  version: 2.1.0
+  resolution: "import-meta-resolve@npm:2.1.0"
+  checksum: 4554ea5e2daecbdeb7ebe4df23ced97e6a64ad41ed26889b3c86ed896830dbbe63889c8fad49b7dea76c0f9aad46f7d32412fa727c335e11f3cc79f63a91f8e1
+  languageName: node
+  linkType: hard
+
 "imurmurhash@npm:^0.1.4":
   version: 0.1.4
   resolution: "imurmurhash@npm:0.1.4"
@@ -6419,7 +6429,7 @@ __metadata:
     "@lhci/cli": 0.9.0
     "@typescript-eslint/eslint-plugin": 5.38.1
     "@typescript-eslint/parser": 5.38.1
-    astro: 1.3.1
+    astro: 1.4.0
     astro-critters: 1.0.4
     axe-playwright: 1.1.11
     babel-eslint: 10.1.0
@@ -7030,7 +7040,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mdast-util-from-markdown@npm:^1.0.0":
+"mdast-util-from-markdown@npm:^1.0.0, mdast-util-from-markdown@npm:^1.2.0":
   version: 1.2.0
   resolution: "mdast-util-from-markdown@npm:1.2.0"
   dependencies:
