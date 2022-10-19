@@ -1947,9 +1947,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"astro@npm:1.5.1":
-  version: 1.5.1
-  resolution: "astro@npm:1.5.1"
+"astro@npm:1.5.2":
+  version: 1.5.2
+  resolution: "astro@npm:1.5.2"
   dependencies:
     "@astrojs/compiler": ^0.27.1
     "@astrojs/language-server": ^0.26.2
@@ -2014,7 +2014,7 @@ __metadata:
     zod: ^3.17.3
   bin:
     astro: astro.js
-  checksum: e84429fb90f779664ef1864ef5760f839a01565285d967d3f3a914fffb85596c24c788ef0253916e3c8b977b3531f08618b9a404d9f483a256205449b0be2c03
+  checksum: 0893ee9880203ce0ff577c3ee66647912c56487ecfceb01d16dab857a023d14ddf39c2d0dd32fddd9ed2b0d1afa09291033ec13a028cea7ee9cba3476b806f23
   languageName: node
   linkType: hard
 
@@ -6440,7 +6440,7 @@ __metadata:
     "@lhci/cli": 0.9.0
     "@typescript-eslint/eslint-plugin": 5.40.1
     "@typescript-eslint/parser": 5.40.1
-    astro: 1.5.1
+    astro: 1.5.2
     astro-critters: 1.0.5
     axe-playwright: 1.1.11
     babel-eslint: 10.1.0
