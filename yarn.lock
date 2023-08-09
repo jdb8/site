@@ -2026,13 +2026,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"astro-critters@npm:1.1.38":
-  version: 1.1.38
-  resolution: "astro-critters@npm:1.1.38"
+"astro-critters@npm:2.0.2":
+  version: 2.0.2
+  resolution: "astro-critters@npm:2.0.2"
   dependencies:
-    critters: 0.0.18
-    files-pipe: 0.0.7
-  checksum: 187a88ed8edf9d9925f8de9675c64d3f8edc42a72941a33b553dd8904d3a5c49225ce46fdfd60a4c13083235c5339181b781f2ea209aba8384fd03b2e53feea5
+    critters: 0.0.20
+    files-pipe: 2.0.5
+  checksum: c3613e10a35e23080e0448a058b9d15770489dc72411f7752ae56016e748d72704b58f4d66b8d0d6ed44376a23212822a10467273f7b58592740f3ecd9441f21
   languageName: node
   linkType: hard
 
@@ -3031,9 +3031,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"critters@npm:0.0.18":
-  version: 0.0.18
-  resolution: "critters@npm:0.0.18"
+"critters@npm:0.0.20":
+  version: 0.0.20
+  resolution: "critters@npm:0.0.20"
   dependencies:
     chalk: ^4.1.0
     css-select: ^5.1.0
@@ -3042,7 +3042,7 @@ __metadata:
     htmlparser2: ^8.0.2
     postcss: ^8.4.23
     pretty-bytes: ^5.3.0
-  checksum: a262ff8ddbbde41f18839bc4607e7e8555a2001722381d45d515e79acec8836ab51e68d1d71d22a89a23f66396463a70705e35b51cc03a204104c56dc58e9231
+  checksum: 402b9a2cf69a31d255925f062eefb2a1743eb6ce0d8e55beb5006ef61d1c9ea56f2f59e8f441e639fd8ea06a81cd982d7371de28828de488f94511269849df5c
   languageName: node
   linkType: hard
 
@@ -4892,16 +4892,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fast-glob@npm:3.2.12, fast-glob@npm:^3.2.12":
-  version: 3.2.12
-  resolution: "fast-glob@npm:3.2.12"
+"fast-glob@npm:3.3.1":
+  version: 3.3.1
+  resolution: "fast-glob@npm:3.3.1"
   dependencies:
     "@nodelib/fs.stat": ^2.0.2
     "@nodelib/fs.walk": ^1.2.3
     glob-parent: ^5.1.2
     merge2: ^1.3.0
     micromatch: ^4.0.4
-  checksum: 0b1990f6ce831c7e28c4d505edcdaad8e27e88ab9fa65eedadb730438cfc7cde4910d6c975d6b7b8dc8a73da4773702ebcfcd6e3518e73938bb1383badfe01c2
+  checksum: b6f3add6403e02cf3a798bfbb1183d0f6da2afd368f27456010c0bc1f9640aea308243d4cb2c0ab142f618276e65ecb8be1661d7c62a7b4e5ba774b9ce5432e5
   languageName: node
   linkType: hard
 
@@ -4915,6 +4915,19 @@ __metadata:
     merge2: ^1.3.0
     micromatch: ^4.0.4
   checksum: f473105324a7780a20c06de842e15ddbb41d3cb7e71d1e4fe6e8373204f22245d54f5ab9e2061e6a1c613047345954d29b022e0e76f5c28b1df9858179a0e6d7
+  languageName: node
+  linkType: hard
+
+"fast-glob@npm:^3.2.12":
+  version: 3.2.12
+  resolution: "fast-glob@npm:3.2.12"
+  dependencies:
+    "@nodelib/fs.stat": ^2.0.2
+    "@nodelib/fs.walk": ^1.2.3
+    glob-parent: ^5.1.2
+    merge2: ^1.3.0
+    micromatch: ^4.0.4
+  checksum: 0b1990f6ce831c7e28c4d505edcdaad8e27e88ab9fa65eedadb730438cfc7cde4910d6c975d6b7b8dc8a73da4773702ebcfcd6e3518e73938bb1383badfe01c2
   languageName: node
   linkType: hard
 
@@ -4978,13 +4991,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"files-pipe@npm:0.0.7":
-  version: 0.0.7
-  resolution: "files-pipe@npm:0.0.7"
+"files-pipe@npm:2.0.5":
+  version: 2.0.5
+  resolution: "files-pipe@npm:2.0.5"
   dependencies:
     deepmerge-ts: 5.1.0
-    fast-glob: 3.2.12
-  checksum: be12f3f39402b567ce2e016f00e51a6c786adf0d28011cca1300a78d30825ee4bcef4409bf4413a35ae360f5364fead5b4c29e3a7bd42dc1313791dbe319a811
+    fast-glob: 3.3.1
+  checksum: 81153145e636c24ed3edec24ba190f9269cb672bf8d201c4926e9322afaa7374818a5d62d2063aaa6539008bbe19a4429fedd336a02731b2f8e7cac676dec16a
   languageName: node
   linkType: hard
 
@@ -7037,7 +7050,7 @@ __metadata:
     "@typescript-eslint/eslint-plugin": 6.3.0
     "@typescript-eslint/parser": 6.3.0
     astro: 1.9.2
-    astro-critters: 1.1.38
+    astro-critters: 2.0.2
     axe-playwright: 1.2.3
     babel-eslint: 10.1.0
     eslint: 7.32.0
