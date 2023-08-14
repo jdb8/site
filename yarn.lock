@@ -1434,10 +1434,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:20.4.10":
-  version: 20.4.10
-  resolution: "@types/node@npm:20.4.10"
-  checksum: 02a1ca415d9cc91144c4250383aa0ef1e48241bd36067ed7d1b239d8bacc2a11139dd90e223e11ac289345eeae624cc5dcf73359e684bd2e5a6c31bdfbab4811
+"@types/node@npm:20.5.0":
+  version: 20.5.0
+  resolution: "@types/node@npm:20.5.0"
+  checksum: 659bc5fc93b5c02bd88ca4bfae4f6b9dc307d45884d1dd9d69df85819a9943cdc00cd3c87eec3048866df6a67f52297f74d170e47a44f61edb3e8f770d94e85e
   languageName: node
   linkType: hard
 
@@ -2033,13 +2033,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"astro-critters@npm:2.0.5":
-  version: 2.0.5
-  resolution: "astro-critters@npm:2.0.5"
+"astro-critters@npm:2.0.7":
+  version: 2.0.7
+  resolution: "astro-critters@npm:2.0.7"
   dependencies:
     critters: 0.0.20
-    files-pipe: 2.0.9
-  checksum: 383ac914ad74a999117fece854fc706e47497d50a95610729f37c2cde5586dd3779b8ccdd2c8b93a2300709f4ba6e3d12f5158aca0d1910a5344f5883d0ed7b6
+    files-pipe: 2.0.12
+  checksum: 713fe83234dd35f83d2c971e809667972620e5a2c8d784dfa185239127a49133ecc3f097776f4c87993cb7a347581b403afcf9d08b8e7007f54f76c3ad103243
   languageName: node
   linkType: hard
 
@@ -4998,14 +4998,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"files-pipe@npm:2.0.9":
-  version: 2.0.9
-  resolution: "files-pipe@npm:2.0.9"
+"files-pipe@npm:2.0.12":
+  version: 2.0.12
+  resolution: "files-pipe@npm:2.0.12"
   dependencies:
-    "@types/node": 20.4.10
+    "@types/node": 20.5.0
     deepmerge-ts: 5.1.0
     fast-glob: 3.3.1
-  checksum: c137690ea0d30f43350d54ea19674e35b2b7b65c165df6fc8992e88e9b95340d34f03d519ee78ef6d5ecbe0a51a3e09fd436d95e4bc1616511ffcac988e47ea2
+  checksum: ee7822233ad8797e2d713a72f556b0b5d796fb7f68309d9c726deefdb809dd2da60437386bfd27f461648bb1474e156ffa72b191c2b7d12058ad10fd528904ba
   languageName: node
   linkType: hard
 
@@ -7058,7 +7058,7 @@ __metadata:
     "@typescript-eslint/eslint-plugin": 6.3.0
     "@typescript-eslint/parser": 6.3.0
     astro: 1.9.2
-    astro-critters: 2.0.5
+    astro-critters: 2.0.7
     axe-playwright: 1.2.3
     babel-eslint: 10.1.0
     eslint: 7.32.0
