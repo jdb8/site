@@ -20,7 +20,7 @@
     "@typescript-eslint/parser": "6.21.0",
     "astro": "1.9.2",
     "astro-critters": "2.1.6",
-    "axe-playwright": "1.2.3",
+    "axe-playwright": "2.0.1",
     "babel-eslint": "10.1.0",
     "eslint": "7.32.0",
     "eslint-config-prettier": "9.1.0",
