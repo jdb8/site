@@ -1434,10 +1434,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:20.5.0":
-  version: 20.5.0
-  resolution: "@types/node@npm:20.5.0"
-  checksum: 659bc5fc93b5c02bd88ca4bfae4f6b9dc307d45884d1dd9d69df85819a9943cdc00cd3c87eec3048866df6a67f52297f74d170e47a44f61edb3e8f770d94e85e
+"@types/node@npm:20.11.30":
+  version: 20.11.30
+  resolution: "@types/node@npm:20.11.30"
+  dependencies:
+    undici-types: ~5.26.4
+  checksum: 7597767aa3e44b0f1bf62efa522dd17741135f283c11de6a20ead8bb7016fb4999cc30adcd8f2bb29ebb216906c92894346ccd187de170927dc1e212d2c07c81
   languageName: node
   linkType: hard
 
@@ -2072,13 +2074,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"astro-critters@npm:2.0.11":
-  version: 2.0.11
-  resolution: "astro-critters@npm:2.0.11"
+"astro-critters@npm:2.1.6":
+  version: 2.1.6
+  resolution: "astro-critters@npm:2.1.6"
   dependencies:
-    critters: 0.0.20
-    files-pipe: 2.0.16
-  checksum: 74a16daac0af09fc46fc17a1914d7a5109f437862d752b52b4f75d210b75ece2d883881c4769a85d9086b3de2b5657dd967ceebda2fac33ac1d7652fb3025919
+    critters: 0.0.22
+    files-pipe: 2.1.15
+  checksum: 76c2c63b8662839b9c14730dd2d94ea964e7b91da5f11f5b65f0db44ecec9dc1533e243edc13741e5b39abad31a2aa2bac6cc0538c6d032b3c74420040a9d79c
   languageName: node
   linkType: hard
 
@@ -3122,9 +3124,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"critters@npm:0.0.20":
-  version: 0.0.20
-  resolution: "critters@npm:0.0.20"
+"critters@npm:0.0.22":
+  version: 0.0.22
+  resolution: "critters@npm:0.0.22"
   dependencies:
     chalk: ^4.1.0
     css-select: ^5.1.0
@@ -3132,8 +3134,8 @@ __metadata:
     domhandler: ^5.0.2
     htmlparser2: ^8.0.2
     postcss: ^8.4.23
-    pretty-bytes: ^5.3.0
-  checksum: 402b9a2cf69a31d255925f062eefb2a1743eb6ce0d8e55beb5006ef61d1c9ea56f2f59e8f441e639fd8ea06a81cd982d7371de28828de488f94511269849df5c
+    postcss-media-query-parser: ^0.2.3
+  checksum: e5f49ccf2966bb4e403981c654b413c81c728e2f56038c1ce03f28e87abec1be47c4005df2950ead581b2bb5036abe9d85a54df1a92e8a80490d3735687a0aa6
   languageName: node
   linkType: hard
 
@@ -5037,16 +5039,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fast-glob@npm:3.3.1":
-  version: 3.3.1
-  resolution: "fast-glob@npm:3.3.1"
+"fast-glob@npm:3.3.2":
+  version: 3.3.2
+  resolution: "fast-glob@npm:3.3.2"
   dependencies:
     "@nodelib/fs.stat": ^2.0.2
     "@nodelib/fs.walk": ^1.2.3
     glob-parent: ^5.1.2
     merge2: ^1.3.0
     micromatch: ^4.0.4
-  checksum: b6f3add6403e02cf3a798bfbb1183d0f6da2afd368f27456010c0bc1f9640aea308243d4cb2c0ab142f618276e65ecb8be1661d7c62a7b4e5ba774b9ce5432e5
+  checksum: 900e4979f4dbc3313840078419245621259f349950411ca2fa445a2f9a1a6d98c3b5e7e0660c5ccd563aa61abe133a21765c6c0dec8e57da1ba71d8000b05ec1
   languageName: node
   linkType: hard
 
@@ -5136,14 +5138,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"files-pipe@npm:2.0.16":
-  version: 2.0.16
-  resolution: "files-pipe@npm:2.0.16"
+"files-pipe@npm:2.1.15":
+  version: 2.1.15
+  resolution: "files-pipe@npm:2.1.15"
   dependencies:
-    "@types/node": 20.5.0
+    "@types/node": 20.11.30
     deepmerge-ts: 5.1.0
-    fast-glob: 3.3.1
-  checksum: a2682dd1b565a773cdcd6848b766b9913a3e93d5eb0a6e4ce089ef8a9a68ad18c9a4f8def0d93369daaa3d853cfd03b9e9663527c227fa4adc696e6f78e20b1f
+    fast-glob: 3.3.2
+  checksum: e85289a5e1a6a56fdc83d5e318420a1f506bbac75d2b2d554ff96ff19502ba500b9f082ac0a14774d0fffb15fac9d87d9331513bdb57f0ddee50a65bdad35662
   languageName: node
   linkType: hard
 
@@ -7301,7 +7303,7 @@ __metadata:
     "@typescript-eslint/eslint-plugin": 6.13.2
     "@typescript-eslint/parser": 6.13.2
     astro: 1.9.2
-    astro-critters: 2.0.11
+    astro-critters: 2.1.6
     axe-playwright: 1.2.3
     babel-eslint: 10.1.0
     eslint: 7.32.0
@@ -9544,6 +9546,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"postcss-media-query-parser@npm:^0.2.3":
+  version: 0.2.3
+  resolution: "postcss-media-query-parser@npm:0.2.3"
+  checksum: 8000d4d95b912994928ff86137f5ab0ed4c4ee1498af2336e93d708ae8827a690cd7acbaed55d14684cf44d82c8d44b031c1c69ae6bcd2f9620ea67573888090
+  languageName: node
+  linkType: hard
+
 "postcss@npm:^8.4.14":
   version: 8.4.16
   resolution: "postcss@npm:8.4.16"
@@ -9628,13 +9637,6 @@ __metadata:
   bin:
     prettier: bin-prettier.js
   checksum: 55a4409182260866ab31284d929b3cb961e5fdb91fe0d2e099dac92eaecec890f36e524b4c19e6ceae839c99c6d7195817579cdffc8e2c80da0cb794463a748b
-  languageName: node
-  linkType: hard
-
-"pretty-bytes@npm:^5.3.0":
-  version: 5.6.0
-  resolution: "pretty-bytes@npm:5.6.0"
-  checksum: 9c082500d1e93434b5b291bd651662936b8bd6204ec9fa17d563116a192d6d86b98f6d328526b4e8d783c07d5499e2614a807520249692da9ec81564b2f439cd
   languageName: node
   linkType: hard
 
@@ -11646,6 +11648,13 @@ __metadata:
     has-symbols: ^1.0.3
     which-boxed-primitive: ^1.0.2
   checksum: b7a1cf5862b5e4b5deb091672ffa579aa274f648410009c81cca63fed3b62b610c4f3b773f912ce545bb4e31edc3138975b5bc777fc6e4817dca51affb6380e9
+  languageName: node
+  linkType: hard
+
+"undici-types@npm:~5.26.4":
+  version: 5.26.5
+  resolution: "undici-types@npm:5.26.5"
+  checksum: 3192ef6f3fd5df652f2dc1cd782b49d6ff14dc98e5dced492aa8a8c65425227da5da6aafe22523c67f035a272c599bb89cfe803c1db6311e44bed3042fc25487
   languageName: node
   linkType: hard
 
