@@ -4,14 +4,13 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - name: Use Node.js
-        uses: actions/setup-node@v3
-      - run: yarn
-      - run: yarn run test:e2e
-      - run: yarn run test:lint
-      - run: yarn run build
+      - uses: actions/checkout@v4
+      - uses: oven-sh/setup-bun@v2
+      - run: bun install
+      - run: bun run test:e2e
+      - run: bun run test:lint
+      - run: bun run build
       - name: run Lighthouse CI
-        run: yarn run lhci autorun
+        run: bun run lhci autorun
         env:
           LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}
