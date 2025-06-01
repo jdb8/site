@@ -1118,6 +1118,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@pkgr/core@npm:^0.2.4":
+  version: 0.2.5
+  resolution: "@pkgr/core@npm:0.2.5"
+  checksum: 9df63a2b98c26532ca7c7b468c31e1826b3f340e22e3f7929f93e4082c172b8811dcf655db1e7301bde7ada211d81818a682bb33fdcf173dce4b3fc223022436
+  languageName: node
+  linkType: hard
+
 "@pkgr/utils@npm:^2.3.1":
   version: 2.4.1
   resolution: "@pkgr/utils@npm:2.4.1"
@@ -4769,18 +4776,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-prettier@npm:4.2.1":
-  version: 4.2.1
-  resolution: "eslint-plugin-prettier@npm:4.2.1"
+"eslint-plugin-prettier@npm:5.4.1":
+  version: 5.4.1
+  resolution: "eslint-plugin-prettier@npm:5.4.1"
   dependencies:
     prettier-linter-helpers: ^1.0.0
+    synckit: ^0.11.7
   peerDependencies:
-    eslint: ">=7.28.0"
-    prettier: ">=2.0.0"
+    "@types/eslint": ">=8.0.0"
+    eslint: ">=8.0.0"
+    eslint-config-prettier: ">= 7.0.0 <10.0.0 || >=10.1.0"
+    prettier: ">=3.0.0"
   peerDependenciesMeta:
+    "@types/eslint":
+      optional: true
     eslint-config-prettier:
       optional: true
-  checksum: b9e839d2334ad8ec7a5589c5cb0f219bded260839a857d7a486997f9870e95106aa59b8756ff3f37202085ebab658de382b0267cae44c3a7f0eb0bcc03a4f6d6
+  checksum: ddbfc60e478dd78602b1f1594db539bfc686161eba4531e4c59580c9cf5746919878beabfe31b559d783ad3ed753af158bfa16bd35bd05382c7d2d86c894c81b
   languageName: node
   linkType: hard
 
@@ -7579,7 +7591,7 @@ __metadata:
     eslint-plugin-flowtype: 8.0.3
     eslint-plugin-import: 2.29.1
     eslint-plugin-jsx-a11y: 6.8.0
-    eslint-plugin-prettier: 4.2.1
+    eslint-plugin-prettier: 5.4.1
     eslint-plugin-react: 7.34.1
     eslint-plugin-react-hooks: 4.6.2
     http-server: 14.1.1
@@ -11608,6 +11620,15 @@ __metadata:
   version: 1.0.0
   resolution: "supports-preserve-symlinks-flag@npm:1.0.0"
   checksum: 53b1e247e68e05db7b3808b99b892bd36fb096e6fba213a06da7fab22045e97597db425c724f2bbd6c99a3c295e1e73f3e4de78592289f38431049e1277ca0ae
+  languageName: node
+  linkType: hard
+
+"synckit@npm:^0.11.7":
+  version: 0.11.8
+  resolution: "synckit@npm:0.11.8"
+  dependencies:
+    "@pkgr/core": ^0.2.4
+  checksum: dd7193736e0b5eb209192e280649b98b539537bf23bef20c8a2b24cd12ccde47bcf4e77773ff9cb66c35960d2cb41e28c05e0b19124488abbfb6423258b56275
   languageName: node
   linkType: hard
 
