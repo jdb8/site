@@ -44,5 +44,5 @@
     "tabWidth": 2,
     "printWidth": 110
   },
-  "packageManager": "yarn@3.2.2"
+  "packageManager": "yarn@3.8.7"
 }
