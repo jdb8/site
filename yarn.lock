@@ -9554,8 +9554,8 @@ __metadata:
     eslint-plugin-react-hooks: 5.2.0
     http-server: 14.1.1
     jest: 29.7.0
-    playwright-chromium: 1.53.1
-    playwright-core: 1.53.1
+    playwright-chromium: 1.54.2
+    playwright-core: 1.54.2
     prettier: 3.6.2
     start-server-and-test: 2.0.13
   languageName: unknown
@@ -12505,23 +12505,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"playwright-chromium@npm:1.53.1":
-  version: 1.53.1
-  resolution: "playwright-chromium@npm:1.53.1"
+"playwright-chromium@npm:1.54.2":
+  version: 1.54.2
+  resolution: "playwright-chromium@npm:1.54.2"
   dependencies:
-    playwright-core: 1.53.1
+    playwright-core: 1.54.2
   bin:
     playwright: cli.js
-  checksum: 1d77b94c9e0ccf5cb79c3674985a6324b3e1df6e09b3685ecd5dc80942028e144282cb64ade04a2860f3600119ece3534b221e399e278b80d62afb3b064278ab
+  checksum: 89a92bb505767f6b04d67bfe6447019cbf87a1159c307f0fd5517f20a71773aa925b46f1b4196267be258558651a7d240b0b98a0bd02a7144a0f9e622ff03328
   languageName: node
   linkType: hard
 
-"playwright-core@npm:1.53.1":
-  version: 1.53.1
-  resolution: "playwright-core@npm:1.53.1"
+"playwright-core@npm:1.54.2":
+  version: 1.54.2
+  resolution: "playwright-core@npm:1.54.2"
   bin:
     playwright-core: cli.js
-  checksum: 19600abe104c7f1793212ad12d8c66c6b42c534a2b760aab55ee9c198c058f0027c8f3ba469bb4f2e268e20e8f84272ea32aeb9ea840b184b58f58f71d29549d
+  checksum: ba233b6ac9a88af8625a519252472b3235bc12dd58b47cbcabb4ab8bdecdb25054acecd98eba9e818d222e87e9bdcc9a28c88df7793bcdf5ddbfd169a5b7b5c8
   languageName: node
   linkType: hard
 
