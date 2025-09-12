@@ -4,7 +4,7 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
-    "build": "astro build",
+    "build": "NODE_ENV=production astro build",
     "preview": "astro preview",
     "develop": "bun run build && bun run preview",
     "clean": "rm -rf dist && rm -rf node_modules",
