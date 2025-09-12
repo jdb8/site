@@ -5,14 +5,11 @@ function VisibleElement({
   Element,
   outside = false,
 }: {
-  Element: React.ElementType;
+  Element: React.ElementType<any>;
   children: React.ReactNode;
   outside?: boolean;
 }) {
-  const tagName =
-    typeof Element === "string"
-      ? Element
-      : (Element.displayName || Element.name || "Component");
+  const tagName = typeof Element === 'string' ? Element : Element.displayName || Element.name || 'Component';
   const openingTag = <span className="tag">&lt;{tagName}&gt;</span>;
   const closingTag = <span className="tag">&lt;/{tagName}&gt;</span>;
   return (
