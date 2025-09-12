@@ -6,9 +6,9 @@
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "develop": "yarn build && yarn preview",
+    "develop": "bun run build && bun run preview",
     "clean": "rm -rf dist && rm -rf node_modules",
-    "serve:lhci": "yarn develop",
+    "serve:lhci": "bun run develop",
     "test:lint": "eslint .",
     "test:e2e": "start-server-and-test develop http://localhost:3000 jest"
   },
@@ -43,6 +43,5 @@
     "trailingComma": "all",
     "tabWidth": 2,
     "printWidth": 110
-  },
-  "packageManager": "yarn@3.2.2"
+  }
 }
