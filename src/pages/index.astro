@@ -1,5 +1,6 @@
 ---
 import '../css/main.css';
+import Home from '../home';
 ---
 
 <!DOCTYPE html>
@@ -19,72 +20,7 @@ import '../css/main.css';
 </head>
 
 <body contenteditable="true" spellcheck="false">
-    <header role="banner">
-        <h1 class="name">
-            <span class="tag">&lt;h1&gt;</span> Joe Bateson <span class="tag">&lt;/h1&gt;</span>
-        </h1>
-    </header>
-
-    <main role="main">
-        <h2>
-            <span class="tag">&lt;h2&gt;</span> This is the website of Joe Bateson, a software
-            engineer/developer/tinkerer from the UK (but now in 🇺🇸). <span class="tag">&lt;/h2&gt;</span>
-        </h2>
-
-        <p>
-            <span class="tag">&lt;p&gt;</span>
-            I currently work at Yelp as a full-stack software engineer, previously studying computer science at
-            the University of Cambridge. Building things is fun.
-            <span class="tag">&lt;/p&gt;</span>
-        </p>
-
-        <p>
-            <span class="tag">&lt;p&gt;</span>
-            You can find me in various places across the internet:
-            <span class="tag">&lt;/p&gt;</span>
-        </p>
-
-        <span class="tag">&lt;ul&gt;</span>
-        <ul>
-            <li>
-                <span class="tag">&lt;li&gt;</span> <span class="tag">&lt;a</span>
-                <span class="keyword">href</span>=<span class="values" contenteditable="false"><a
-                        href="https://github.com/jdb8">&quot;https://github.com/jdb8&quot;</a></span><span
-                    class="tag">&gt;</span>
-                <span contenteditable="false"><a href="https://github.com/jdb8">Github</a></span>
-                <span class="tag">&lt;/a&gt;</span> <span class="tag">&lt;/li&gt;</span>
-            </li>
-
-            <li>
-                <span class="tag">&lt;li&gt;</span> <span class="tag">&lt;a</span>
-                <span class="keyword">href</span>=<span class="values" contenteditable="false">&quot;<a
-                        href="https://twitter.com/joebateson">https://twitter.com/joebateson</a>&quot;</span><span
-                    class="tag">&gt;</span>
-                <span contenteditable="false"><a href="https://twitter.com/joebateson">Twitter</a></span>
-                <span class="tag">&lt;/a&gt;</span> <span class="tag">&lt;/li&gt;</span>
-            </li>
-
-            <li>
-                <span class="tag">&lt;li&gt;</span> <span class="tag">&lt;a</span>
-                <span class="keyword">href</span>=<span class="values" contenteditable="false">&quot;<a
-                        href="https://uk.linkedin.com/pub/joe-bateson/42/72a/374">https://uk.linkedin.com/pub/joe-bateson/42/72a/374</a>&quot;</span><span
-                    class="tag">&gt;</span>
-                <span contenteditable="false"><a
-                        href="https://uk.linkedin.com/pub/joe-bateson/42/72a/374">LinkedIn</a></span>
-                <span class="tag">&lt;/a&gt;</span> <span class="tag">&lt;/li&gt;</span>
-            </li>
-
-            <li>
-                <span class="tag">&lt;li&gt;</span> <span class="tag">&lt;a</span>
-                <span class="keyword">href</span>=<span class="values" contenteditable="false">&quot;<a
-                        href="mailto:joe@joebateson.com">mailto:joe@joebateson.com</a>&quot;</span><span
-                    class="tag">&gt;</span>
-                <span contenteditable="false"><a href="mailto:joe@joebateson.com">Email</a></span>
-                <span class="tag">&lt;/a&gt;</span> <span class="tag">&lt;/li&gt;</span>
-            </li>
-        </ul>
-        <span class="tag">&lt;/ul&gt;</span>
-    </main>
+    <Home />
 
     <script is:inline>
         // If rIC isn't available, just immediately execute ¯\_(ツ)_/¯
