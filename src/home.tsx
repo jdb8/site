@@ -9,8 +9,12 @@ function VisibleElement({
   children: React.ReactNode;
   outside?: boolean;
 }) {
-  const openingTag = <span className="tag">&lt;{Element.toString()}&gt;</span>;
-  const closingTag = <span className="tag">&lt;/{Element.toString()}&gt;</span>;
+  const tagName =
+    typeof Element === "string"
+      ? Element
+      : (Element.displayName || Element.name || "Component");
+  const openingTag = <span className="tag">&lt;{tagName}&gt;</span>;
+  const closingTag = <span className="tag">&lt;/{tagName}&gt;</span>;
   return (
     <>
       {outside && openingTag}
