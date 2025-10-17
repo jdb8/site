@@ -30,8 +30,8 @@
         "eslint-plugin-react-hooks": "7.0.0",
         "http-server": "14.1.1",
         "jest": "30.2.0",
-        "playwright-chromium": "1.56.0",
-        "playwright-core": "1.56.0",
+        "playwright-chromium": "1.56.1",
+        "playwright-core": "1.56.1",
         "prettier": "3.6.2",
         "start-server-and-test": "2.1.2",
       },
@@ -1702,9 +1702,9 @@
 
     "playwright": ["playwright@1.55.0", "", { "dependencies": { "playwright-core": "1.55.0" }, "optionalDependencies": { "fsevents": "2.3.2" }, "bin": { "playwright": "cli.js" } }, "sha512-sdCWStblvV1YU909Xqx0DhOjPZE4/5lJsIS84IfN9dAZfcl/CIZ5O8l3o0j7hPMjDvqoTF8ZUcc+i/GL5erstA=="],
 
-    "playwright-chromium": ["playwright-chromium@1.56.0", "", { "dependencies": { "playwright-core": "1.56.0" }, "bin": { "playwright": "cli.js" } }, "sha512-Zgph8yT2/QzhozuY8PXKV7PXSg3f0YLyI3mE9ljaqh37RtckmZJBfiqeasJVhsCgYe3P63HbdDhUQkUMNT+nog=="],
+    "playwright-chromium": ["playwright-chromium@1.56.1", "", { "dependencies": { "playwright-core": "1.56.1" }, "bin": { "playwright": "cli.js" } }, "sha512-5TU+NMrofQg2j+DwIaQL/9eC84hs5YGz5Wng8OOdgq+kmu8usPLedxx2pJJ1Pb2TNFNiz3167RsUNFFvY3srNA=="],
 
-    "playwright-core": ["playwright-core@1.56.0", "", { "bin": { "playwright-core": "cli.js" } }, "sha512-1SXl7pMfemAMSDn5rkPeZljxOCYAmQnYLBTExuh6E8USHXGSX3dx6lYZN/xPpTz1vimXmPA9CDnILvmJaB8aSQ=="],
+    "playwright-core": ["playwright-core@1.56.1", "", { "bin": { "playwright-core": "cli.js" } }, "sha512-hutraynyn31F+Bifme+Ps9Vq59hKuUCz7H1kDOcBs+2oGguKkWTU50bBWrtz34OUWmIwpBTWDxaRPXrIXkgvmQ=="],
 
     "portfinder": ["portfinder@1.0.37", "", { "dependencies": { "async": "^3.2.6", "debug": "^4.3.6" } }, "sha512-yuGIEjDAYnnOex9ddMnKZEMFE0CcGo6zbfzDklkmT1m5z734ss6JMzN9rNB3+RR7iS+F10D4/BVIaXOyh8PQKw=="],
 
