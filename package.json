@@ -16,8 +16,8 @@
   "devDependencies": {
     "@jbateson/eslint-config": "2.3.0",
     "@lhci/cli": "0.15.1",
-    "@typescript-eslint/eslint-plugin": "6.21.0",
-    "@typescript-eslint/parser": "6.21.0",
+    "@typescript-eslint/eslint-plugin": "8.49.0",
+    "@typescript-eslint/parser": "8.49.0",
     "astro": "1.9.2",
     "astro-critters": "2.2.1",
     "axe-playwright": "2.2.2",
