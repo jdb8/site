@@ -60,7 +60,7 @@ export function Main() {
         </VisibleElement>
 
         <VisibleElement Element="li">
-          <Link href="https://twitter.com/joebateson">Twitter</Link>
+          <Link href="https://bsky.app/profile/jdb.fyi">Bluesky</Link>
         </VisibleElement>
 
         <VisibleElement Element="li">
